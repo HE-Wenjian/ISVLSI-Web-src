@@ -108,6 +108,8 @@ gulp.task('dev', ['browserSync'], function() {
         ], { ignoreInitial: true, read: false ,readDelay: 100}, ['default'])
         .on('change', function(event) {
             gutil.log('Changed File :' + event.path);
+        }).on('add', function(event) {
+            gutil.log('Added File :' + event.path);
         });
 
     gulp.watch([
