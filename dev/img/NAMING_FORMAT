@@ -1,0 +1,6 @@
+
+They will be copied to the dist folder:
+{ *.jpg *.jpeg *.png *.ico *.gif }
+
+They will NOT be copied:
+{   *.src.*  }

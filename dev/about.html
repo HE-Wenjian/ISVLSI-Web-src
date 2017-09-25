@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+@@include('./component/head.p.html',{ "title" : "About - ISVLSI 2018", "parentRel": "@@webRoot" })
+
+<body>
+    <!-- Navigation : navbar -->
+    @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "about" })
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Title -->
+        <h1 class="mt-4 mb-4">About Us</h1>
+        <div class="row">
+            <!--  -->
+            <!-- Sidebar Column -->
+            <div class="col-12 order-12 col-md-3 order-md-1 mb-4">
+                <div class="list-group">
+                    <a href="#" class="list-group-item">ISVLSI</a>
+                    <a href="#committee" class="list-group-item">Commitee</a>
+                    <a href="#" class="list-group-item">Sister Conference</a>
+                    <a href="#" class="list-group-item">Past Conference</a>
+                </div>
+            </div>
+            <!--  -->
+            <!-- Content Column -->
+            <div class="col-12 order-1 col-md-9 order-md-12 mb-4">
+                <!--  -->
+                <!-- General Row -->
+                <div class="row" ><h2 class="mb-3">IEEE Computer Society Annual Symposium on VLSI</h2></div>
+                <div class="row mb-4">
+                    <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto">
+                        <img class="img-fluid d-block mx-auto" style="max-height: 100px" src="@@webRoot/img/ISVLSI_lable.png" alt="ISVLSI">
+                    </div>
+                    <div class="col-12 col-sm-9 col-md-9 col-lg-10">
+                        <p class="text-justify">The Symposium explores emerging trends and novel ideas and concepts covering a broad range of topics in the area of VLSI: from VLSI circuits, systems and design methods, to system level design and system-on-chip issues, to bringing VLSI methods to new areas and technologies like nano- and molecular devices, hardware security, etc.</p>
+                    </div>
+                </div>
+                <!--  -->
+                <!-- Committees Start -->
+                <div class="row" id="committee"><h2>ISVLSI 2018 Organizing Committee</h2></div>
+                 <!-- General Chairs -->
+                <div class="row">
+                	<div class="col-12"><h3>General Chairs</h3></div>
+                    <div class="col">
+                        
+                        <p><strong>Wei Zhang</strong><br> Hong Kong University of Science and Technology,
+                         China Jason Xue, City University of Hong Kong,
+                          China Zili Shao, Hong Kong Polytechnic University, China</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <!-- Footer -->
+    @@include('./component/footer.p.html',{ "parentRel": "@@webRoot" })
+</body>
+
+</html>
