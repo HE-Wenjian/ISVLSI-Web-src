@@ -2,7 +2,7 @@ data = [
     {"tittle": "General Chairs",
      "people": [{"name": "Wei Zhang", "addr": "Hong Kong Univ. of Science and Technology"},
                 {"name": "Jason Xue", "addr": "City Univ. of Hong Kong"},
-                {"name": "Zili Shao", "addr": "Hong Kong Polytechnic Univ"}
+                {"name": "Zili Shao", "addr": "Hong Kong Polytechnic Univ."}
                 ],
      "if-break": True,
      "p-template": """
@@ -16,7 +16,7 @@ data = [
     , {"tittle": "TPC Chairs",
        "people": [{"name": "Hai Li", "addr": "Duke University, USA"},
                   {"name": "Yu Wang", "addr": "Tsinghua University, China"},
-                  {"name": "Wujie Wen", "addr": "Florida International University, USA"}
+                  {"name": "Wujie Wen", "addr": "Florida International Univ., USA"}
                   ],
        "if-break": True,
        "p-template": """
@@ -149,7 +149,7 @@ steering_committee_other={
 
              ],
 "template": """
-    <div class="col-11 col-md-6 col-lg-4">
+    <div class="col-10 col-sm-5 col-lg-4 ml-auto">
         <p><strong>{name}</strong>
          <br>{addr}</p>
     </div>
@@ -190,4 +190,4 @@ if __name__=="__main__":
     for p in steering_committee_other["list"]:
         result+= steering_committee_other["template"].format(name=p["name"], addr=p["addr"])
 
-    open("about.committee.p.html", "w").write(result)
+    open("about.committee.gen.p.html", "w").write(result)
