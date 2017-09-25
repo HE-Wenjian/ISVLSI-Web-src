@@ -1,2 +1,4 @@
 node_modules
 publish
+ftpconfig.ini
+*.gen.p.html

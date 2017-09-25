@@ -1,0 +1,82 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu{
+  margin-top: 0;
+}
+ 
+.carousel-item {
+  height: 55vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.carousel-text-shadow-h{
+  text-shadow: 3px 3px #000000, 0px 0px 16px #000000;
+}
+
+.carousel-text-shadow-t{
+  text-shadow: 2px 2px #000000, 0px 0px 10px #000000;
+}
+
+.wide-bg-image {
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.color-isvlsi-1{
+  color: #f5eb29;
+}
+.bg-color-isvlsi-1{
+  background-color: #f5eb29;
+}
+
+.color-isvlsi-2{
+  color: #ee3226;
+}
+
+.bg-color-isvlsi-2{
+  background-color: #ee3226;
+}
+
+.color-isvlsi-3{
+  color: #71bf45;
+}
+
+.bg-color-isvlsi-3{
+  background-color: #71bf45;
+}
+
+.color-isvlsi-4{
+  color: #fba723;
+}
+
+.bg-color-isvlsi-4{
+  background-color: #fba723;
+}
+
+.color-isvlsi-blue{
+  color: #2a20cf;
+}
