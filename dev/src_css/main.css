@@ -45,3 +45,38 @@ body {
     background-size: cover;
     -o-background-size: cover;
 }
+
+.color-isvlsi-1{
+  color: #f5eb29;
+}
+.bg-color-isvlsi-1{
+  background-color: #f5eb29;
+}
+
+.color-isvlsi-2{
+  color: #ee3226;
+}
+
+.bg-color-isvlsi-2{
+  background-color: #ee3226;
+}
+
+.color-isvlsi-3{
+  color: #71bf45;
+}
+
+.bg-color-isvlsi-3{
+  background-color: #71bf45;
+}
+
+.color-isvlsi-4{
+  color: #fba723;
+}
+
+.bg-color-isvlsi-4{
+  background-color: #fba723;
+}
+
+.color-isvlsi-blue{
+  color: #2a20cf;
+}

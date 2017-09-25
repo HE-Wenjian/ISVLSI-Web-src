@@ -101,7 +101,7 @@ gulp.task('dev', ['browserSync'], function() {
             runSequence('clean-html', 'compile_html');
         });
     gulp.watch([
-            './dev/src_css/**/*.css',
+            './dev/src_css/{*,css,**/*.css}',
             './dev/**/*.html',
             '!./dev/**/*.p.html',
             './dev/src_js/**/*.js'
@@ -121,7 +121,7 @@ gulp.task('dev', ['browserSync'], function() {
 gulp.task('pub', ['browserSync'], function() {
     // Reloads the browser whenever HTML or CSS files change
     gulp.watch(['./publish/css/*.css',
-        './publish/css/*.js',
-        './publish/**/*.html'
+        './publish/js/*.js',
+        './publish/{*.html,**/*.html}',
         ], browserSync.reload);
 });
