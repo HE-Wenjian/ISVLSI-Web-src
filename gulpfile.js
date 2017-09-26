@@ -7,13 +7,20 @@ var gInclude = require('gulp-file-include');
 var gCount = require('gulp-count');
 var gChanged = require('gulp-changed');
 var gHtmlMin = require('gulp-htmlmin');
+var gCleanCSS = require('gulp-clean-css');
 //var MergeStream = require('merge-stream');
 var pkg = require('./package.json');
 var runSequence = require('run-sequence');
 var browserSync = require('browser-sync').create();
 
-const SrcDir = "./dev"
+//const SrcDir = "./dev"
 const DestDir = "./publish";
+
+gulp.task('just_for_test', function() {
+    gulp.src(['dev/src_css/**/*.min.css'])
+        .pipe(gDebug({showFiles: true, title: 'test1:'}))
+})
+
 
 gulp.task('clean-html', function(done) {
     gutil.log("[clean]", del.sync([
@@ -48,7 +55,7 @@ gulp.task('copy_js', function() {
 })
 
 gulp.task('copy_image', function() {
-    gulp.src(['dev/img/**/*.{jpeg,jpg,png,ico,gif}',
+    gulp.src(['dev/img/**/*.{jpeg,jpg,png,bmp,ico,gif,tiff}',
             '!dev/img/**/*.src.*'
         ])
         .pipe(gChanged(path.join(DestDir, 'img')))
@@ -70,6 +77,9 @@ gulp.task('process_css', function() {
         ])
         .pipe(gChanged(path.join(DestDir, 'css')))
         .pipe(gCount('[css:This] Num Src= ##'))
+        .pipe(gCleanCSS({debug: true, compatibility: 'ie8'}, function(details) {
+              gutil.log(details.name + ': ' + details.stats.originalSize + 'B -> ' + details.stats.minifiedSize + 'B');
+            }))
         .pipe(gulp.dest(path.join(DestDir, 'css')))
         .pipe(gCount('[css:This] Num Des= ##'))
 })
@@ -96,16 +106,17 @@ gulp.task('browserSync', function() {
 // Dev task with browserSync
 gulp.task('dev', ['browserSync'], function() {
     // Reloads the browser whenever HTML or CSS files change
-    gulp.watch('./dev/**/*.p.html', { ignoreInitial: true, event: ['change','add'], read: false ,readDelay: 100})
+    gulp.watch('./dev/**/*.p.html', { ignoreInitial: false, event: ['change','add'], read: false ,readDelay: 100})
         .on('change', function() {
             runSequence('clean-html', 'compile_html');
         });
     gulp.watch([
-            './dev/src_css/{*,css,**/*.css}',
+    		'./dev/src_css/**/*.{jpeg,jpg,png,bmp,ico,gif,tiff}',
+            './dev/src_css/**/*.css}',
             './dev/**/*.html',
             '!./dev/**/*.p.html',
             './dev/src_js/**/*.js'
-        ], { ignoreInitial: true, read: false ,readDelay: 100}, ['default'])
+        ], { ignoreInitial: false, read: false ,readDelay: 100}, ['default'])
         .on('change', function(event) {
             gutil.log('Changed File :' + event.path);
         }).on('add', function(event) {
