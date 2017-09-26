@@ -25,7 +25,7 @@ gulp.task('just_for_test', function() {
 gulp.task('clean-html', function(done) {
     gutil.log("[clean]", del.sync([
         './publish/**/*.html'
-    ]).length);
+    ]).length, " html files");
     done();
 })
 
@@ -41,7 +41,9 @@ gulp.task('compile_html', function() {
             prefix: '@@',
             basepath: './dev'
         }).on('error', gutil.log))
-        .pipe(gHtmlMin({collapseWhitespace: true, conservativeCollapse: true}))
+        .pipe(gHtmlMin({collapseWhitespace: true,
+        		 conservativeCollapse: true, 
+        		 removeComments: true}))
         .pipe(gulp.dest(DestDir))
 })
 
@@ -91,6 +93,12 @@ gulp.task('default', [
     'compile_html',
     'copy_image'
 ]);
+
+gulp.task('force-html', function(cb) {
+	runSequence('clean-html',
+	             ['compile_html','process_css', 'copy_js', 'copy_image'],
+	             cb);
+});
 
 // Configure the browserSync task
 gulp.task('browserSync', function() {
