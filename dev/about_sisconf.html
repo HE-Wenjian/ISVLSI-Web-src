@@ -2,35 +2,35 @@
 confs: [
 {
     name : "ARITH, IEEE Symposium on Computer Arithmetic",
-    img : "ARITH_logo.png"
+    img : "sister_conf/ARITH_logo.png"
 }
 ,{
     name : "ASAP, IEEE International Conference on Application-specific Systems, Architectures and Processors",
-    img : "asap_logo.png"
+    img : "sister_conf/asap_logo.png"
 }
 ,{
     name : "ASYNC, IEEE International Symposium on Asynchronous Circuits and Systems",
-    img : "async_logo.png"
+    img : "sister_conf/async_logo.png"
 }
 ,{
     name : "iNIS, IEEE International Symposium on Nanoelectronic and Information Systems",
-    img : "inis_logo.jpg"
+    img : "sister_conf/inis_logo.jpg"
 }
 ,{
     name : "IWLS, IEEE International Workshop on Logic and Synthesis",
-    img : "iwls_logo.jpg"
+    img : "sister_conf/iwls_logo.jpg"
 }
 ,{
     name : "MSE, IEEE International Conference on Microelectronic Systems Education",
-    img : ""
+    img : "sponsor/ieee_logo.jpg"
 }
 ,{
     name : "SLIP, ACM/IEEE System Level Interconnect Prediction",
-    img : ""
+    img : "sponsor/ieee_logo.jpg"
 }
 ,{
     name : "ECMSM, IEEE International Workshop of Electronics, Control, Measurement, Signals and their application to Mechatronics",
-    img : "ecms_logo.gif"
+    img : "sister_conf/ecms_logo.gif"
 }
 ]
 ---
@@ -85,11 +85,17 @@ confs: [
 {% for c in confs %}
 <div class="row py-1 align-items-center">
         <div class="col-12 col-md-3 text-center">
-            {% if c.img !== "" -%}<img class="img-fluid d-block my-auto mx-auto" style="max-height: 7vh;" src="@@webRoot/img/sister_conf/{{c.img}}" alt="tcvlsi" />{% else %}<i class="fa fa-users d-block fa-2x" aria-hidden="true"></i>
-{%- endif %}
+            {% if c.img !== "" -%}<img 
+          	  	class="img-fluid d-block my-auto mx-auto" 
+            	style="max-height: 7vh;"
+            	src="@@webRoot/img/{{c.img}}"
+            	alt="" />
+            {% else %}
+            	<i class="fa fa-users d-block fa-2x" aria-hidden="true"></i>
+			{%- endif %}
         </div>
         <div class="col-12 col-md-9">
-            <h5>{{ c.name }}</h5>
+            <h5 class="text-justify">{{ c.name }}</h5>
         </div>
         </div>
 {% endfor %}
