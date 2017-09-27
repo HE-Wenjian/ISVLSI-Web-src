@@ -1,3 +1,41 @@
+---
+confs: [
+{
+    name : "ARITH, IEEE Symposium on Computer Arithmetic",
+    img : "sister_conf/ARITH_logo.png"
+}
+,{
+    name : "ASAP, IEEE International Conference on Application-specific Systems, Architectures and Processors",
+    img : "sister_conf/asap_logo.png"
+}
+,{
+    name : "ASYNC, IEEE International Symposium on Asynchronous Circuits and Systems",
+    img : "sister_conf/async_logo.png"
+}
+,{
+    name : "iNIS, IEEE International Symposium on Nanoelectronic and Information Systems",
+    img : "sister_conf/inis_logo.jpg"
+}
+,{
+    name : "IWLS, IEEE International Workshop on Logic and Synthesis",
+    img : "sister_conf/iwls_logo.jpg"
+}
+,{
+    name : "MSE, IEEE International Conference on Microelectronic Systems Education",
+    img : "sponsor/ieee_logo.jpg"
+}
+,{
+    name : "SLIP, ACM/IEEE System Level Interconnect Prediction",
+    img : "sponsor/ieee_logo.jpg"
+}
+,{
+    name : "ECMSM, IEEE International Workshop of Electronics, Control, Measurement, Signals and their application to Mechatronics",
+    img : "sister_conf/ecms_logo.gif"
+}
+]
+---
+
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
@@ -13,121 +51,55 @@
         <div class="row">
             <!--  -->
             <!-- Sidebar Column -->
-            <div class="col-12 order-12 col-md-3 order-md-1 mb-4">
-                <div class="list-group">
-                    <a href="@@webRoot/about.html" class="list-group-item">ISVLSI</a>
-                    <a href="@@webRoot/about.html#id-committee" class="list-group-item">Committee</a>
-                    <a href="@@webRoot/about_sisconf.html#" class="list-group-item">Sister Conferences</a>
-                    <a href="@@webRoot/about_sisconf.html#past-conf" class="list-group-item">Past Conferences</a>
-                </div>
-            </div>
+            @@include('./about_sidecol.p.html',{"parentRel": "@@webRoot", "page": "about_sisconf" })
             <!--  -->
             <!-- Content Column -->
             <div class="col-12 order-1 col-md-9 order-md-12 mb-4">
                 <h3 class="mt-4">Sister Conference</h3>
                 <div class="row align-items-center">
-                    <div class="col-8 col-md-4 d-block mx-auto">
+                    <!-- <div class="col-8 col-md-4 d-block mx-auto">
                         <img class="img-fluid my-auto" src="@@webRoot/img/sponsor/tcvlsi_logo.png" alt="tcvlsi" />
+                    </div> -->
+                    <div class="col-12">
+                        <p class="text-justify">ISVLSI is a sponsored meeting of the <!-- <a class="label" target="_blank" href="http://www.ieee-tcvlsi.org/"> -->Technical Committee on VLSI, IEEE-CS<!-- <i class="fa fa-external-link" aria-hidden="true"></i></a> --> that endorses a league of successful meetings such as ARITH, ASAP, iNIS, ISVLSI, etc., which are presented as "Sister Conferences".</p>
+                        <!-- <a target="_blank" href="https://www.computer.org/web/tcvlsi/tcvlsi-sister-conferences" class="btn btn-primary float-right"><i class="fa fa-external-link" aria-hidden="true"></i> Learn More</a> -->
                     </div>
-                    <div class="col-12 col-md-8">
-                        <p class="text-justify">ISVLSI is a sponsored meeting of the <a class="label" target="_blank" href="http://www.ieee-tcvlsi.org/"><u>Technical Committee on VLSI, IEEE-CS</u> <i class="fa fa-external-link" aria-hidden="true"></i></a> that endorses a league of successful meetings such as ARITH, ASAP, iNIS, ISVLSI, etc., which are presented as "Sister Conferences".</p>
-                        <a target="_blank" href="https://www.computer.org/web/tcvlsi/tcvlsi-sister-conferences" class="btn btn-primary float-right"><i class="fa fa-external-link" aria-hidden="true"></i> Learn More</a>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 text-center"><img class="img-fluid" style="max-height: 100px" src="@@webRoot/img/sponsor/tcvlsi_logo.png" alt="tcvlsi"/></div>
+                    <div class="col-12">
+                        <p class="text-justify">
+                            The Technical Committee on Very Large Scale Integration (TCVLSI) of the IEEE Computer Society (IEEE-CS) addresses the interactions among the various aspects of VLSI design including system-level design, logic-level design, circuit-level design, and semiconductor processes. The IEEE-CS Technical Committee on VLSI also covers the computer-aided design techniques to facilitate the VLSI design process. The VLSI may include digital circuits and systems, analog circuits, as well as mixed-signal circuits and systems. The emphasis of TCVLSI falls on integrating the design, computer-aided design, fabrication, application, and business aspects of VLSI while encompassing both hardware and software. The TCVLSI sponsors conferences, special sessions, and workshops for the IEEE-CS. TCVLSI also runs VLSI and Nanoelectronics Letter, three times a year, which has many components including a very selective dissemination of quick papers, TCVLSI member news, upcoming conferences/workshops, call for papers, and funding opportunities of interest to members of TCVLSI.</p>
+                        <a target="_blank" href="http://www.ieee-tcvlsi.org/" class="btn btn-primary float-right"><i class="fa fa-external-link" aria-hidden="true"></i> Learn More</a>
                     </div>
                 </div>
                 <div class="col-12">
                     <hr>
                 </div>
-                <h3 class="col-12 my-3" id="past-conf">Past Conferences</h3>
-                <div class="row">
-                    <div class="col-lg-4 col-sm-6 portfolio-item">
-                        <div class="card h-100">
-                            <a class="card py-2 card-title text-center bg-primary text-white" href="http://www.eng.ucy.ac.cy/theocharides/isvlsi17/index.html">
-                                <h4>To 2017 <i class="fa fa-external-link-square fa-1x" aria-hidden="true"></i></h4>
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text text-center">Bochum, Germany</p>
-                                <p class="card-text text-center">July 3rd to 5th</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-item">
-                        <div class="card h-100">
-                            <a class="card py-2 card-title text-center bg-primary text-white" href="http://www.eng.ucy.ac.cy/theocharides/isvlsi16/index.html">
-                                <h4>To 2016 <i class="fa fa-external-link-square fa-1x" aria-hidden="true"></i></h4>
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text text-center">Pittsburgh, PA, USA</p>
-                                <p class="card-text text-center">July 11th to 13th</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-item">
-                        <div class="card h-100">
-                            <a class="card py-2 card-title text-center bg-primary text-white" href="http://www.eng.ucy.ac.cy/theocharides/isvlsi15">
-                                <h4>To 2015 <i class="fa fa-external-link-square fa-1x" aria-hidden="true"></i></h4>
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text text-center">Montpellier, France</p>
-                                <p class="card-text text-center">July 10th to 12th</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-item">
-                        <div class="card h-100">
-                            <a class="card py-2 card-title text-center bg-primary text-white" href="http://www.eng.ucy.ac.cy/theocharides/isvlsi14">
-                                <h4>To 2014 <i class="fa fa-external-link-square fa-1x" aria-hidden="true"></i></h4>
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text text-center">Tampa, Florida</p>
-                                <p class="card-text text-center">July 9th to 11th</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-item">
-                        <div class="card h-100">
-                            <a class="card py-2 card-title text-center bg-primary text-white" href="http://www.lasic.ufrn.br/isvlsi2013/">
-                                <h4>To 2013 <i class="fa fa-external-link-square fa-1x" aria-hidden="true"></i></h4>
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text text-center">Natal, Brazil</p>
-                                <p class="card-text text-center">August 5th to 7th</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-item">
-                        <div class="card h-100">
-                            <a class="card py-2 card-title text-center bg-primary text-white" href="http://www.eng.ucy.ac.cy/theocharides/isvlsi12/">
-                                <h4>To 2012 <i class="fa fa-external-link-square fa-1x" aria-hidden="true"></i></h4>
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text text-center">Amherst, USA</p>
-                                <p class="card-text text-center">August 19 to 21st</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-item">
-                        <div class="card h-100">
-                            <a class="card py-2 card-title text-center bg-primary text-white" href="http://www.eng.ucy.ac.cy/theocharides/isvlsi17/isvlsi11/">
-                                <h4>To 2011 <i class="fa fa-external-link-square fa-1x" aria-hidden="true"></i></h4>
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text text-center">Chennai, India</p>
-                                <p class="card-text text-center">July 4th to 6th</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 portfolio-item">
-                        <div class="card h-100">
-                            <a class="card py-2 card-title text-center bg-primary text-white" href="http://isvlsi2010.tesyd.teimes.gr/">
-                                <h4>To 2010 <i class="fa fa-external-link-square fa-1x" aria-hidden="true"></i></h4>
-                            </a>
-                            <div class="card-body">
-                                <p class="card-text text-center">Kefalonia, Greec</p>
-                                <p class="card-text text-center">July 4th to 7th</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
+{% for c in confs %}
+<div class="row py-1 align-items-center">
+        <div class="col-12 col-md-3 text-center">
+            {% if c.img !== "" -%}<img 
+          	  	class="img-fluid d-block my-auto mx-auto" 
+            	style="max-height: 7vh;"
+            	src="@@webRoot/img/{{c.img}}"
+            	alt="" />
+            {% else %}
+            	<i class="fa fa-users d-block fa-2x" aria-hidden="true"></i>
+			{%- endif %}
+        </div>
+        <div class="col-12 col-md-9">
+            <h5 class="text-justify">{{ c.name }}</h5>
+        </div>
+        </div>
+{% endfor %}
+
             </div>
         </div>
     </div>

@@ -6,8 +6,8 @@ data = [
                 ],
      "if-break": True,
      "p-template": """
-     <div class="col-2 col-sm-1 text-center">
-            <i class="fa fa-black-tie fa-3x bg-color-isvlsi-1" aria-hidden="true"></i></div>
+     <!-- <div class="col-2 col-sm-1 text-center">
+             <i class="fa fa-black-tie fa-3x bg-color-isvlsi-1" aria-hidden="true"></i></div>-->
         <div class="col-10 col-sm-5">
         <p><strong>{name}</strong>
                <br>{addr}</p>
@@ -20,8 +20,8 @@ data = [
                   ],
        "if-break": True,
        "p-template": """
-     <div class="col-2 col-sm-1 text-center">
-            <i class="fa fa-black-tie fa-3x color-isvlsi-2" aria-hidden="true"></i></div>
+     <!-- <div class="col-2 col-sm-1 text-center">
+            <i class="fa fa-black-tie fa-3x color-isvlsi-2" aria-hidden="true"></i></div>-->
         <div class="col-10 col-sm-5">
         <p><strong>{name}</strong>
                <br>{addr}</p>
@@ -32,8 +32,8 @@ data = [
                   {"name": "Yuan-Hao Chang", "addr": "Academia Sinica, Taiwan"}
                   ],
        "if-break": True,
-       "p-template": """<div class="col-2 col-sm-1 text-center">
-            <i class="fa fa-code-fork fa-3x color-isvlsi-3" aria-hidden="true"></i></div>
+       "p-template": """<!-- <div class="col-2 col-sm-1 text-center">
+            <i class="fa fa-code-fork fa-3x color-isvlsi-3" aria-hidden="true"></i></div>-->
         <div class="col-10 col-sm-5">
         <p><strong>{name}</strong>
                <br>{addr}</p>
@@ -42,8 +42,8 @@ data = [
     , {"tittle": "Web Chair",
        "people": [{"name": "Theocharis Theocharides", "addr": "University of Cyprus, Cyprus"}
                   ],
-       "p-template": """<div class="col-2 col-sm-1 text-center">
-     <i class="fa fa-desktop fa-2x" aria-hidden="true"></i></div>
+       "p-template": """<!-- <div class="col-2 col-sm-1 text-center">
+     <i class="fa fa-desktop fa-2x" aria-hidden="true"></i></div>-->
  <div class="col-10 col-sm-5">
  <p><strong>{name}</strong>
         <br>{addr}</p>
@@ -52,8 +52,8 @@ data = [
     , {"tittle": "PhD Forum Chair",
        "people": [{"name": "Aida Todri-Sanial", "addr": "CNRS-LIRMM, France"}
                   ],
-       "p-template": """<div class="col-2 col-sm-1 text-center">
-    <i class="fa fa-graduation-cap fa-2x " aria-hidden="true"></i></div>
+       "p-template": """<!-- <div class="col-2 col-sm-1 text-center">
+    <i class="fa fa-graduation-cap fa-2x " aria-hidden="true"></i></div>-->
 <div class="col-10 col-sm-5">
 <p><strong>{name}</strong>
        <br>{addr}</p>
@@ -64,8 +64,8 @@ data = [
                   {"name": "Prasun Ghosal", "addr": "Indian Institute of Engineering, Shibpur"}
                   ],
        "if-break": True,
-       "p-template": """<div class="col-2 col-sm-1 text-center">
-            <i class="fa fa-book fa-2x color-isvlsi-2" aria-hidden="true"></i></div>
+       "p-template": """<!-- <div class="col-2 col-sm-1 text-center">
+            <i class="fa fa-book fa-2x color-isvlsi-2" aria-hidden="true"></i></div>-->
         <div class="col-10 col-sm-5">
         <p><strong>{name}</strong>
                <br>{addr}</p>
@@ -80,8 +80,8 @@ data = [
                   {"name": "Chun-Yi Lee", "addr": "National Tsinghua University, Taiwan"},
                   ],
        "if-break": True,
-       "p-template": """<div class="col-2 col-sm-1 text-center">
-        <i class="fa fa-wifi fa-2x color-isvlsi-blue" aria-hidden="true"></i></div>
+       "p-template": """<!-- <div class="col-2 col-sm-1 text-center">
+        <i class="fa fa-wifi fa-2x color-isvlsi-blue" aria-hidden="true"></i></div>-->
     <div class="col-10 col-sm-5">
     <p><strong>{name}</strong>
            <br>{addr}</p>
@@ -91,8 +91,8 @@ data = [
     , {"tittle": "Financial Chair",
        "people": [{"name": "Duo Liu", "addr": "Chongqing University, China"}
                   ],
-       "p-template": """<div class="col-2 col-sm-1 text-center">
-    <i class="fa fa-bar-chart fa-2x" aria-hidden="true"></i></div>
+       "p-template": """<!-- <div class="col-2 col-sm-1 text-center">
+    <i class="fa fa-bar-chart fa-2x" aria-hidden="true"></i></div>-->
 <div class="col-10 col-sm-5">
 <p><strong>{name}</strong>
        <br>{addr}</p>
@@ -101,8 +101,8 @@ data = [
     , {"tittle": "Registration Chair",
        "people": [{"name": "Weichen Liu", "addr": "Nanyang Technological University, Singapore"}
                   ],
-       "p-template": """<div class="col-2 col-sm-1 text-center">
-    <i class="fa fa-registered fa-2x" aria-hidden="true"></i></div>
+       "p-template": """<!--<div class="col-2 col-sm-1 text-center">
+    <i class="fa fa-registered fa-2x" aria-hidden="true"></i></div>-->
 <div class="col-10 col-sm-5">
 <p><strong>{name}</strong>
        <br>{addr}</p>
@@ -113,8 +113,8 @@ data = [
        "people": [{"name": "Nan Guan", "addr": "Hong Kong Polytechnic University"},
                   {"name": "Ray Chak-Chung Cheung", "addr": "City University of Hong Kong"}
                   ],
-       "p-template": """<div class="col-2 col-sm-1 text-center">
-    <i class="fa fa-street-view  fa-2x" aria-hidden="true"></i></div>
+       "p-template": """<!-- <div class="col-2 col-sm-1 text-center">
+    <i class="fa fa-street-view  fa-2x" aria-hidden="true"></i></div>-->
 <div class="col-10 col-sm-5">
 <p><strong>{name}</strong>
        <br>{addr}</p>
@@ -125,8 +125,8 @@ data = [
                   {"name": u"<em>Vice-Chair></em> Saraju P. Mohanty", "addr": "University of North Texas, USA"},
                   ],
 "if-break": False,
-       "p-template": """<div class="col-2 col-sm-1 text-center">
-    <i class="fa fa-tachometer fa-2x" aria-hidden="true"></i></div>
+       "p-template": """ <!--<div class="col-2 col-sm-1 text-center">
+    <i class="fa fa-tachometer fa-2x" aria-hidden="true"></i></div> -->
 <div class="col-10 col-sm-5">
 <p><strong>{name}</strong>
        <br>{addr}</p>
