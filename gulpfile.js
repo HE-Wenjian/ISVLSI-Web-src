@@ -28,26 +28,41 @@ gulp.task('just_for_test', function() {
 gulp.task('clean-html', function(done) {
     gutil.log("[clean]", del.sync([
         './publish/**/*.html'
-    ]).length, " html files");
+    ]).length, " HTML Files.");
     done();
 })
 
-gulp.task('compile_html', function() {
+gulp.task('clean-debug', function(done) {
+    gutil.log("[clean]", del.sync([
+        './debug/**/*'
+    ]).length, " Debug Files.");
+    done();
+})
+
+gulp.task('compile_html', ['clean-debug'] ,function() {
     gulp.src(['dev/**/*.html',
             '!dev/__*/*',
             '!dev/**/__*',
             '!dev/**/*.p.html'
         ], { base: './dev' })
         .pipe(gChanged(DestDir))
+        .pipe(gDebug({showFiles: true}))
+        .pipe(gInclude({
+            prefix: '#@@@@pre-',
+            basepath: './dev'
+            })
+        )
+        //.pipe(gulp.dest('./debug/post-preinclude/'))
         .pipe(gFrontMatter({ 
             property: 'data',
             remove: true }).on('error', gutil.log)
         )
-        .pipe(gDebug({showFiles: true}))
+        //.pipe(gulp.dest('./debug/post-FrontMatter/'))
         .pipe(gSwig({
             load_json: false,
             defaults: { cache: false }})
         )
+        .pipe(gulp.dest('./debug/post-swig/'))
         .pipe(gInclude({
             prefix: '@@',
             basepath: './dev'

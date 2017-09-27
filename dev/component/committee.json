@@ -1,0 +1,208 @@
+{
+    "cmt": [
+        {
+            "tittle": "General Chairs",
+            "people": [
+                {
+                    "name": "Wei Zhang",
+                    "addr": "Hong Kong Univ. of Science and Technology"
+                },
+                {
+                    "name": "Jason Xue",
+                    "addr": "City Univ. of Hong Kong"
+                },
+                {
+                    "name": "Zili Shao",
+                    "addr": "Hong Kong Polytechnic Univ."
+                }
+            ]
+        },
+        {
+            "tittle": "TPC Chairs",
+            "people": [
+                {
+                    "name": "Hai Li",
+                    "addr": "Duke University, USA"
+                },
+                {
+                    "name": "Yu Wang",
+                    "addr": "Tsinghua University, China"
+                },
+                {
+                    "name": "Wujie Wen",
+                    "addr": "Florida International Univ., USA"
+                }
+            ]
+        },
+        {
+            "tittle": "Special Session Chairs",
+            "people": [
+                {
+                    "name": "Bei Yu",
+                    "addr": "The Chinese Univ. of Hong Kong"
+                },
+                {
+                    "name": "Yuan-Hao Chang",
+                    "addr": "Academia Sinica, Taiwan"
+                }
+            ]
+        },
+        {
+            "tittle": "Web Chair",
+            "people": [
+                {
+                    "name": "Theocharis Theocharides",
+                    "addr": "University of Cyprus, Cyprus"
+                }
+            ]
+        },
+        {
+            "tittle": "PhD Forum Chair",
+            "people": [
+                {
+                    "name": "Anupam Chattopadhyay",
+                    "addr": "Nanyang Technological University, Singapore"
+                }
+            ]
+        },
+        {
+            "tittle": "Publication Chairs",
+            "people": [
+                {
+                    "name": "Aida Todri-Sanial",
+                    "addr": "CNRS-LIRMM, France"
+                },
+                {
+                    "name": "Prasun Ghosal",
+                    "addr": "Indian Institute of Engineering, Shibpur"
+                }
+            ]
+        },
+        {
+            "tittle": "Publicity Chairs",
+            "people": [
+                {
+                    "name": "Guangyu Sun",
+                    "addr": "Peking University, China"
+                },
+                {
+                    "name": "Muhammad Shafique",
+                    "addr": "Vienna University of Technology, Austria"
+                },
+                {
+                    "name": "Jingtong Hu",
+                    "addr": "University of Pittsburg, USA"
+                },
+                {
+                    "name": "Masaaki Kondo",
+                    "addr": "The University of Tokyo, Japan"
+                },
+                {
+                    "name": "Chun-Yi Lee",
+                    "addr": "National Tsinghua University, Taiwan"
+                }
+            ]
+        },
+        {
+            "tittle": "Financial Chair",
+            "people": [
+                {
+                    "name": "Duo Liu",
+                    "addr": "Chongqing University, China"
+                }
+            ]
+        },
+        {
+            "tittle": "Registration Chair",
+            "people": [
+                {
+                    "name": "Weichen Liu",
+                    "addr": "Nanyang Technological University, Singapore"
+                }
+            ]
+        },
+        {
+            "tittle": "Local Arrangement Chairs",
+            "people": [
+                {
+                    "name": "Nan Guan",
+                    "addr": "Hong Kong Polytechnic University"
+                },
+                {
+                    "name": "Ray Chak-Chung Cheung",
+                    "addr": "City University of Hong Kong"
+                }
+            ]
+        },
+        {
+            "tittle": "Industrial Liaison Chairs",
+            "people": [
+                {
+                    "name": "Wei Zhang",
+                    "addr": "Hong Kong University of Science and Technology, China"
+                },
+                {
+                    "name": "Jürgen Becker",
+                    "addr": "Karlsruhe Institute of Technology, Germany"
+                },
+                {
+                    "name": "Miroslav Velev",
+                    "addr": "Aries Design Automation, USA"
+                }
+            ]
+        }
+    ],
+    "subcmt": {
+        "fullname": "Steering Committee",
+        "chairs": [
+            {
+                "tittle": "Chair>",
+                "name": "Jürgen Becker",
+                "addr": "Karlsruhe Institute of Technology, Germany"
+            },
+            {
+                "tittle": "Vice-Chair>",
+                "name": "Saraju P. Mohanty",
+                "addr": "University of North Texas, USA"
+            }
+        ],
+        "members": [
+            {
+                "name": "Hai (Helen) Li",
+                "addr": "University of Pittsburgh, USA"
+            },
+            {
+                "name": "Lionel Torres",
+                "addr": "University of Montpellier, France"
+            },
+            {
+                "name": "Michael Hübner",
+                "addr": "Ruhr-University of Bochum, Germany"
+            },
+            {
+                "name": "Nikos Voros",
+                "addr": "Technological Educational Institute of Western Greece"
+            },
+            {
+                "name": "Ricardo Reis",
+                "addr": "Universidade Federal do Rio Grande do Sul, Brazil"
+            },
+            {
+                "name": "Sandip Kundu",
+                "addr": "University of Massachusetts, Amherst, USA"
+            },
+            {
+                "name": "Sanjukta Bhanja",
+                "addr": "University of South Florida, USA"
+            },
+            {
+                "name": "Susmita Sur-Kolay",
+                "addr": "Indian Statistical Institute, Kolkata, India"
+            },
+            {
+                "name": "Vijaykrishnan Narayanan",
+                "addr": "Pennsylvanian State University, USA"
+            }
+        ]
+    }
+}
