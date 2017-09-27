@@ -1,4 +1,6 @@
 node_modules
+debug
 publish
 ftpconfig.ini
 *.gen.p.html
+hyTODO.log

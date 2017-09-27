@@ -46,8 +46,8 @@ if [ -n "$DEBUG" ]; then
 	echo "FTP_ARGS=<$FTP_ARGS>"
 fi
 
+echo "Upload files in <$SRC_DIR> to <$FTP_IP> to <$FTP_DIR> ..."
 echo
-echo "Starting uploading files in <$SRC_DIR> to <$FTP_IP> to <$FTP_DIR> ..."
 
 lftp -u "$FTP_USER","$FTP_PWD" $FTP_IP <<LFTPEOF
 # the next 3 lines put you in ftpes mode. Uncomment if you are having trouble connecting.

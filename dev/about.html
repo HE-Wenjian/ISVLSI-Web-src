@@ -1,3 +1,9 @@
+= yaml =
+
+bulkdata: #@@@@pre-include('./component/committee.json')
+
+= yaml =
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
@@ -14,7 +20,7 @@
             <!--  -->
             <!-- Sidebar Column -->
             @@include('./about_sidecol.p.html',{"parentRel": "@@webRoot", "page": "about" })
-            
+
             <!--  -->
             <!-- Content Column -->
             <div class="col-12 order-1 col-md-9 order-md-12 mb-4">
@@ -33,7 +39,7 @@
                     <div class="col-12">
                         <p class="text-center">
                             <a class="btn btn-lg btn-success"  target="_blank" href="http://ieeexplore.ieee.org/search/searchresult.jsp?queryText=IEEE Computer Society Annual Symposium on VLSI">
-  							<i class="fa fa-book fa-2x pull-left pt-2"></i> Past ISVLSI &nbsp; &nbsp;<br>Proceedings</a>
+                <i class="fa fa-book fa-2x pull-left pt-2"></i> Past ISVLSI &nbsp; &nbsp;<br>Proceedings</a>
                         </p>
                     </div>
                 </div> -->
@@ -43,12 +49,41 @@
                 <!--  -->
                 <!-- Committees Start -->
                 <h3 class="mt-4" id="id-committee">ISVLSI 2018 Organizing Committee</h3>
-                <div class="row"><div class="col-12">
-                    <hr>
-                </div></div>
+                <div class="row">
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                </div>
                 <!-- Begin -->
                 <div class="row">
-                    @@include('./component/about.committee.gen.p.html',{"parentRel": "@@webRoot" })
+                    <!-- @_disable_@include('./component/about.committee.gen.p.html',{"parentRel": "@@webRoot" }) -->
+                    {% for sec in bulkdata.cmt %}
+                        <div class="col-12"><h3>{{sec.tittle}}</h3></div>
+                        {% for p in sec["people"] %}
+                            <div class="col-10 col-sm-5">
+                                <p><strong>{{p.name}}</strong>
+                                    <br>{{p.addr}}
+                                </p>
+                            </div>
+                        {% endfor %}
+                        <div class="col-12"><hr/></div>
+                    {% endfor %}
+                    
+                    <div class="col-12"><h3>{{bulkdata.subcmt.fullname}}</h3></div>
+                    {% for c in bulkdata.subcmt.chairs %}
+                            <div class="col-10 col-sm-5">
+                                <p><strong><em>{{c.tittle}}</em> {{c.name}}</strong>
+                                    <br>{{c.addr}}
+                                </p>
+                            </div>
+                    {% endfor %}
+                    {% for p in bulkdata.subcmt.members %}
+                            <div class="col-10 col-sm-5 col-lg-4 my-auto">
+                                <p><strong>{{p.name}}</strong>
+                                    <br>{{p.addr}}
+                                </p>
+                            </div>
+                    {% endfor %}
                 </div>
             </div>
         </div>
