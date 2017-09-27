@@ -24,7 +24,7 @@ fi
 [[ -z "$FTP_IP"   ]] &&  read -p ' >Remote FTP IP/URL:' FTP_IP 
 [[ -z "$FTP_USER" ]] &&  read -p ' >Remote FTP username:' FTP_USER
 [[ -z "$FTP_PWD"  ]] &&  read -sp ' >Remote FTP password:' FTP_PWD
-[[ -z "$SRC_DIR"   ]] &&  read -p ' >Read from Local DIR(reletive):' SRC_DIR
+[[ -z "$SRC_DIR"   ]] &&  read -p ' >Read from Local DIR:' SRC_DIR
 [[ -z "$FTP_DIR"   ]] &&  read -p ' >Upload to Remote DIR:' FTP_DIR
 [[ -z "$FTP_DIR"   ]] &&  FTP_DIR="."
 [[ -z "$LINK_PARA" ]] && LINK_PARA="3"
