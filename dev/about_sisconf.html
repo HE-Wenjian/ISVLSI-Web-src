@@ -6,7 +6,7 @@ confs: [
 }
 ,{
     name : "ASAP, IEEE International Conference on Application-specific Systems, Architectures and Processors",
-    img : ""
+    img : "asap_logo.png"
 }
 ,{
     name : "ASYNC, IEEE International Symposium on Asynchronous Circuits and Systems",
@@ -14,7 +14,7 @@ confs: [
 }
 ,{
     name : "iNIS, IEEE International Symposium on Nanoelectronic and Information Systems",
-    img : ""
+    img : "inis_logo.jpg"
 }
 ,{
     name : "IWLS, IEEE International Workshop on Logic and Synthesis",
@@ -30,7 +30,7 @@ confs: [
 }
 ,{
     name : "ECMSM, IEEE International Workshop of Electronics, Control, Measurement, Signals and their application to Mechatronics",
-    img : ""
+    img : "ecms_logo.gif"
 }
 ]
 ---
@@ -85,7 +85,7 @@ confs: [
 {% for c in confs %}
 <div class="row py-1 align-items-center">
         <div class="col-12 col-md-3 text-center">
-            {% if c.img !== "" -%}<img class="img-fluid d-block my-auto mx-auto" style="max-height: 8vh;" src="@@webRoot/img/sister_conf/{{ c.img }}" alt="tcvlsi" />{% else %}<i class="fa fa-users d-block fa-2x" aria-hidden="true"></i>
+            {% if c.img !== "" -%}<img class="img-fluid d-block my-auto mx-auto" style="max-height: 7vh;" src="@@webRoot/img/sister_conf/{{c.img}}" alt="tcvlsi" />{% else %}<i class="fa fa-users d-block fa-2x" aria-hidden="true"></i>
 {%- endif %}
         </div>
         <div class="col-12 col-md-9">
