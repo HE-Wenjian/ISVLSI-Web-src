@@ -62,7 +62,7 @@ gulp.task('compile_html', ['clean-debug'] ,function() {
             load_json: false,
             defaults: { cache: false }})
         )
-        .pipe(gulp.dest('./debug/post-swig/'))
+        //.pipe(gulp.dest('./debug/post-swig/'))
         .pipe(gInclude({
             prefix: '@@',
             basepath: './dev'
