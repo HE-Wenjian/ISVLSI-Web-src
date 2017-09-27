@@ -1,3 +1,41 @@
+---
+confs: [
+{
+    name : "ARITH, IEEE Symposium on Computer Arithmetic",
+    img : "ARITH_logo.png"
+}
+,{
+    name : "ASAP, IEEE International Conference on Application-specific Systems, Architectures and Processors",
+    img : ""
+}
+,{
+    name : "ASYNC, IEEE International Symposium on Asynchronous Circuits and Systems",
+    img : "async_logo.png"
+}
+,{
+    name : "iNIS, IEEE International Symposium on Nanoelectronic and Information Systems",
+    img : ""
+}
+,{
+    name : "IWLS, IEEE International Workshop on Logic and Synthesis",
+    img : "iwls_logo.jpg"
+}
+,{
+    name : "MSE, IEEE International Conference on Microelectronic Systems Education",
+    img : ""
+}
+,{
+    name : "SLIP, ACM/IEEE System Level Interconnect Prediction",
+    img : ""
+}
+,{
+    name : "ECMSM, IEEE International Workshop of Electronics, Control, Measurement, Signals and their application to Mechatronics",
+    img : ""
+}
+]
+---
+
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
@@ -19,12 +57,12 @@
             <div class="col-12 order-1 col-md-9 order-md-12 mb-4">
                 <h3 class="mt-4">Sister Conference</h3>
                 <div class="row align-items-center">
-                    <div class="col-8 col-md-4 d-block mx-auto">
+                    <!-- <div class="col-8 col-md-4 d-block mx-auto">
                         <img class="img-fluid my-auto" src="@@webRoot/img/sponsor/tcvlsi_logo.png" alt="tcvlsi" />
-                    </div>
-                    <div class="col-12 col-md-8">
-                        <p class="text-justify">ISVLSI is a sponsored meeting of the <a class="label" target="_blank" href="http://www.ieee-tcvlsi.org/"><u>Technical Committee on VLSI, IEEE-CS</u> <i class="fa fa-external-link" aria-hidden="true"></i></a> that endorses a league of successful meetings such as ARITH, ASAP, iNIS, ISVLSI, etc., which are presented as "Sister Conferences".</p>
-                        <a target="_blank" href="https://www.computer.org/web/tcvlsi/tcvlsi-sister-conferences" class="btn btn-primary float-right"><i class="fa fa-external-link" aria-hidden="true"></i> Learn More</a>
+                    </div> -->
+                    <div class="col-12">
+                        <p class="text-justify">ISVLSI is a sponsored meeting of the <!-- <a class="label" target="_blank" href="http://www.ieee-tcvlsi.org/"> -->Technical Committee on VLSI, IEEE-CS<!-- <i class="fa fa-external-link" aria-hidden="true"></i></a> --> that endorses a league of successful meetings such as ARITH, ASAP, iNIS, ISVLSI, etc., which are presented as "Sister Conferences".</p>
+                        <!-- <a target="_blank" href="https://www.computer.org/web/tcvlsi/tcvlsi-sister-conferences" class="btn btn-primary float-right"><i class="fa fa-external-link" aria-hidden="true"></i> Learn More</a> -->
                     </div>
                 </div>
                 <div class="row">
@@ -32,9 +70,10 @@
                         <hr>
                     </div>
                 </div>
-                <div class="row align-items-center">
+                <div class="row">
+                    <div class="col-12 text-center"><img class="img-fluid" style="max-height: 100px" src="@@webRoot/img/sponsor/tcvlsi_logo.png" alt="tcvlsi"/></div>
                     <div class="col-12">
-                        <p>
+                        <p class="text-justify">
                             The Technical Committee on Very Large Scale Integration (TCVLSI) of the IEEE Computer Society (IEEE-CS) addresses the interactions among the various aspects of VLSI design including system-level design, logic-level design, circuit-level design, and semiconductor processes. The IEEE-CS Technical Committee on VLSI also covers the computer-aided design techniques to facilitate the VLSI design process. The VLSI may include digital circuits and systems, analog circuits, as well as mixed-signal circuits and systems. The emphasis of TCVLSI falls on integrating the design, computer-aided design, fabrication, application, and business aspects of VLSI while encompassing both hardware and software. The TCVLSI sponsors conferences, special sessions, and workshops for the IEEE-CS. TCVLSI also runs VLSI and Nanoelectronics Letter, three times a year, which has many components including a very selective dissemination of quick papers, TCVLSI member news, upcoming conferences/workshops, call for papers, and funding opportunities of interest to members of TCVLSI.</p>
                         <a target="_blank" href="http://www.ieee-tcvlsi.org/" class="btn btn-primary float-right"><i class="fa fa-external-link" aria-hidden="true"></i> Learn More</a>
                     </div>
@@ -42,6 +81,19 @@
                 <div class="col-12">
                     <hr>
                 </div>
+                
+{% for c in confs %}
+<div class="row py-1 align-items-center">
+        <div class="col-12 col-md-3 text-center">
+            {% if c.img !== "" -%}<img class="img-fluid d-block my-auto mx-auto" style="max-height: 8vh;" src="@@webRoot/img/sister_conf/{{ c.img }}" alt="tcvlsi" />{% else %}<i class="fa fa-users d-block fa-2x" aria-hidden="true"></i>
+{%- endif %}
+        </div>
+        <div class="col-12 col-md-9">
+            <h5>{{ c.name }}</h5>
+        </div>
+        </div>
+{% endfor %}
+
             </div>
         </div>
     </div>

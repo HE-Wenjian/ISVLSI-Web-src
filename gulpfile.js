@@ -8,6 +8,8 @@ var gCount = require('gulp-count');
 var gChanged = require('gulp-changed');
 var gHtmlMin = require('gulp-htmlmin');
 var gCleanCSS = require('gulp-clean-css');
+var gSwig = require('gulp-swig');
+var gFrontMatter = require('gulp-front-matter');
 //var MergeStream = require('merge-stream');
 var pkg = require('./package.json');
 var runSequence = require('run-sequence');
@@ -19,6 +21,7 @@ const DestDir = "./publish";
 gulp.task('just_for_test', function() {
     gulp.src(['dev/src_css/**/*.min.css'])
         .pipe(gDebug({showFiles: true, title: 'test1:'}))
+
 })
 
 
@@ -36,7 +39,15 @@ gulp.task('compile_html', function() {
             '!dev/**/*.p.html'
         ], { base: './dev' })
         .pipe(gChanged(DestDir))
+        .pipe(gFrontMatter({ 
+            property: 'data',
+            remove: true }).on('error', gutil.log)
+        )
         .pipe(gDebug({showFiles: true}))
+        .pipe(gSwig({
+            load_json: false,
+            defaults: { cache: false }})
+        )
         .pipe(gInclude({
             prefix: '@@',
             basepath: './dev'
