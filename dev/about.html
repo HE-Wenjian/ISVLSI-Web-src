@@ -1,9 +1,6 @@
 = yaml =
-
-bulkdata: #@@@@pre-include('./component/committee.json')
-
+jsondata: #@@@@pre-include('./component/committee.json') 
 = yaml =
-
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
@@ -11,7 +8,7 @@ bulkdata: #@@@@pre-include('./component/committee.json')
 
 <body>
     <!-- Navigation : navbar -->
-    @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "about" })
+     @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "about" })
     <!-- Page Content -->
     <div class="container">
         <!-- Title -->
@@ -20,7 +17,6 @@ bulkdata: #@@@@pre-include('./component/committee.json')
             <!--  -->
             <!-- Sidebar Column -->
             @@include('./about_sidecol.p.html',{"parentRel": "@@webRoot", "page": "about" })
-
             <!--  -->
             <!-- Content Column -->
             <div class="col-12 order-1 col-md-9 order-md-12 mb-4">
@@ -57,32 +53,34 @@ bulkdata: #@@@@pre-include('./component/committee.json')
                 <!-- Begin -->
                 <div class="row">
                     <!-- @_disable_@include('./component/about.committee.gen.p.html',{"parentRel": "@@webRoot" }) -->
-                    {% for sec in bulkdata.cmt %}
-                        <div class="col-12"><h3>{{sec.tittle}}</h3></div>
-                        {% for p in sec["people"] %}
-                            <div class="col-10 col-sm-5">
-                                <p><strong>{{p.name}}</strong>
-                                    <br>{{p.addr}}
-                                </p>
-                            </div>
-                        {% endfor %}
-                        <div class="col-12"><hr/></div>
+                    {% for sec in jsondata.cmt %}
+                    <div class="col-12">
+                        <h3>{{sec.tittle}}</h3></div>
+                    {% for p in sec["people"] %}
+                    <div class="col-10 col-sm-5">
+                        <p><strong>{{p.name}}</strong>
+                            <br>{{p.addr}}
+                        </p>
+                    </div>
                     {% endfor %}
-                    
-                    <div class="col-12"><h3>{{bulkdata.subcmt.fullname}}</h3></div>
-                    {% for c in bulkdata.subcmt.chairs %}
-                            <div class="col-10 col-sm-5">
-                                <p><strong><em>{{c.tittle}}</em> {{c.name}}</strong>
-                                    <br>{{c.addr}}
-                                </p>
-                            </div>
+                    <div class="col-12">
+                        <hr/>
+                    </div>
                     {% endfor %}
-                    {% for p in bulkdata.subcmt.members %}
-                            <div class="col-10 col-sm-5 col-lg-4 my-auto">
-                                <p><strong>{{p.name}}</strong>
-                                    <br>{{p.addr}}
-                                </p>
-                            </div>
+                    <div class="col-12">
+                        <h3>{{jsondata.subcmt.fullname}}</h3></div>
+                    {% for c in jsondata.subcmt.chairs %}
+                    <div class="col-10 col-sm-5">
+                        <p><strong><em>{{c.tittle}}</em> {{c.name}}</strong>
+                            <br>{{c.addr}}
+                        </p>
+                    </div>
+                    {% endfor %} {% for p in jsondata.subcmt.members %}
+                    <div class="col-10 col-sm-5 col-lg-4 my-auto">
+                        <p><strong>{{p.name}}</strong>
+                            <br>{{p.addr}}
+                        </p>
+                    </div>
                     {% endfor %}
                 </div>
             </div>

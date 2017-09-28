@@ -1,3 +1,5 @@
+var DEBUG_MODE=true;
+
 var path = require('path');
 var del = require('del');
 const gulp = require('gulp');
@@ -8,6 +10,7 @@ var gCount = require('gulp-count');
 var gChanged = require('gulp-changed');
 var gHtmlMin = require('gulp-htmlmin');
 var gCleanCSS = require('gulp-clean-css');
+const gIf = require('gulp-if');
 var gSwig = require('gulp-swig');
 var gFrontMatter = require('gulp-front-matter');
 //var MergeStream = require('merge-stream');
@@ -52,24 +55,25 @@ gulp.task('compile_html', ['clean-debug'] ,function() {
             basepath: './dev'
             })
         )
-        //.pipe(gulp.dest('./debug/post-preinclude/'))
+        .pipe(gulp.dest('./debug/post-preinclude/'))
         .pipe(gFrontMatter({ 
             property: 'data',
             remove: true }).on('error', gutil.log)
         )
-        //.pipe(gulp.dest('./debug/post-FrontMatter/'))
+        .pipe(gulp.dest('./debug/post-FrontMatter/'))
         .pipe(gSwig({
             load_json: false,
             defaults: { cache: false }})
         )
-        //.pipe(gulp.dest('./debug/post-swig/'))
+        .pipe(gIf(DEBUG_MODE,gulp.dest('./debug/post-swig/')))
         .pipe(gInclude({
             prefix: '@@',
             basepath: './dev'
         }).on('error', gutil.log))
-        .pipe(gHtmlMin({collapseWhitespace: true,
+        .pipe(gIf(!DEBUG_MODE,
+        	gHtmlMin({collapseWhitespace: true,
         		 conservativeCollapse: true, 
-        		 removeComments: true}))
+        		 removeComments: true})))
         .pipe(gulp.dest(DestDir))
 })
 
