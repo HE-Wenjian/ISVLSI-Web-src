@@ -5,9 +5,15 @@
       <!-- /.container -->
     </footer>
 
-    <!-- JavaScript -->
-    <!-- <script src="@@parentRel/js/jquery/jquery.min.js"></script> -->
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js"
+    <!-- Common JavaScript -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" 
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- jQuery Fallback to local server-->
+    <script type="text/javascript">window.jQuery || document.write('<script src="@@parentRel/js/jquery/jquery.min.js"><\/script>')</script>
+    <!-- popper -->
     <script src="@@parentRel/js/popper/popper.min.js"></script>
-    <script src="@@parentRel/js/bootstrap/bootstrap.min.js"></script>
+    <!-- bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" 
+    integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script type="text/javascript"> $.fn.modal || document.write('<script src="@@parentRel/js/bootstrap/bootstrap.min.js"><\/script>')</script>
