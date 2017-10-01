@@ -1,0 +1,36 @@
+{
+    "confs": [
+        {
+            "name": "ARITH, IEEE Symposium on Computer Arithmetic",
+            "img": "sister_conf/ARITH_logo.png"
+        },
+        {
+            "name": "ASAP, IEEE International Conference on Application-specific Systems, Architectures and Processors",
+            "img": "sister_conf/asap_logo.png"
+        },
+        {
+            "name": "ASYNC, IEEE International Symposium on Asynchronous Circuits and Systems",
+            "img": "sister_conf/async_logo.png"
+        },
+        {
+            "name": "iNIS, IEEE International Symposium on Nanoelectronic and Information Systems",
+            "img": "sister_conf/inis_logo.jpg"
+        },
+        {
+            "name": "IWLS, IEEE International Workshop on Logic and Synthesis",
+            "img": "sister_conf/iwls_logo.jpg"
+        },
+        {
+            "name": "MSE, IEEE International Conference on Microelectronic Systems Education",
+            "img": "sponsor/ieee_logo.jpg"
+        },
+        {
+            "name": "SLIP, ACM/IEEE System Level Interconnect Prediction",
+            "img": "sponsor/ieee_logo.jpg"
+        },
+        {
+            "name": "ECMSM, IEEE International Workshop of Electronics, Control, Measurement, Signals and their application to Mechatronics",
+            "img": "sister_conf/ecms_logo.gif"
+        }
+    ]
+}

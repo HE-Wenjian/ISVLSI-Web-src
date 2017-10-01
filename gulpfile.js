@@ -1,5 +1,6 @@
-var DEBUG_MODE=true;
+var DEBUG_MODE=false;
 
+var fs = require('fs');
 var path = require('path');
 var del = require('del');
 const gulp = require('gulp');
@@ -11,8 +12,9 @@ var gChanged = require('gulp-changed');
 var gHtmlMin = require('gulp-htmlmin');
 var gCleanCSS = require('gulp-clean-css');
 const gIf = require('gulp-if');
+var gData = require('gulp-data');
 var gSwig = require('gulp-swig');
-var gFrontMatter = require('gulp-front-matter');
+//var gFrontMatter = require('gulp-front-matter');
 //var MergeStream = require('merge-stream');
 var pkg = require('./package.json');
 var runSequence = require('run-sequence');
@@ -48,19 +50,29 @@ gulp.task('compile_html', ['clean-debug'] ,function() {
             '!dev/**/__*',
             '!dev/**/*.p.html'
         ], { base: './dev' })
-        .pipe(gChanged(DestDir))
+        //.pipe(gChanged(DestDir))
         .pipe(gDebug({showFiles: true}))
-        .pipe(gInclude({
-            prefix: '#@@@@pre-',
-            basepath: './dev'
-            })
-        )
-        .pipe(gulp.dest('./debug/post-preinclude/'))
-        .pipe(gFrontMatter({ 
-            property: 'data',
-            remove: true }).on('error', gutil.log)
-        )
-        .pipe(gulp.dest('./debug/post-FrontMatter/'))
+        // .pipe(gInclude({
+        //     prefix: '#@@@@pre-',
+        //     basepath: './dev'
+        //     })
+        // )
+        // .pipe(gulp.dest('./debug/post-preinclude/'))
+        // .pipe(gFrontMatter({ 
+        //     property: 'data',
+        //     remove: true }).on('error', gutil.log)
+        // )
+        // .pipe(gulp.dest('./debug/post-FrontMatter/'))
+        .pipe(gData(function(file) {
+            ItsJSONFile=gutil.replaceExtension(file.path, '.json');
+            if(fs.existsSync(ItsJSONFile)){
+                gutil.log("[JSON] Load: " + ItsJSONFile);
+                return require(ItsJSONFile);
+            }else{
+               return {} ;
+            }
+        }
+        ))
         .pipe(gSwig({
             load_json: false,
             defaults: { cache: false }})
@@ -78,7 +90,7 @@ gulp.task('compile_html', ['clean-debug'] ,function() {
 })
 
 // NOTE: requires `npm install` before running!
-gulp.task('copy_js', function() {
+gulp.task('copy_minjs', function() {
     gulp.src(['dev/src_js/**/*.min.js'])
         .pipe(gChanged(path.join(DestDir, 'js')))
         .pipe(gCount('[js] Num Src= ##'))
@@ -97,12 +109,14 @@ gulp.task('copy_image', function() {
 })
 
 gulp.task('process_css', function() {
+    /* Copy */
     gulp.src(['dev/src_css/**/*.min.css'])
         .pipe(gChanged(path.join(DestDir, 'css')))
         .pipe(gCount('[css:vender] Num Src= ##'))
         .pipe(gulp.dest(path.join(DestDir, 'css')))
         .pipe(gCount('[css:vender] Num Des= ##'))
 
+    /* process */
     gulp.src(['dev/src_css/**/*.css',
             '!dev/src_css/{bootstrap,bootstrap/**}',
             '!dev/src_css/**/*.min.css'
@@ -119,14 +133,14 @@ gulp.task('process_css', function() {
 // Default task
 gulp.task('default', [
     'process_css',
-    'copy_js',
+    'copy_minjs',
     'compile_html',
     'copy_image'
 ]);
 
 gulp.task('force-html', function(cb) {
 	runSequence('clean-html',
-	             ['compile_html','process_css', 'copy_js', 'copy_image'],
+	             ['compile_html','process_css', 'copy_minjs', 'copy_image'],
 	             cb);
 });
 
@@ -144,7 +158,10 @@ gulp.task('browserSync', function() {
 // Dev task with browserSync
 gulp.task('dev', ['browserSync'], function() {
     // Reloads the browser whenever HTML or CSS files change
-    gulp.watch('./dev/**/*.p.html', { ignoreInitial: false, event: ['change','add'], read: false ,readDelay: 100})
+    gulp.watch(['./dev/**/*.p.html',
+                './dev/**/*.json'
+        ], 
+        { ignoreInitial: false, event: ['change','add'], read: false ,readDelay: 100})
         .on('change', function() {
             runSequence('clean-html', 'compile_html');
         });
