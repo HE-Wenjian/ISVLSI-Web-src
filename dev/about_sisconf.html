@@ -48,8 +48,13 @@
                 {% for c in confs %}
                 <div class="row py-1 align-items-center">
                     <div class="col-12 col-md-3 text-center">
-                        {% if c.img !== "" -%}<img class="img-fluid d-block my-auto mx-auto" style="max-height: 7vh;" src="@@webRoot/img/{{c.img}}" alt="" /> {% else %}
-                        <i class="fa fa-users d-block fa-2x" aria-hidden="true"></i> {%- endif %}
+                        <!--IF-->
+                        {% if c.img !== "" -%}<img class="img-fluid d-block my-auto mx-auto" style="max-height: 7vh;" src="@@webRoot/img/{{c.img}}" alt="" />
+                        <!--ELSE-->
+                        {% else %}
+                        <i class="fa fa-users d-block fa-2x" aria-hidden="true"></i>
+                        <!--END-IF-->
+                        {%- endif %}
                     </div>
                     <div class="col-12 col-md-9">
                         <h5 class="text-justify">{{ c.name }}</h5>
