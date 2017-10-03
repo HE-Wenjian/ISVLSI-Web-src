@@ -1,3 +1,31 @@
-## ISVLSI
+/*===- -------------------- ---------------------*- NOTE -*-===*\
+|*                                                             *|
+|*                                                             *|
+|*       Please edit files here                                *|
+|*                                                             *|
+|*                                                             *|
+\*===-------------------------------------------------------===*/
 
-Please edit file here
+
+Some useful swig statements (tags):
+
+- autoescape:
+{% autoescape true %}{{ your_var }}{% endautoescape %}
+
+- If
+{% if condition %}
+	statement1
+{% elseif condition2 %}
+	statement2
+{% else %}
+	statement3
+{% endif %}
+
+- For
+{% for x in obj %}
+	statement
+{% endfor %}
+
+	Some built-in variables:
+	-- loop.first: True if the current object is the first in the object or array.
+	-- loop.last: True if the current object is the last in the object or array.

@@ -1,10 +1,13 @@
 
           !!!!!!!!!!      WARNING       !!!!!!!!!!
 
-/*===- -------------------- ------------------------------------*- NOTE -*-===*\
-|*                                                                            *|
-|*                                                                            *|
-|* Automatically generated folder, do not edit!                               *|
-|*                                                                            *|
-|*                                                                            *|
-\*===----------------------------------------------------------------------===*/
+/*===- -------------------- ---------------------*- NOTE -*-===*\
+|*                                                             *|
+|*                                                             *|
+|*        Automatically generated folder, do not edit!         *|
+|*                                                             *|
+|*                                                             *|
+\*===-------------------------------------------------------===*/
+
+NOTE: Please edit the source files in the "dev" folder and run 
+      the compile commands to generate the website.

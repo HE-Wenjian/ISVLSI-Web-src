@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+@@include('./component/head.p.html',{ "title" : "ISVLSI 2018", "parentRel": "@@webRoot", "moreCSS" : ["NULL"] })
+
+<body>
+    <!-- Navigation : navbar -->
+    @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "travel" })
+    <!-- Page Content -->
+    <section class="container">
+        <h1 class="mt-4 mb-4">Travel</h1>
+        <div class="row">
+            <div class="col-12">
+                <h3>Venue</h3>
+            </div>
+            <div class="col-12 col-md-8">
+                <div class="row">
+                    <div class="col-12">
+                        <p>The ISVLSI 2018 will be held at</p>
+                        <h5 class="text-center">
+                            <strong>The Hong Kong Polytechnic University (PolyU)</strong><br>
+                            Hong Kong SAR, China
+                          </h5>
+                        <p class="text-justify">The university campus of PolyU is located in Hung Hom, Kowloon, on a 9.46-hectare site adjacent to the Cross Harbour Tunnel. In addition to classrooms, laboratories and academic facilities, the campus offers sport, recreational facilities and other facilities including multi-purpose auditorium and Industrial Centre. A full range of campus services including restaurants, bookstore and banks are also provided. </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <p class="text-center">
+                            <a class="btn btn-md btn-success" target="_blank" href="https://www.polyu.edu.hk/fmo/eMap/map.php"> Campus Map <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-11 col-md-4 mx-auto my-auto">
+                <img class="img-fluid d-block" src="@@webRoot/img/venue/PolyU/PolyU_1.jpg" alt="" />
+            </div>
+        </div>
+        <!-- Images -->
+        <div class="row mt-2">
+            {% for i in Array(6) %}
+            <div class="col-6 col-sm-4 col-md-2 mb-3"><img class="img-fluid rounded d-block" src="@@webRoot/img/venue/PolyU/campus{{loop.index}}.jpg" alt="">
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    <!-- Google Map -->
+    <!-- /.container -->
+    <section class="container-fluid">
+        <div class="row my-1" style="height: 48vh; background-color: #64c8ff">
+            <div class="col-12 h-100" id="google-map">
+                <div class="row h-100 text-center align-items-center">
+                    <div class="col-12">
+                        <h5>Loading Map ...</h5>
+                        <p><small>If you cannot load the map, <br><a style="cursor: pointer;" onclick="directToGGMap()">Click Here to directly <strong>View on Google Map</strong> -</a></small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HK -->
+    <section class="container mt-4">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-9 my-auto">
+                <h2>Hong Kong</h2>
+            </div>
+            <div class="col-9 col-sm-6 col-md-3 mx-auto my-2">
+                <img class="img-fluid rounded d-block" src="@@webRoot/img/venue/hongkong/hk-banner.jpg" alt="" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 my-1">
+                <p class="text-justify">Positioned at the mouth of the Pearl River Delta on the coast of southern China, Hong Kong’s geographical position as a gateway between the East and West has made it an attractive centre for international trade. As a reflection of this, the heart of Asia’s world city has always been the bustling and beautiful Victoria Harbour. Hong Kong’s 1,104-square-kilometer area comprises Hong Kong Island, which lies to the south of the harbour, the Kowloon Peninsula, which forms its northern shores, the New Territories to the north of Kowloon, which stretch all the way to Mainland China, and more than 200 outlying islands, including Lantau Island, where Hong Kong International Airport is located.
+                    <br><a href="http://www.discoverhongkong.com/" target="_blank" class="btn btn-primary float-right">Learn More!</a></p>
+            </div>
+        </div>
+        <div class="row align-items-center">
+            {% for i in Array(6) %}
+            <div class="col-6 col-sm-4 col-md-2 my-2">
+                <img class="img-fluid rounded d-block" src="@@webRoot/img/venue/hongkong/hk{{loop.index}}.jpg" alt="">
+            </div>
+            {% endfor %}
+        </div>
+    </section>
+    <div class="container my-4">
+        <hr>
+    </div>
+    <!-- FAQ -->
+    <section class="container">
+        <div class="row">
+            <div class="col-12 col-sm-2 col-md-1 text-center">
+                <h3>FAQ</h3>
+            </div>
+            <div class="col-12 col-sm-10 col-md-11 col-lg-10">
+                <div class="mb-4" id="id-faq" role="tablist" aria-multiselectable="true">
+                    {% for item in faq %}
+                    <div class="card">
+                        <div class="card-header" role="tab" id="id-faq-h-{{loop.index}}">
+                            <h5 class="mb-0">
+              <a data-toggle="collapse" data-parent="#id-faq" href="#id-faq-a-{{loop.index}}" aria-expanded="false" aria-controls="id-faq-a-{{loop.index}}">
+                <i class="fa fa-question-circle" aria-hidden="true"></i> {{item.q}}</a>
+            </h5>
+                        </div>
+                        <div id="id-faq-a-{{loop.index}}" class="collapse" role="tabpanel" aria-labelledby="id-faq-h-{{loop.index}}">
+                            <div class="card-body">
+                                <p class="text-justify">{{item.ans|safe}}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container my-4">
+        <hr>
+    </div>
+    <!-- Footer -->
+    @@include('./component/footer.p.html',{ "parentRel": "@@webRoot" })
+    <script>
+    function initggMap() {
+
+        var map_style = [{
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#ebe3cd"
+                }]
+            },
+            {
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#523735"
+                }]
+            },
+            {
+                "elementType": "labels.text.stroke",
+                "stylers": [{
+                    "color": "#f5f1e6"
+                }]
+            },
+            {
+                "featureType": "administrative",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "color": "#c9b2a6"
+                }]
+            },
+            {
+                "featureType": "administrative.land_parcel",
+                "elementType": "labels",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            },
+            {
+                "featureType": "administrative.land_parcel",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#ae9e90"
+                }]
+            },
+            {
+                "featureType": "landscape.natural",
+                "stylers": [{
+                    "visibility": "simplified"
+                }]
+            },
+            {
+                "featureType": "landscape.natural",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#dfd2ae"
+                }]
+            },
+            {
+                "featureType": "landscape.natural.terrain",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#dfd2ae"
+                }]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "labels.text",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            },
+            {
+                "featureType": "poi",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#93817c"
+                }]
+            },
+            {
+                "featureType": "poi.attraction",
+                "elementType": "labels",
+                "stylers": [{
+                    "visibility": "on"
+                }]
+            },
+            {
+                "featureType": "poi.business",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            },
+            {
+                "featureType": "poi.school",
+                "stylers": [{
+                    "visibility": "on"
+                }]
+            },
+            {
+                "featureType": "poi.school",
+                "elementType": "labels",
+                "stylers": [{
+                    "visibility": "on"
+                }]
+            },
+            {
+                "featureType": "poi.school",
+                "elementType": "labels.icon",
+                "stylers": [{
+                    "visibility": "on"
+                }]
+            },
+            {
+                "featureType": "poi.school",
+                "elementType": "labels.text",
+                "stylers": [{
+                    "visibility": "on"
+                }]
+            },
+            {
+                "featureType": "poi.school",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#447530"
+                }, {
+                    "visibility": "on"
+                }]
+            },
+            {
+                "featureType": "road",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#f5f1e6"
+                }]
+            },
+            {
+                "featureType": "road.arterial",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#fdfcf8"
+                }]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#f8c967"
+                }]
+            },
+            {
+                "featureType": "road.highway",
+                "elementType": "geometry.stroke",
+                "stylers": [{
+                    "color": "#e9bc62"
+                }]
+            },
+            {
+                "featureType": "road.local",
+                "elementType": "labels",
+                "stylers": [{
+                    "visibility": "off"
+                }]
+            },
+            {
+                "featureType": "transit.line",
+                "stylers": [{
+                    "visibility": "on"
+                }]
+            },
+            {
+                "featureType": "transit.line",
+                "elementType": "geometry",
+                "stylers": [{
+                    "color": "#9568c6"
+                }, {
+                    "weight": 2
+                }]
+            },
+            {
+                "featureType": "transit.station.airport",
+                "elementType": "geometry",
+                "stylers": [{
+                    "visibility": "on"
+                }]
+            },
+            {
+                "featureType": "transit.station.airport",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#6ab54a"
+                }]
+            },
+            {
+                "featureType": "transit.station.airport",
+                "elementType": "labels",
+                "stylers": [{
+                    "visibility": "on"
+                }]
+            },
+            {
+                "featureType": "water",
+                "elementType": "geometry.fill",
+                "stylers": [{
+                    "color": "#64c8ff"
+                }]
+            },
+            {
+                "featureType": "water",
+                "elementType": "labels.text.fill",
+                "stylers": [{
+                    "color": "#92998d"
+                }]
+            }
+        ];
+        var PolyU_loc = new google.maps.LatLng(22.3028, 114.1786);
+
+        var map = new google.maps.Map(document.getElementById('google-map'), {
+            center: PolyU_loc,
+            zoom: 14,
+            styles: map_style,
+            mapTypeId: 'roadmap',
+            mapTypeControl: false,
+            streetViewControl: false
+        });
+
+        var venue_marker = new google.maps.Marker({
+            position: PolyU_loc,
+            map: map,
+            label: 'V'
+        });
+        var infowindow = new google.maps.InfoWindow({
+            content: '<div></div><div class="mt-1 mr-1 text-center"><h6>Hong Kong PolyU </h6></div>'
+        });
+        infowindow.open(map, venue_marker);
+        venue_marker.addListener('click', function() {
+            infowindow.open(map, venue_marker);
+        });
+
+        var airport_loc = new google.maps.LatLng(22.31096, 113.91576);
+        var airport_marker = new google.maps.Marker({
+            position: airport_loc,
+            clickable: false,
+            map: map,
+            icon: {
+                path: google.maps.SymbolPath.CIRCLE,
+                strokeColor: 'gold',
+                strokeOpacity: 0.8,
+                strokeWeight: 3,
+                scale: 20
+            },
+
+            label: {
+                fontFamily: 'Fontawesome',
+                fontSize: '28px',
+                text: '\uf072',
+                color: '#fad735'
+            }
+        });
+    }
+
+    function directToGGMap() {
+        if ((navigator.platform.indexOf("iPhone") != -1) ||
+            (navigator.platform.indexOf("iPod") != -1) ||
+            (navigator.platform.indexOf("iPad") != -1)) {
+            protocal = 'maps';
+        } else {
+            protocal = 'http';
+        }
+        window.open(protocal + "://maps.google.com/maps?daddr=22.3028, 114.1786&amp;ll=");
+    }
+    </script>
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFsHWCKp0h5YZbDYOql16ZETPOCNDv2GU&callback=initggMap"></script> -->
+</body>
+
+</html>

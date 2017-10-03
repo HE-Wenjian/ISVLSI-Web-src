@@ -1,41 +1,3 @@
----
-confs: [
-{
-    name : "ARITH, IEEE Symposium on Computer Arithmetic",
-    img : "sister_conf/ARITH_logo.png"
-}
-,{
-    name : "ASAP, IEEE International Conference on Application-specific Systems, Architectures and Processors",
-    img : "sister_conf/asap_logo.png"
-}
-,{
-    name : "ASYNC, IEEE International Symposium on Asynchronous Circuits and Systems",
-    img : "sister_conf/async_logo.png"
-}
-,{
-    name : "iNIS, IEEE International Symposium on Nanoelectronic and Information Systems",
-    img : "sister_conf/inis_logo.jpg"
-}
-,{
-    name : "IWLS, IEEE International Workshop on Logic and Synthesis",
-    img : "sister_conf/iwls_logo.jpg"
-}
-,{
-    name : "MSE, IEEE International Conference on Microelectronic Systems Education",
-    img : "sponsor/ieee_logo.jpg"
-}
-,{
-    name : "SLIP, ACM/IEEE System Level Interconnect Prediction",
-    img : "sponsor/ieee_logo.jpg"
-}
-,{
-    name : "ECMSM, IEEE International Workshop of Electronics, Control, Measurement, Signals and their application to Mechatronics",
-    img : "sister_conf/ecms_logo.gif"
-}
-]
----
-
-
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
@@ -61,7 +23,9 @@ confs: [
                         <img class="img-fluid my-auto" src="@@webRoot/img/sponsor/tcvlsi_logo.png" alt="tcvlsi" />
                     </div> -->
                     <div class="col-12">
-                        <p class="text-justify">ISVLSI is a sponsored meeting of the <!-- <a class="label" target="_blank" href="http://www.ieee-tcvlsi.org/"> -->Technical Committee on VLSI, IEEE-CS<!-- <i class="fa fa-external-link" aria-hidden="true"></i></a> --> that endorses a league of successful meetings such as ARITH, ASAP, iNIS, ISVLSI, etc., which are presented as "Sister Conferences".</p>
+                        <p class="text-justify">ISVLSI is a sponsored meeting of the
+                            <!-- <a class="label" target="_blank" href="http://www.ieee-tcvlsi.org/"> -->Technical Committee on VLSI, IEEE-CS
+                            <!-- <i class="fa fa-external-link" aria-hidden="true"></i></a> -->that endorses a league of successful meetings such as ARITH, ASAP, iNIS, ISVLSI, etc., which are presented as "Sister Conferences".</p>
                         <!-- <a target="_blank" href="https://www.computer.org/web/tcvlsi/tcvlsi-sister-conferences" class="btn btn-primary float-right"><i class="fa fa-external-link" aria-hidden="true"></i> Learn More</a> -->
                     </div>
                 </div>
@@ -71,7 +35,7 @@ confs: [
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 text-center"><img class="img-fluid" style="max-height: 100px" src="@@webRoot/img/sponsor/tcvlsi_logo.png" alt="tcvlsi"/></div>
+                    <div class="col-12 text-center"><img class="img-fluid" style="max-height: 100px" src="@@webRoot/img/sponsor/tcvlsi_logo.png" alt="tcvlsi" /></div>
                     <div class="col-12">
                         <p class="text-justify">
                             The Technical Committee on Very Large Scale Integration (TCVLSI) of the IEEE Computer Society (IEEE-CS) addresses the interactions among the various aspects of VLSI design including system-level design, logic-level design, circuit-level design, and semiconductor processes. The IEEE-CS Technical Committee on VLSI also covers the computer-aided design techniques to facilitate the VLSI design process. The VLSI may include digital circuits and systems, analog circuits, as well as mixed-signal circuits and systems. The emphasis of TCVLSI falls on integrating the design, computer-aided design, fabrication, application, and business aspects of VLSI while encompassing both hardware and software. The TCVLSI sponsors conferences, special sessions, and workshops for the IEEE-CS. TCVLSI also runs VLSI and Nanoelectronics Letter, three times a year, which has many components including a very selective dissemination of quick papers, TCVLSI member news, upcoming conferences/workshops, call for papers, and funding opportunities of interest to members of TCVLSI.</p>
@@ -81,25 +45,22 @@ confs: [
                 <div class="col-12">
                     <hr>
                 </div>
-                
-{% for c in confs %}
-<div class="row py-1 align-items-center">
-        <div class="col-12 col-md-3 text-center">
-            {% if c.img !== "" -%}<img 
-          	  	class="img-fluid d-block my-auto mx-auto" 
-            	style="max-height: 7vh;"
-            	src="@@webRoot/img/{{c.img}}"
-            	alt="" />
-            {% else %}
-            	<i class="fa fa-users d-block fa-2x" aria-hidden="true"></i>
-			{%- endif %}
-        </div>
-        <div class="col-12 col-md-9">
-            <h5 class="text-justify">{{ c.name }}</h5>
-        </div>
-        </div>
-{% endfor %}
-
+                {% for c in confs %}
+                <div class="row py-1 align-items-center">
+                    <div class="col-12 col-md-3 text-center">
+                        <!--IF-->
+                        {% if c.img !== "" -%}<img class="img-fluid d-block my-auto mx-auto" style="max-height: 7vh;" src="@@webRoot/img/{{c.img}}" alt="" />
+                        <!--ELSE-->
+                        {% else %}
+                        <i class="fa fa-users d-block fa-2x" aria-hidden="true"></i>
+                        <!--END-IF-->
+                        {%- endif %}
+                    </div>
+                    <div class="col-12 col-md-9">
+                        <h5 class="text-justify">{{ c.name }}</h5>
+                    </div>
+                </div>
+                {% endfor %}
             </div>
         </div>
     </div>
