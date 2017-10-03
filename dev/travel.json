@@ -1,0 +1,24 @@
+{
+    "faq": [
+        {
+            "q": "Do I need a Visa to visit Hong Kong?",
+            "ans": "Visitors from most countries can enter Hong Kong without a visa for periods of 7 to 180 days, depending on nationality. Check with <a href=\"http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html\" target=\"_blank\" >the Hong Kong Immigration Department</a> for details about visa requirements."
+        },
+        {
+            "q": "Is local transport easy to use?",
+            "ans": "Hong Kong has an excellent public transport system that is considered one of the best in the world. Depending on where you are going, you have a choice of MTR (subway), trains, buses, trams, ferries and taxis. These clean and efficient options cover extensive areas of Hong Kong and have signs and announcements in both English and Chinese."
+        },
+        {
+            "q": "Are credit cards widely accepted in shops?",
+            "ans": "Most shops in Hong Kong accept major credit cards; however, at open-air markets, most vendors will only take cash. As these can offer attractive bargains and are found all over Hong Kong, it’s best to bring both cash in Hong Kong dollars and credit cards when shopping."
+        },
+        {
+            "q": "Is English widely spoken?",
+            "ans": "Yes. English is widely spoken in Hong Kong and is the language of preference in the government, business and tourism sectors. As a visitor, you can expect to encounter minimal problems communicating in English, as most taxi drivers, salespeople, tourism industry employees and police have reached competent levels of the language. Also, all official signs and public transport announcements, as well as most menus, are in both English and Chinese."
+        },
+        {
+            "q": "Will I be able to use my electrical equipment in Hong Kong?",
+            "ans": "The standard electrical voltage in Hong Kong is 220 volts AC, 50Hz. Most hotel bathrooms also have outlets for 100 volts, but if not, you will need a transformer for any appliance or electrical equipment. The majority of electrical outlets in Hong Kong take a three-pronged UK-style plug. You can buy an inexpensive adaptor for your electrical equipment at most convenience stores."
+        }
+    ]
+}
