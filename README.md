@@ -8,7 +8,7 @@
 
 ## Edit the Site
 
-This project uses gulp workflow to generate the target files. Source code are in the "dev" folder.
+This project uses gulp workflow to generate the target files. Source code is in the "dev" folder.
 
 
 ## Copyright

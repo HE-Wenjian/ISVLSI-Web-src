@@ -1,4 +1,4 @@
-var DEBUG_MODE = true;
+var DEBUG_MODE = false;
 
 var fs = require('fs');
 var path = require('path');
@@ -26,14 +26,11 @@ const DestDir = "./publish";
 
 
 
-
-
 gulp.task('just_for_test', function() {
     gulp.src(['dev/src_css/**/*.min.css'])
         .pipe(gDebug({ showFiles: true, title: 'test1:' }))
 
 })
-
 
 gulp.task('clean-html', function(done) {
     gutil.log("[clean]", del.sync([
@@ -78,7 +75,8 @@ gulp.task('compile_html', ['clean-debug'], function() {
             gHtmlMin({
                 collapseWhitespace: true,
                 conservativeCollapse: true,
-                removeComments: true
+                removeComments: true,
+                minifyJS: true
             })))
         .pipe(gDebug({ showFiles: true, title: '[HTML] Proccessed:' }))
         .pipe(gulp.dest(DestDir))
