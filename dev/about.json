@@ -69,12 +69,12 @@
             "tittle": "Publication Chairs",
             "people": [
                 {
-                    "name": "Aida Todri-Sanial",
-                    "addr": "CNRS-LIRMM, France"
+                    "name": "Mahdi Nikdast",
+                    "addr": "Colorado State University at Boulder, USA"
                 },
                 {
-                    "name": "Prasun Ghosal",
-                    "addr": "Indian Institute of Engineering, Shibpur"
+                    "name": "Chenchen Liu",
+                    "addr": "Clarkson University, USA"
                 }
             ]
         },
@@ -91,7 +91,7 @@
                 },
                 {
                     "name": "Jingtong Hu",
-                    "addr": "University of Pittsburg, USA"
+                    "addr": "University of Pittsburgh, USA"
                 },
                 {
                     "name": "Masaaki Kondo",
@@ -144,10 +144,6 @@
                 {
                     "name": "Jürgen Becker",
                     "addr": "Karlsruhe Institute of Technology, Germany"
-                },
-                {
-                    "name": "Miroslav Velev",
-                    "addr": "Aries Design Automation, USA"
                 }
             ]
         }
@@ -169,7 +165,7 @@
         "members": [
             {
                 "name": "Hai (Helen) Li",
-                "addr": "University of Pittsburgh, USA"
+                "addr": "Duke University, USA"
             },
             {
                 "name": "Lionel Torres",
