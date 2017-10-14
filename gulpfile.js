@@ -125,9 +125,9 @@ gulp.task('process_css', function() {
 
 // Default task
 gulp.task('default', [
+    'compile_html',
     'process_css',
     'copy_minjs',
-    'compile_html',
     'copy_image'
 ]);
 
