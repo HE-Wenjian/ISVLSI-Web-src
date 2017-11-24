@@ -86,9 +86,8 @@ gulp.task('compile_html', ['clean-debug'], function() {
 gulp.task('copy_minjs', function() {
     gulp.src(['dev/src_js/**/*.min.js'])
         .pipe(gChanged(path.join(DestDir, 'js')))
-        .pipe(gCount('[js] Num Src= ##'))
+        .pipe(gCount('[minjs] Num = ##'))
         .pipe(gulp.dest(path.join(DestDir, 'js')))
-        .pipe(gCount('[js] Num Des= ##'))
 })
 
 gulp.task('copy_image', function() {
@@ -99,6 +98,15 @@ gulp.task('copy_image', function() {
         .pipe(gCount('[img] Num Src= ##'))
         .pipe(gulp.dest(path.join(DestDir, 'img')))
         .pipe(gCount('[img] Num Des= ##'))
+})
+
+gulp.task('copy_assets', function() {
+    gulp.src(['dev/download/**/*.pdf',
+            '!dev/download/**/*.src.*'
+        ])
+        .pipe(gChanged(path.join(DestDir, 'download')))
+        .pipe(gCount({ showFiles: true, title: '[download] Num Copied= ##'}))
+        .pipe(gulp.dest(path.join(DestDir, 'download')))
 })
 
 gulp.task('process_css', function() {
@@ -128,11 +136,12 @@ gulp.task('default', [
     'compile_html',
     'process_css',
     'copy_minjs',
-    'copy_image'
+    'copy_image',
+    'copy_assets',
 ]);
 
 gulp.task('force-html', function(cb) {
-    runSequence('clean-html', ['compile_html', 'process_css', 'copy_minjs', 'copy_image'],
+    runSequence('clean-html', 'default',
         cb);
 });
 
