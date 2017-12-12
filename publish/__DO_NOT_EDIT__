@@ -1,13 +1,16 @@
 
           !!!!!!!!!!      WARNING       !!!!!!!!!!
 
-/*===- -------------------- ---------------------*- NOTE -*-===*\
-|*                                                             *|
-|*                                                             *|
-|*        Automatically generated folder, do not edit!         *|
-|*                                                             *|
-|*                                                             *|
-\*===-------------------------------------------------------===*/
+/*===---------------------------------------------*- NOTE -*-===*\
+|*                                                              *|
+|*                                                              *|
+|*    Automatically generated files and folders, do not edit!   *|
+|*                                                              *|
+|*                                                              *|
+\*===--------------------------------------------------------===*/
 
-NOTE: Please edit the source files in the "dev" folder and run 
-      the compile commands to generate the website.
+NOTE: Please edit the source files in the "dev" folder and 
+    run the compile commands to generate the website.
+
+You can download the source files at:
+	[Github](https://github.com/hyskyder/ISVLSI-Web-src)

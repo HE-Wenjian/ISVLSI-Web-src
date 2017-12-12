@@ -6,7 +6,6 @@
 <body>
     <!-- Navigation : navbar -->
     @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "submission" })
-    
     <!-- Page Content -->
     <div class="container">
         <!-- Page Heading/Breadcrumbs -->
@@ -19,7 +18,8 @@
         <h1 class="mt-4 mb-4">Call For Papers</h1>
         <div class="row">
             <div class="col-12 col-xl-8">
-                <p class="text-justify">The Symposium explores emerging trends and novel ideas and concepts covering a broad range of topics in the area of VLSI: from VLSI circuits, systems and design methods, to system level design and system-on-chip issues, to bringing VLSI methods to new areas and technologies like nano- and molecular devices, hardware security, etc. ISVLSI 2018 highlights a special theme of <em>Internet-of-Things</em>. Future design methodologies are also one of the key topics at the Symposium, as well as new EDA tools to support them. Over three decades the Symposium has been a unique forum promoting multidisciplinary research and new visionary approaches in the area of VLSI, bringing together leading scientists and researchers from academia and industry. Selected high quality papers from ISVLSI 2018 will be considered for two Journal Special Issues: 1) IEEE Transactions on Nanotechnology (impact factor 2.485), and 2) IEEE Consumer Electronics Magazine (impact factor 1.153). The Symposium has established a reputation in bringing together well-known international scientists as invited speakers; the emphasis on high quality will continue at this and future editions of the Symposium. </p>
+                <p class="text-justify">The Symposium explores emerging trends and novel ideas and concepts covering a broad range of topics in the area of VLSI: from VLSI circuits, systems and design methods, to system level design and system-on-chip issues, to bringing VLSI methods to new areas and technologies like nano- and molecular devices, hardware security, etc. Future design methodologies are also one of the key topics at the Symposium, as well as new EDA tools to support them. Over three decades the Symposium has been a unique forum promoting multidisciplinary research and new visionary approaches in the area of VLSI, bringing together leading scientists and researchers from academia and industry. Selected high quality papers from ISVLSI 2018 will be considered for two Journal Special Issues: 1) IEEE Transactions on Nanotechnology (impact factor 2.485), and 2) IEEE Consumer Electronics Magazine (impact factor 1.153). The Symposium has established a reputation in bringing together well-known international scientists as invited speakers; the emphasis on high quality will continue at this and future editions of the Symposium.</p>
+                <p class="text-center"><a class="btn btn-info" href="./download/ISVLSI 2018 CALL FOR PAPERS.pdf" download="ISVLSI 2018 CALL FOR PAPERS.pdf"><i class="fa fa-cloud-download" aria-hidden="true"></i> Download PDF CFP</a></p>
             </div>
             <div class="col-12 col-xl-4">
                 <div class="card">
@@ -33,8 +33,8 @@
                         </ul>
                     </div>
                     <div class="card-footer text-center bg-primary">
-                        <a href="#" class="text-white">
-                            <h4>Submission></h4>
+                        <a href="#" onclick="return false;" class="text-white cur-hover-not-allowed">
+                            <h4>Submission</h4>
                         </a>
                     </div>
                 </div>
@@ -42,34 +42,28 @@
         </div>
         <!-- row -->
         <h3 class="my-3">Contributions are sought in the following areas:</h3>
-        <div class="row"><!-- HACK : use gulp-include to expand the contents -->
-            @@for(var i=0, d=[
-            ["Analog and Mixed-Signal Circuits (AMS)", 
-            "Analog/mixed-signal circuits, RF and communication circuits, adaptive circuits, interconnects, VLSI aspects of sensor and sensor network."], 
-            ["Computer-Aided Design and Verification (CAD)","Hardware/software co-design, logic and behavioral synthesis, simulation and formal verification, physical design, signal integrity, power and thermal analysis, statistical approaches."], 
-            ["Digital Circuits and FPGA based Designs (DCF)","Digital circuits, chaos/neural/fuzzy-logic circuits, high speed/low-power circuits, energy efficient circuits, near and sub-threshold circuits, memories, FPGA designs, FPGA based systems."],
-            ["Emerging and Post-CMOS Technologies (EPT)","Nanotechnology, molecular electronics, quantum devices, optical computing, spin-based computing, biologically-inspired computing, CNT, SET, RTD, QCA, reversible logic, and CAD tools for emerging technology devices and circuits."],
-            ["System Design and Security (SDS)","Structured and Custom Design methodologies, microprocessors/micro-architectures for performance and low power, embedded processors, analog/digital/mixed-signal systems, NoC, power and temperature aware designs, Hardware security, Cryptography, watermarking, and IP protection, TRNG and security oriented circuits, PUF circuits."],
-            ["Testing, Reliability, and Fault-Tolerance (TRF)","Analog/digital/mixed-signal testing, design for testability and reliability, online testing techniques, static and dynamic defect- and fault-recoverability, and variation aware design."]
-            ];
-             i<d.length; 
-             i++ ){
-            <div class="col-12 col-md-4 my-auto text-center"><p><strong>`+(i+1)+`. `+d[i][0]+`</strong></p></div>
-            <div class="col-12 col-md-8 "><p class="text-justify">`+d[i][1]+`</p></div>
-        }
-        </div>
-        <hr>
-        <!-- /.row -->
         <div class="row">
-            <div class="col"><p class="text-justify">
-                The Symposium Program will include contributed papers and speakers invited by the Program Committee as well as a poster session. The keynotes, special sessions and Student Research Forum are planned as well. Authors are invited to submit full-length, original, unpublished papers. To enable blind review, <strong>the author list should be omitted</strong> from the main document. Initial submissions to the conference are limited to <strong>six pages</strong> in PDF format.</p>
-            </div>
+            <!-- HACK : use gulp-include to expand the contents , #TODO: replace it using gulp-swig -->
+            @@for(var i=0, d=[ ["Analog and Mixed-Signal Circuits (AMS)", "Analog/mixed-signal circuits, RF and communication circuits, adaptive circuits, interconnects, VLSI aspects of sensor and sensor network."], ["Computer-Aided Design and Verification (CAD)","Hardware/software co-design, logic and behavioral synthesis, simulation and formal verification, physical design, signal integrity, power and thermal analysis, statistical approaches."], ["Digital Circuits and FPGA based Designs (DCF)","Digital circuits, chaos/neural/fuzzy-logic circuits, high speed/low-power circuits, energy efficient circuits, near and sub-threshold circuits, memories, FPGA designs, FPGA based systems."], ["Emerging and Post-CMOS Technologies (EPT)","Nanotechnology, molecular electronics, quantum devices, optical computing, spin-based computing, biologically-inspired computing, CNT, SET, RTD, QCA, reversible logic, and CAD tools for emerging technology devices and circuits."], ["System Design and Security (SDS)","Structured and Custom Design methodologies, microprocessors/micro-architectures for performance and low power, embedded processors, analog/digital/mixed-signal systems, NoC, power and temperature aware designs, Hardware security, Cryptography, watermarking, and IP protection, TRNG and security oriented circuits, PUF circuits."], ["Testing, Reliability, and Fault-Tolerance (TRF)","Analog/digital/mixed-signal testing, design for testability and reliability, online testing techniques, static and dynamic defect- and fault-recoverability, and variation aware design."] ]; i
+            <d.length; i++ ){ <div class="col-12 col-md-4 my-auto text-center">
+                <p><strong>`+(i+1)+`. `+d[i][0]+`</strong></p>
         </div>
-         <div class="my-5"></div>
-
-
-        <!-- Related Projects Row -->
-        <!-- <h3 class="my-4 ">Related Projects</h3>
+        <div class="col-12 col-md-8 ">
+            <p class="text-justify">`+d[i][1]+`</p>
+        </div>
+        }
+    </div>
+    <hr>
+    <!-- /.row -->
+    <div class="row">
+        <div class="col">
+            <p class="text-justify">
+                The Symposium Program will include contributed papers and speakers invited by the Program Committee as well as a poster session. The keynotes, special sessions and Student Research Forum are planned as well. Authors are invited to submit full-length, original, unpublished papers. To enable blind review, <strong>the author list should be omitted</strong> from the main document. Initial submissions to the conference are limited to <strong>six pages</strong> in PDF format.</p>
+        </div>
+    </div>
+    <div class="my-5"></div>
+    <!-- Related Projects Row -->
+    <!-- <h3 class="my-4 ">Related Projects</h3>
         <div class="row ">
             <div class="col-md-3 col-sm-6 mb-4 ">
                 <a href="# ">
@@ -92,13 +86,11 @@
           </a>
             </div>
         </div> -->
-        <!-- /.row -->
+    <!-- /.row -->
     </div>
-
     <!-- /.container -->
     <!-- Footer -->
     @@include('./component/footer.p.html',{ "parentRel": "@@webRoot" })
-
 </body>
 
 </html>

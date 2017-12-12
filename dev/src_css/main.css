@@ -80,3 +80,7 @@ body {
 .color-isvlsi-blue{
   color: #2a20cf;
 }
+
+.cur-hover-not-allowed:hover { 
+  cursor: not-allowed; 
+}
