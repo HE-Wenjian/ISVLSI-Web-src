@@ -57,11 +57,15 @@
             ]
         },
         {
-            "tittle": "PhD Forum Chair",
+            "tittle": "PhD Forum Chairs",
             "people": [
                 {
                     "name": "Anupam Chattopadhyay",
                     "addr": "Nanyang Technological University, Singapore"
+                },
+                {
+                    "name": "Zheng Wang",
+                    "addr": "Shenzhen Institutes of Advanced Technology (SIAT) of the Chinese Academy of Science (CAS)"
                 }
             ]
         },
