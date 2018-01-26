@@ -1,0 +1,7 @@
+[ftp]
+IP=!!!!!!!!!!! YOUR_FTP_IP !!!!!!!!!!!!!!!
+username=!!!!!!!!!!! YOUR_FTP_USERNAME !!!!!!!!!!!!!!!
+password=!!!!!!!!!!! YOUR_FTP_PASSWORK !!!!!!!!!!!!!!!
+source_dir=./publish
+remote_dir=.
+parallel=4
