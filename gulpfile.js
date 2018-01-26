@@ -15,6 +15,7 @@ var gCleanCSS = require('gulp-clean-css');
 const gIf = require('gulp-if');
 var gData = require('gulp-data');
 var gSwig = require('gulp-swig');
+//var gHtmlHint = require("gulp-htmlhint");
 //var gFrontMatter = require('gulp-front-matter');
 //var MergeStream = require('merge-stream');
 var pkg = require('./package.json');
@@ -71,6 +72,7 @@ gulp.task('compile_html', ['clean-debug'], function() {
             prefix: '@@',
             basepath: './dev'
         }))
+        //.pipe(gHtmlHint()).pipe(gHtmlHint.failOnError())
         .pipe(gIf(!DEBUG_MODE,
             gHtmlMin({
                 collapseWhitespace: true,
