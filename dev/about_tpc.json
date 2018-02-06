@@ -19,39 +19,14 @@
         }],
         "track_chairs": [
         {
+            "track": "AMS",
+            "affiliation": "LSU",
+            "name": "Ashok Srivastava"
+        },
+        {
             "track": "CAD",
             "affiliation": "University of Calgary",
             "name": "Laleh Behjat"
-        },
-        {
-            "track": "TRF",
-            "affiliation": "LIRMM",
-            "name": "Alberto Bosio"
-        },
-        {
-            "track": "SSP",
-            "affiliation": "Acadamia Sincia",
-            "name": "Yuan-Hao Chang"
-        },
-        {
-            "track": "SRF",
-            "affiliation": "Nanyang Technological Univr. Singapore",
-            "name": "Anupam Chattopadhyay"
-        },
-        {
-            "track": "DCF",
-            "affiliation": "University of Arkansas",
-            "name": "Jia Di"
-        },
-        {
-            "track": "TRF",
-            "affiliation": "Technical University of Munich",
-            "name": "Bing Li"
-        },
-        {
-            "track": "EPT",
-            "affiliation": "",
-            "name": "Jeyavijayan Rajendran"
         },
         {
             "track": "CAD",
@@ -59,9 +34,19 @@
             "name": "Yiyu Shi"
         },
         {
-            "track": "AMS",
-            "affiliation": "LSU",
-            "name": "Ashok Srivastava"
+            "track": "DCF",
+            "affiliation": "City University of New York",
+            "name": "Bo Yuan"
+        },
+        {
+            "track": "DCF",
+            "affiliation": "University of Arkansas",
+            "name": "Jia Di"
+        },
+        {
+            "track": "EPT",
+            "affiliation": "Texas A&M University",
+            "name": "Jeyavijayan Rajendran"
         },
         {
             "track": "EPT",
@@ -74,19 +59,34 @@
             "name": "Chengmo Yang"
         },
         {
-            "track": "SSP",
-            "affiliation": "The Chinese University of Hong Kong",
-            "name": "Bei Yu"
-        },
-        {
             "track": "SDS",
             "affiliation": "University of New Hampshire",
             "name": "Qiaoyan Yu"
         },
         {
-            "track": "DCF",
-            "affiliation": "City University of New York",
-            "name": "Bo Yuan"
+            "track": "TRF",
+            "affiliation": "Technical University of Munich",
+            "name": "Bing Li"
+        },
+        {
+            "track": "TRF",
+            "affiliation": "LIRMM",
+            "name": "Alberto Bosio"
+        }],
+        "special_track_chairs" : [{
+            "track": "SSP",
+            "affiliation": "The Chinese University of Hong Kong",
+            "name": "Bei Yu"
+        },
+        {
+            "track": "SSP",
+            "affiliation": "Acadamia Sincia",
+            "name": "Yuan-Hao Chang"
+        },
+        {
+            "track": "<span data-toggle=\"tooltip\" data-delay=\"1\" title=\"Student Research Forum\">SRF</span>",
+            "affiliation": "Nanyang Technological Univr. Singapore",
+            "name": "Anupam Chattopadhyay"
         }],
         "members": [
         {
@@ -98,7 +98,7 @@
             "name": "Christophe Bobda"
         },
         {
-            "affiliation": "",
+            "affiliation": "Université catholique de Louvain",
             "name": "David Bol"
         },
         {
@@ -186,7 +186,7 @@
             "name": "Chen Liu"
         },
         {
-            "affiliation": "",
+            "affiliation": "Clarkson University",
             "name": "Chenchen Liu"
         },
         {
@@ -198,7 +198,7 @@
             "name": "Nele Mentens"
         },
         {
-            "affiliation": "",
+            "affiliation": "NaMLab",
             "name": "Thomas Mikolajick"
         },
         {
@@ -242,7 +242,7 @@
             "name": "Jose Pineda De Gyvez"
         },
         {
-            "affiliation": "",
+            "affiliation": "Grenoble INP",
             "name": "Michele Portolan"
         },
         {
