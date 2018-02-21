@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+@@include('./component/head.p.html',{ "title" : "TPC - ISVLSI 2018", "parentRel": "@@webRoot" })
+
+<body>
+    <!-- Navigation : navbar -->
+    @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "committee" })
+    <!-- Page Content -->
+    <div class="container">
+        <!-- Title -->
+        <h1 class="mt-4 mb-4">Committees</h1>
+        <div class="row">
+            <!--  -->
+            <!-- Sidebar Column -->
+            @@include('./committee_sidecol.p.html',{"parentRel": "@@webRoot", "page": "about_tpc" })
+            <!-- Content Column -->
+            <div class="col-12 order-1 col-md-9 order-md-12 mb-4">
+                <!--  -->
+                <!-- General Row -->
+                <!-- <h2 class="mb-3">IEEE Computer Society Annual Symposium on VLSI</h2> -->
+                <!-- <div class="row mb-4">
+                    <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto">
+                        <img class="img-fluid d-block mx-auto" style="max-height: 100px" src="@@webRoot/img/ISVLSI_lable.png" alt="ISVLSI" />
+                    </div>
+                    <div class="col-12 col-sm-9 col-md-9 col-lg-10">
+                        <p class="text-justify">The Symposium explores emerging trends and novel ideas and concepts covering a broad range of topics in the area of VLSI: from VLSI circuits, systems and design methods, to system level design and system-on-chip issues, to bringing VLSI methods to new areas and technologies like nano- and molecular devices, hardware security, etc.</p>
+                    </div>
+                </div> -->
+                <!-- <div class="row">
+                    <div class="col-12">
+                        <p class="text-center">
+                            <a class="btn btn-lg btn-success"  target="_blank" href="http://ieeexplore.ieee.org/search/searchresult.jsp?queryText=IEEE Computer Society Annual Symposium on VLSI">
+                <i class="fa fa-book fa-2x pull-left pt-2"></i> Past ISVLSI &nbsp; &nbsp;<br>Proceedings</a>
+                        </p>
+                    </div>
+                </div> -->
+                <!-- <div class="col-12">
+                    <hr>
+                </div> -->
+                <!--  -->
+                <!-- Committees Start -->
+                <h2 class="mt-4" id="id-committee">ISVLSI 2018 Technical Program Committee</h2>
+                <div class="row">
+                    <div class="col-12">
+                        <hr>
+                    </div>
+                </div>
+                <!-- Begin -->
+                <div class="row">
+                    <div class="col-12">
+                        <h3>TPC Chairs</h3>
+                    </div>
+                    {% for p in tpc.tpc_chairs %}
+                    <div class="col-10 col-sm-5">
+                        <p><strong>{{p.name}}</strong>
+                            <br>{{p.addr}} {% if "email" in p %}
+                            <br><span class="text-secondary">{{p.email}}</span> {% endif %}
+                        </p>
+                    </div>
+                    {% endfor %}
+                    <div class="col-12">
+                        <hr/>
+                    </div>
+                    <div class="col-12">
+                        <h3>Track Chairs</h3>
+                        <table class="table table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Affiliation</th>
+                                    <th scope="col">Track</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for p in tpc.track_chairs %}
+                                <tr>
+                                    <td>{{p.name}}</td>
+                                    <td>{{p.affiliation}}</td>
+                                    <td>{{p.track}}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                        <hr/>
+                    </div>
+
+                    <div class="col-12">
+                    	<h3>Technical Program Committee Members</h3>
+                        <table class="table table-hover table-sm">
+                            <!-- <thead>
+                                <tr>
+                                    <th scope="col">Name</th>
+                                    <th scope="col">Requirement</th>
+                                    <th scope="col">Visa-free Stay</th>
+                                </tr>
+                            </thead> -->
+                            <tbody>
+                                {% for p in tpc.members %}
+                                <tr>
+                                    <td>{{p.name}}</td>
+                                    <td>{{p.affiliation}}</td>
+                                </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /.container -->
+    <!-- Footer -->
+    @@include('./component/footer.p.html',{"parentRel": "@@webRoot" })
+</body>
+
+</html>

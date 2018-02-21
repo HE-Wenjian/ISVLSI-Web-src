@@ -20,5 +20,62 @@
             "q": "Will I be able to use my electrical equipment in Hong Kong?",
             "ans": "The standard electrical voltage in Hong Kong is 220 volts AC, 50Hz. Most hotel bathrooms also have outlets for 100 volts, but if not, you will need a transformer for any appliance or electrical equipment. The majority of electrical outlets in Hong Kong take a three-pronged UK-style plug. You can buy an inexpensive adaptor for your electrical equipment at most convenience stores."
         }
+    ],
+    "visainfo":[
+        {
+            "region" : "U.S.A.",
+            "requires" : "",
+            "visafreedays": "90 Days"
+        },
+        {
+            "region" : "India",
+            "requires" : "Complete the Pre-arrival Registration (PAR) online to enable visa-free stay. <a href=\"http://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_indian_nationals.html\" target=\"_blank\" >Details</a>",
+            "visafreedays": "14 Days"
+        },
+        {
+            "region" : "Mainland China",
+            "requires" : "Entry permit (往来港澳通行证) required.",
+            "visafreedays": "-"
+        },
+        {
+            "region" : "Taiwan",
+            "requires" : "Please refer to the <a href=\"http://www.immd.gov.hk/eng/services/visas/overseas-chinese-entry-arrangement.html#c\" target=\"_blank\" >Entry Arrangements for Chinese residents of Taiwan</a> for details.",
+            "visafreedays": "-"
+        },
+        {
+            "region" : "Japan",
+            "requires" : "",
+            "visafreedays": "90 Days"
+        },
+        {
+            "region" : "Singapore",
+            "requires" : "",
+            "visafreedays": "90 Days"
+        },
+        {
+            "region" : "Germany",
+            "requires" : "",
+            "visafreedays": "90 Days"
+        },
+        {
+            "region" : "British",
+            "requires" : "",
+            "visafreedays": "90 Days"
+        },
+        {
+            "region" : "South Korea",
+            "requires" : "",
+            "visafreedays": "90 Days"
+        },
+        {
+            "region" : "Switzerland",
+            "requires" : "",
+            "visafreedays": "90 Days"
+        },
+        {
+            "region" : "<b>Other</b>",
+            "requires" : "<a href=\"http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html\" target=\"_blank\" ><b>Check with the Hong Kong Immigration Department</b></a>",
+            "visafreedays": ""
+        }
     ]
 }

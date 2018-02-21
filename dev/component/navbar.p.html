@@ -10,34 +10,44 @@
                     <a class="@@if(page==='index'){active }nav-link" href="@@parentRel/index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="@@if(page==='program'){active }nav-link dropdown-toggle " href="#" id="navbarDropdown-prog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program
-                    </a>
+                    <a class="@@if(page==='program'){active }nav-link dropdown-toggle disabled" href="#" id="navbarDropdown-prog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Program</a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown-prog">
-                        <a class="dropdown-item" href="@@parentRel/#">Comming soon...</a>
-                        <a class="dropdown-item disabled" href="@@parentRel/#">Registration</a>
+                    	<!-- <div class="dropdown-divider"></div> -->
+                    	<h6 class="dropdown-header">Comming soon...</h6>
+                        <a class="dropdown-item disabled" href="@@parentRel/submission.html">Registration</a>
                         <a class="dropdown-item disabled" href="@@parentRel/#">Schedule</a>
-                        <a class="dropdown-item disabled" href="@@parentRel/#">Keynote</a>
-                        <a class="dropdown-item disabled" href="@@parentRel/#">Ph.D. Forum</a>
-                        <a class="dropdown-item disabled" href="@@parentRel/#">Social Events</a>
+                        <a class="dropdown-item disabled" href="@@parentRel/submission.html#specialsession">Keynote</a>
+                        <a class="dropdown-item disabled" href="@@parentRel/submission.html#specialsession">Social Events</a>
+                        <a class="dropdown-item disabled" href="@@parentRel/submission.html#studentforum">Student Research Forum</a>
                     </div>
                 </li>
                 <!-- <li class="nav-item">
                     <a class="@@if(page==='blg1'){active }nav-link" href="@@parentRel/news/blg1.html">test</a>
                 </li> -->
-                <li class="nav-item">
-                    <a class="@@if(page==='submission'){active }nav-link" href="@@parentRel/submission.html">Submission</a>
+                <li class="nav-item dropdown">
+                    <a class="@@if(page==='submission'){active }nav-link dropdown-toggle" href="#" id="navbarDropdown-about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Submission</a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown-about">
+                        <a class="dropdown-item" href="@@parentRel/submission.html">Call For Papers</a>
+                        <a class="dropdown-item" href="@@parentRel/submission.html#specialsession">Special Session Proposal</a>
+                        <a class="dropdown-item" href="@@parentRel/submission.html#studentforum">Student Research Forum</a>
+                    </div>
                 </li>
+                <!-- <li class="nav-item">
+                    <a class="@@if(page==='submission'){active }nav-link" href="@@parentRel/submission.html">Submission</a>
+                </li> -->
                 <li class="nav-item">
                     <a class="@@if(page==='travel'){active }nav-link" href="@@parentRel/travel.html">Travel</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="@@if(page==='about'){active }nav-link dropdown-toggle" href="#" id="navbarDropdown-about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About
-                    </a>
+                    <a class="@@if(page==='about'){active }nav-link dropdown-toggle" href="#" id="navbarDropdown-about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown-about">
-                        <a class="dropdown-item" href="@@parentRel/about.html">Committee</a>
+                        <!-- <a class="dropdown-item" href="@@parentRel/about.html">Committee</a> -->
                         <a class="dropdown-item" href="@@parentRel/about_pastconf.html">Past Conferences</a>
                         <a class="dropdown-item" href="@@parentRel/about_sisconf.html">Sister Conferences</a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a class="@@if(page==='committee'){active }nav-link" href="@@parentRel/about.html">Committee</a>
                 </li>
             </ul>
         </div>

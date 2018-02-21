@@ -64,7 +64,10 @@ gulp.task('compile_html', ['clean-debug'], function() {
         .pipe(gIf(DEBUG_MODE, gDebug({ showFiles: true, title: '[HTML] JSON Loaded:' })))
         .pipe(gSwig({
             load_json: false,
-            defaults: { cache: false }
+            defaults: { 
+                cache: false, 
+                locals: { gettime_now : function () { return new Date(); } }
+            }
         }))
         .pipe(gIf(DEBUG_MODE, gDebug({ showFiles: true, title: '[HTML] Swig Done:' })))
         .pipe(gIf(DEBUG_MODE, gulp.dest('./debug/post-swig/')))

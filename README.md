@@ -16,6 +16,7 @@ This project uses gulp workflow to generate the target files. Source code is in 
 
 ### Basic
 
+0. Setup the environment.
 1. Edit source files in the "dev" folder.
 2. Compile the site:
     * command: `gulp force-html`

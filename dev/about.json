@@ -5,15 +5,18 @@
             "people": [
                 {
                     "name": "Wei Zhang",
-                    "addr": "Hong Kong Univ. of Science and Technology"
+                    "addr": "Hong Kong Univ. of Science and Technology",
+                    "email": "wei.zhang@ust.hk"
                 },
                 {
                     "name": "Jason Xue",
-                    "addr": "City Univ. of Hong Kong"
+                    "addr": "City Univ. of Hong Kong",
+                    "email": "jasonxue@cityu.edu.hk"
                 },
                 {
                     "name": "Zili Shao",
-                    "addr": "Hong Kong Polytechnic Univ."
+                    "addr": "Hong Kong Polytechnic Univ.",
+                    "email": "cszlshao@comp.polyu.edu.hk"
                 }
             ]
         },
@@ -22,15 +25,18 @@
             "people": [
                 {
                     "name": "Hai Li",
-                    "addr": "Duke University, USA"
+                    "addr": "Duke University, USA",
+                    "email": "hai.li@duke.edu"
                 },
                 {
                     "name": "Yu Wang",
-                    "addr": "Tsinghua University, China"
+                    "addr": "Tsinghua University, China",
+                    "email": "yu-wang@tsinghua.edu.cn"
                 },
                 {
                     "name": "Wujie Wen",
-                    "addr": "Florida International Univ., USA"
+                    "addr": "Florida International Univ., USA",
+                    "email": "wwen@fiu.edu"
                 }
             ]
         },
@@ -57,11 +63,15 @@
             ]
         },
         {
-            "tittle": "PhD Forum Chair",
+            "tittle": "Student Research Forum Chairs",
             "people": [
                 {
                     "name": "Anupam Chattopadhyay",
                     "addr": "Nanyang Technological University, Singapore"
+                },
+                {
+                    "name": "Zheng Wang",
+                    "addr": "Shenzhen Institutes of Advanced Technology (SIAT) of the Chinese Academy of Science (CAS)"
                 }
             ]
         },
@@ -100,7 +110,10 @@
                 {
                     "name": "Chun-Yi Lee",
                     "addr": "National Tsinghua University, Taiwan"
-                }
+                },{
+"name":"Dhruva Ghai",
+"addr":"Oriental University, India"
+}
             ]
         },
         {
@@ -144,6 +157,10 @@
                 {
                     "name": "Jürgen Becker",
                     "addr": "Karlsruhe Institute of Technology, Germany"
+                },
+                {
+                    "name": "Zhihong Wu",
+                    "addr": "Tongji University, China"
                 }
             ]
         }

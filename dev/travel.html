@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
-@@include('./component/head.p.html',{ "title" : "ISVLSI 2018", "parentRel": "@@webRoot", "moreCSS" : ["NULL"] })
+@@include('./component/head.p.html',{ "title" : "Travel - ISVLSI 2018", "parentRel": "@@webRoot", "moreCSS" : ["NULL"] })
 
 <body>
     <!-- Navigation : navbar -->
@@ -81,10 +81,61 @@
             </div>
             {% endfor %}
         </div>
-    </section>
-    <div class="container my-4">
         <hr>
-    </div>
+        <div class="row" id="hong-kong-visa">
+            <div class="col">
+                <h4 class="my-3"><b>Visa Policy</b></h4>
+                <p class="text-justify">As a Special Administrative Region of China, the visa policy of Hong Kong is <b>different from Mainland China</b>. Visitors from <b>most countries</b> can enter Hong Kong <b>without a visa</b> for periods of 7 to 180 days, depending on nationality. However, you are strongly recommended to <b>check with <a href="http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html" target="_blank" >the Hong Kong Immigration Department</a></b> for details about visa requirements.</p>
+                <p>We list the visa policy towards some countries/regions for your reference:<sup>*</sup></p>
+                <table class="table table-hover table-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">You are from<br>(Country/Region)</th>
+                            <th scope="col">Requirement</th>
+                            <th scope="col">Visa-free Stay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in visainfo %}
+                        <tr>
+                            <td>{{item.region|safe}}</td>
+                            <td>{% if item.requires == "" %}-{% else %}<i class="fa fa-exclamation-circle" aria-hidden="true"></i> {{item.requires|safe}}</td>{% endif %}
+                            <td>{{item.visafreedays}}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <sup>* The information is gathered from the Hong Kong Immigration Department website and is subject to change without notice. You are strongly recommended to double <b>check with <a href="http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html" target="_blank" >the Hong Kong Immigration Department</a></b>.</sup>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <div class="card h-100">
+                    <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_airport_sm.jpg" alt="Hong Kong Airport"> -->
+                    <div class="card-body">
+                        <h4 class="card-title text-center">
+                HK International Airport (Code: HKG)
+              </h4>
+                        <p class="card-text text-justify">Hong Kong is a key aviation hub serviced by more than 100 airlines that provide connections to major cities throughout the world. Your gateway to the city is the 24-hour Hong Kong International Airport, which is consistently ranked among the best airports in the world.</p>
+                        <p class="card-text text-justify">It takes approximately 30-40 minutes by taxi or 1 hour via public transportation to reach from the airport to the conference venue.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <div class="card h-100">
+                    <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_hotel_sm.jpg" alt="Hong Kong Airport"> -->
+                    <div class="card-body">
+                        <h4 class="card-title text-center">
+                Accommodation
+              </h4>
+                        <p class="card-text text-justify">As an international tourist city, Hong Kong offers plenty of choices of accommodation.</p>
+                        <p class="card-text">More information will be provided in the future.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- FAQ -->
     <section class="container">
         <div class="row">
@@ -390,6 +441,7 @@
         }
         window.open(protocal + "://maps.google.com/maps?daddr=22.3028, 114.1786&amp;ll=");
     }
+
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFsHWCKp0h5YZbDYOql16ZETPOCNDv2GU&callback=initggMap"></script>
 </body>

@@ -1,0 +1,329 @@
+{
+    "tpc":
+    {
+        "tpc_chairs": [
+        {
+            "name": "Hai Li",
+            "addr": "Duke University, USA",
+            "email": "hai.li@duke.edu"
+        },
+        {
+            "name": "Yu Wang",
+            "addr": "Tsinghua University, China",
+            "email": "yu-wang@tsinghua.edu.cn"
+        },
+        {
+            "name": "Wujie Wen",
+            "addr": "Florida International Univ., USA",
+            "email": "wwen@fiu.edu"
+        }],
+        "track_chairs": [
+        {
+            "track": "AMS",
+            "affiliation": "LSU",
+            "name": "Ashok Srivastava"
+        },
+        {
+            "track": "CAD",
+            "affiliation": "University of Calgary",
+            "name": "Laleh Behjat"
+        },
+        {
+            "track": "CAD",
+            "affiliation": "University of Notre Dame",
+            "name": "Yiyu Shi"
+        },
+        {
+            "track": "DCF",
+            "affiliation": "City University of New York",
+            "name": "Bo Yuan"
+        },
+        {
+            "track": "DCF",
+            "affiliation": "University of Arkansas",
+            "name": "Jia Di"
+        },
+        {
+            "track": "EPT",
+            "affiliation": "Texas A&M University",
+            "name": "Jeyavijayan Rajendran"
+        },
+        {
+            "track": "EPT",
+            "affiliation": "CNRS-LIRMM",
+            "name": "Aida Todri-Sanial"
+        },
+        {
+            "track": "SDS",
+            "affiliation": "University of Delaware",
+            "name": "Chengmo Yang"
+        },
+        {
+            "track": "SDS",
+            "affiliation": "University of New Hampshire",
+            "name": "Qiaoyan Yu"
+        },
+        {
+            "track": "TRF",
+            "affiliation": "Technical University of Munich",
+            "name": "Bing Li"
+        },
+        {
+            "track": "TRF",
+            "affiliation": "LIRMM",
+            "name": "Alberto Bosio"
+        }],
+        "special_track_chairs" : [{
+            "track": "SSP",
+            "affiliation": "The Chinese University of Hong Kong",
+            "name": "Bei Yu"
+        },
+        {
+            "track": "SSP",
+            "affiliation": "Acadamia Sincia",
+            "name": "Yuan-Hao Chang"
+        },
+        {
+            "track": "<span data-toggle=\"tooltip\" data-delay=\"1\" title=\"Student Research Forum\">SRF</span>",
+            "affiliation": "Nanyang Technological Univr. Singapore",
+            "name": "Anupam Chattopadhyay"
+        }],
+        "members": [
+        {
+            "affiliation": "University of Sharjah",
+            "name": "Aisha Alhammadi"
+        },
+        {
+            "affiliation": "University of Arkansas",
+            "name": "Christophe Bobda"
+        },
+        {
+            "affiliation": "Université catholique de Louvain",
+            "name": "David Bol"
+        },
+        {
+            "affiliation": "Catholic University of Rio Grande do Sul (PUCRS)",
+            "name": "Leticia Bolzani Poehls"
+        },
+        {
+            "affiliation": "Silicon Biosystems",
+            "name": "Fabio Campi"
+        },
+        {
+            "affiliation": "Nanyang Technological University",
+            "name": "Vivek Chaturvedi"
+        },
+        {
+            "affiliation": "IST / INESC-ID",
+            "name": "Ricardo Chaves"
+        },
+        {
+            "affiliation": "Univ. Central Florida",
+            "name": "Ronald Demara"
+        },
+        {
+            "affiliation": "Technological Educational Institute of Western Greece",
+            "name": "Apostolos Fournaris"
+        },
+        {
+            "affiliation": "Unina",
+            "name": "Edoardo Fusella"
+        },
+        {
+            "affiliation": "Mentor Graphics Corporation",
+            "name": "Kunal Ganeshpure"
+        },
+        {
+            "affiliation": "Universit\u00e9 de Bretagne Sud - UEB",
+            "name": "Guy Gogniat"
+        },
+        {
+            "affiliation": "University of Florida",
+            "name": "Ann Gordon-Ross"
+        },
+        {
+            "affiliation": "Grenoble INP",
+            "name": "David Hely"
+        },
+        {
+            "affiliation": "University of Missouri \u2013 Kansas City",
+            "name": "Munem Hossain"
+        },
+        {
+            "affiliation": "IMS Laboratory",
+            "name": "Christophe Jego"
+        },
+        {
+            "affiliation": "Peking University",
+            "name": "Hailong Jiao"
+        },
+        {
+            "affiliation": "University of Florida",
+            "name": "Yier Jin"
+        },
+        {
+            "affiliation": "Intel",
+            "name": "Arun Kanuparthi"
+        },
+        {
+            "affiliation": "polytechnic institute of NYU",
+            "name": "Ramesh Karri"
+        },
+        {
+            "affiliation": "zGlue Inc",
+            "name": "Rakesh Kumar"
+        },
+        {
+            "affiliation": "GLOBALFOUNDRIES Singapore",
+            "name": "Yongfu Li"
+        },
+        {
+            "affiliation": "Peking University",
+            "name": "Eric Liang"
+        },
+        {
+            "affiliation": "Intel",
+            "name": "Chen Liu"
+        },
+        {
+            "affiliation": "Clarkson University",
+            "name": "Chenchen Liu"
+        },
+        {
+            "affiliation": "New York University",
+            "name": "Michail Maniatakos"
+        },
+        {
+            "affiliation": "Katholieke Universiteit Leuven",
+            "name": "Nele Mentens"
+        },
+        {
+            "affiliation": "NaMLab and TU Dresden",
+            "name": "Thomas Mikolajick"
+        },
+        {
+            "affiliation": "University of North Texas",
+            "name": "Saraju Mohanty"
+        },
+        {
+            "affiliation": "PUCRS",
+            "name": "Fernando Moraes"
+        },
+        {
+            "affiliation": "Kansas State University",
+            "name": "Arslan Munir"
+        },
+        {
+            "affiliation": "Avago Technologies",
+            "name": "Nagi Naganathan"
+        },
+        {
+            "affiliation": "Colorado State University",
+            "name": "Mahdi Nikdast"
+        },
+        {
+            "affiliation": "University of Leicester",
+            "name": "Luciano Ost"
+        },
+        {
+            "affiliation": "Florida International University",
+            "name": "Nezih Pala"
+        },
+        {
+            "affiliation": "University Bremen",
+            "name": "Steffen Paul"
+        },
+        {
+            "affiliation": "Linkoping University",
+            "name": "Zebo Peng"
+        },
+        {
+            "affiliation": "NXP Semiconductors",
+            "name": "Jose Pineda De Gyvez"
+        },
+        {
+            "affiliation": "Grenoble INP",
+            "name": "Michele Portolan"
+        },
+        {
+            "affiliation": "University of Piraeus",
+            "name": "Mihalis Psarakis"
+        },
+        {
+            "affiliation": "University of Massachusetts at Amherst",
+            "name": "Rance Rodrigues"
+        },
+        {
+            "affiliation": "University of Tennessee",
+            "name": "Garrett Rose"
+        },
+        {
+            "affiliation": "Federal University of Santa Maria",
+            "name": "Mateus Rutzig"
+        },
+        {
+            "affiliation": "IIT-Bombay",
+            "name": "Maryam Shojaei Baghini"
+        },
+        {
+            "affiliation": "Nanyang Technological University",
+            "name": "Sharad Sinha"
+        },
+        {
+            "affiliation": "University of Patras",
+            "name": "Nicolas Sklavos"
+        },
+        {
+            "affiliation": "Politecnico di Torino",
+            "name": "Matteo Sonza Reorda"
+        },
+        {
+            "affiliation": "National Technical University of Athens",
+            "name": "Dimitrios Soudris"
+        },
+        {
+            "affiliation": "University of Kentucky",
+            "name": "Himanshu Thapliyal"
+        },
+        {
+            "affiliation": "University of Cyprus",
+            "name": "Theocharis Theocharides"
+        },
+        {
+            "affiliation": "LIRMM",
+            "name": "Lionel Torres"
+        },
+        {
+            "affiliation": "Aries Design Automation",
+            "name": "Miroslav Velev"
+        },
+        {
+            "affiliation": "Federal  University of Technology - Parana",
+            "name": "Marco Wehrmeister"
+        },
+        {
+            "affiliation": "University of Nebraska\u2013Lincoln",
+            "name": "Sheng Wei"
+        },
+        {
+            "affiliation": "Kyushu Institute of Technology",
+            "name": "Xiaoqing Wen"
+        },
+        {
+            "affiliation": "Tsinghua University",
+            "name": "Dong Xiang"
+        },
+        {
+            "affiliation": "Hong Kong Universtiy of Science and Technology",
+            "name": "Jiang Xu"
+        },
+        {
+            "affiliation": "Old Dominion University",
+            "name": "Weize Yu"
+        },
+        {
+            "affiliation": "Univ of South Florida",
+            "name": "Hao Zheng"
+        }]
+    }
+}
