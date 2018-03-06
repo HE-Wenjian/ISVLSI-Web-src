@@ -166,7 +166,7 @@
             "name": "Arun Kanuparthi"
         },
         {
-            "affiliation": "polytechnic institute of NYU",
+            "affiliation": "Polytechnic Institute of NYU",
             "name": "Ramesh Karri"
         },
         {
@@ -298,7 +298,7 @@
             "name": "Miroslav Velev"
         },
         {
-            "affiliation": "Federal  University of Technology - Parana",
+            "affiliation": "Federal University of Technology - Parana",
             "name": "Marco Wehrmeister"
         },
         {
@@ -328,6 +328,14 @@
         {
             "affiliation": "University of Maryland, Baltimore County",
             "name": "Naghmeh Karimi"
+        },
+        {
+            "affiliation": "Indian Institute of Engineering Sci. and Tech., Shibpur",
+            "name": "Prasun Ghosal"
+        },
+        {
+            "affiliation": "Tsinghua University, China",
+            "name": "Shouyi Yin"
         }]
     }
 }
