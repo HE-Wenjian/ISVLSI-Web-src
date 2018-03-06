@@ -314,7 +314,7 @@
             "name": "Dong Xiang"
         },
         {
-            "affiliation": "Hong Kong Universtiy of Science and Technology",
+            "affiliation": "Hong Kong University of Science and Technology",
             "name": "Jiang Xu"
         },
         {
@@ -324,6 +324,10 @@
         {
             "affiliation": "Univ of South Florida",
             "name": "Hao Zheng"
+        },
+        {
+            "affiliation": "University of Maryland, Baltimore County",
+            "name": "Naghmeh Karimi"
         }]
     }
 }
