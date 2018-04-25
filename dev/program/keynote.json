@@ -1,0 +1,38 @@
+{
+	"page_keynote_list":[
+		"keynote_highlight_1","keynote_highlight_2","keynote_highlight_3"
+	],
+	"keynote_pool":{
+		"keynote_highlight_1" : {
+			"speaker":"K.-T. Tim Cheng",
+			"photo_path" : "img/speaker_photo/timcheng_portrait.jpg",
+			"affiliation":"Hong Kong University of Science and Technology",
+			"title":"Future Hybrid Circuits for Functionality, Performance and Energy Efficiency",
+			"bio":"K.-T. Tim Cheng received his Ph.D. in EECS from the University of California, Berkeley in 1988. He has been serving as Dean of Engineering and Chair Professor of ECE and CSE at Hong Kong University of Science and Technology (HKUST) since May 2016. He worked at Bell Laboratories from 1988 to 1993 and joined the faculty at Univ. of California, Santa Barbara in 1993 where he was the founding director of UCSB’s Computer Engineering Program (1999-2002), Chair of the ECE Department (2005-2008) and Associate Vice Chancellor for Research (2013-2016). His current research interests include design automation for photonics IC and flexible hybrid circuits, memristive memories, mobile embedded systems, and mobile computer vision. He has co-authored five books, supervised 50 PhD theses, held 12 U.S. Patents, and published extensively in these areas. He served as Director for US Department of Defense MURI Center for 3D hybrid circuits which aims at integrating CMOS with high-density memristors. <br>Cheng, an IEEE fellow, received 10+ Best Paper Awards from various IEEE and ACM conferences and journals. He has also received UCSB College of Engineering Outstanding Teaching Faculty Award. He served as Editor-in-Chief of IEEE Design and Test of Computers and was a board member of IEEE Council of Electronic Design Automation’s Board of Governors and IEEE Computer Society’s Publication Board."
+		},
+		"keynote_highlight_2" : {
+			"speaker":"Prof. Hironori Kasahara",
+			"time":"",
+			"affiliation":"IEEE Computer Society President 2018",
+			"title":"Low Power High Performance Multicore Hardware and Software Co-Design",
+			"photo_path":"img/speaker_photo/HironoriKasaharaIEEECS2018.jpg",
+			"bio":"Hironori Kasahara is an IEEE Computer Society President 2018 and a professor in the Department of Computer Science and Engineering at Waseda University. He is an IEEE Fellow, an IPSJ Fellow, a Golden Core Member of the IEEE Computer Society, a professional member of the IEEE Eta Kappa Nu, a member of the Engineering Academy of Japan and the Science Council of Japan. He received a PhD in 1985 from Waseda University, Tokyo, joined its faculty in 1986, and has been a professor of computer science since 1997 and a director of the Advanced Multicore Research Institute since 2004. He was a visiting scholar at University of California, Berkeley, and the University of Illinois at Urbana–Champaign’s Center for Supercomputing R&D. <br>He has served as a chair or member of 250 society and government committees, including a member of the CS Board of Governors and Executive Committee; chair of CS Planning Committee, Constitution & Bylaws Committee, Multicore STC and CS Japan chapter; associate editor of IEEE Transactions on Computers; vice PC chair of the 1996 ENIAC 50th Anniversary International Conference on Supercomputing; general chair of LCPC; PC member of SC, PACT, and ASPLOS; board member of IEEE Tokyo section; and member of the Earth Simulator and K supercomputer committees.  Kasahara received the CS Golden Core Member Award, IFAC World Congress Young Author Prize, Sakai Special Research Award, and the Japanese Minister’s Science and Technology Prize. He led Japanese national projects on parallelizing compilers and embedded multicores, and has presented 215 papers, 155 invited talks, and 30 patents. His research has appeared in 557 newspaper and Web articles."
+		},
+		"keynote_highlight_3" : {
+			"speaker":"Nikil Dutt",
+			"time":"",
+			"affiliation":"University of California, Irvine",
+			"title":"Self-Awareness for Heterogeneous MPSoCs: A Case Study using Adaptive, Reflective Middleware",
+			"photo_path":"img/speaker_photo/nikil_dutt.jpg",
+			"bio":"Nikil Dutt is a Chancellor's Professor of CS, Cognitive Sciences, and EECS at the University of California, Irvine.  He received a PhD from the University of Illinois at Urbana-Champaign (1989).  His research interests are in embedded systems, EDA, computer architecture and compilers, distributed systems, and brain-inspired architectures and computing. He has received numerous best paper awards and is coauthor of 7 books. Professor Dutt has served as EiC of ACM TODAES and AE for ACM TECS and IEEE TVLSI.  He is on the steering, organizing, and program committees of several premier EDA and Embedded System Design conferences and workshops, and has also been on the advisory boards of ACM SIGBED, ACM SIGDA, ACM TECS and IEEE ESL. He is an ACM Fellow, IEEE Fellow, and recipient of the IFIP Silver Core Award."
+		},
+		"keynote_template" : {
+			"speaker":"",
+			"time":"",
+			"affiliation":"",
+			"photo_path":"",
+			"title":"",
+			"bio":""
+		}
+	}
+}
