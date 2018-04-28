@@ -1,80 +1,106 @@
 {
     "faq": [
         {
-            "q": "Do I need a Visa to visit Hong Kong?",
-            "ans": "Visitors from most countries can enter Hong Kong without a visa for periods of 7 to 180 days, depending on nationality. However, you are strongly recommended to check with <a href=\"http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html\" target=\"_blank\" >the Hong Kong Immigration Department</a> for details about visa requirements."
+            "ans": "Visitors from most countries can enter Hong Kong without a visa for periods of 7 to 180 days, depending on nationality. However, you are strongly recommended to check with <a href=\"http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html\" target=\"_blank\" >the Hong Kong Immigration Department</a> for details about visa requirements.",
+            "q": "Do I need a Visa to visit Hong Kong?"
         },
         {
-            "q": "Is local transport easy to use?",
-            "ans": "Hong Kong has an excellent public transport system that is considered one of the best in the world. Depending on where you are going, you have a choice of MTR (subway), trains, buses, trams, ferries and taxis. These clean and efficient options cover extensive areas of Hong Kong and have signs and announcements in both English and Chinese."
+            "ans": "Hong Kong has an excellent public transport system that is considered one of the best in the world. Depending on where you are going, you have a choice of MTR (subway), trains, buses, trams, ferries and taxis. These clean and efficient options cover extensive areas of Hong Kong and have signs and announcements in both English and Chinese.",
+            "q": "Is local transport easy to use?"
         },
         {
-            "q": "Are credit cards widely accepted in shops?",
-            "ans": "It’s best to bring both cash in Hong Kong dollars and credit cards. Most shops in Hong Kong accept major credit cards; however, at open-air markets, most vendors will only take cash. Also note that the taxis only accept cash."
+            "ans": "It’s best to bring both cash in Hong Kong dollars and credit cards. Most shops in Hong Kong accept major credit cards; however, at open-air markets, most vendors will only take cash. Also note that the taxis only accept cash.",
+            "q": "Are credit cards widely accepted in shops?"
         },
         {
-            "q": "Is English widely spoken?",
-            "ans": "Yes. English is widely spoken in Hong Kong and is the language of preference in the government, business and tourism sectors. As a visitor, you can expect to encounter minimal problems communicating in English, as most taxi drivers, salespeople, tourism industry employees and police have reached competent levels of the language. Also, all official signs and public transport announcements, as well as most menus, are in both English and Chinese."
+            "ans": "Yes. English is widely spoken in Hong Kong and is the language of preference in the government, business and tourism sectors. As a visitor, you can expect to encounter minimal problems communicating in English, as most taxi drivers, salespeople, tourism industry employees and police have reached competent levels of the language. Also, all official signs and public transport announcements, as well as most menus, are in both English and Chinese.",
+            "q": "Is English widely spoken?"
         },
         {
-            "q": "Will I be able to use my electrical equipment in Hong Kong?",
-            "ans": "The standard electrical voltage in Hong Kong is 220 volts AC, 50Hz. Most hotel bathrooms also have outlets for 100 volts, but if not, you will need a transformer for any appliance or electrical equipment. The majority of electrical outlets in Hong Kong take a three-pronged UK-style plug. You can buy an inexpensive adaptor for your electrical equipment at most convenience stores."
+            "ans": "The standard electrical voltage in Hong Kong is 220 volts AC, 50Hz. Most hotel bathrooms also have outlets for 100 volts, but if not, you will need a transformer for any appliance or electrical equipment. The majority of electrical outlets in Hong Kong take a three-pronged UK-style plug. You can buy an inexpensive adaptor for your electrical equipment at most convenience stores.",
+            "q": "Will I be able to use my electrical equipment in Hong Kong?"
         }
     ],
-    "visainfo":[
+    "hotels": [
         {
-            "region" : "U.S.A.",
-            "requires" : "",
+            "name": "Harbour Plaza Metropolis",
+            "url": "https://www.harbour-plaza.com/metropolis/Index-en.htm"
+        },
+        {
+            "name": "Regal Kowloon Hotel",
+            "url": "https://www.regalhotel.com/regal-kowloon-hotel/en/home/home.html"
+        },
+        {
+            "name": "Best Western Plus Hotel Kowloon",
+            "url": "http://www.bestwesternplushotelkowloon.com/en/location.html"
+        },
+        {
+            "name": "Hotel ICON",
+            "url": "https://www.hotel-icon.com/"
+        },
+        {
+            "name": "InterContinental Grand Stanford Hong Kong",
+            "url": "http://www.hongkong.intercontinental.com/en/"
+        },
+        {
+            "name": "New World Millennium Hong Kong Hotel",
+            "url": "https://newworldmillenniumhotel.com/en/"
+        }
+    ],
+    "visainfo": [
+        {
+            "region": "U.S.A.",
+            "requires": "",
             "visafreedays": "90 Days"
         },
         {
-            "region" : "India",
-            "requires" : "Complete the Pre-arrival Registration (PAR) online to enable visa-free stay. <a href=\"http://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_indian_nationals.html\" target=\"_blank\" >Details</a>",
+            "region": "India",
+            "requires": "Complete the Pre-arrival Registration (PAR) online to enable visa-free stay. <a href=\"http://www.immd.gov.hk/eng/services/visas/pre-arrival_registration_for_indian_nationals.html\" target=\"_blank\" >Details</a>",
             "visafreedays": "14 Days"
         },
         {
-            "region" : "Mainland China",
-            "requires" : "Entry permit (往来港澳通行证) required.",
+            "region": "Mainland China",
+            "requires": "Entry permit (往来港澳通行证) required.",
             "visafreedays": "-"
         },
         {
-            "region" : "Taiwan",
-            "requires" : "Please refer to the <a href=\"http://www.immd.gov.hk/eng/services/visas/overseas-chinese-entry-arrangement.html#c\" target=\"_blank\" >Entry Arrangements for Chinese residents of Taiwan</a> for details.",
+            "region": "Taiwan",
+            "requires": "Please refer to the <a href=\"http://www.immd.gov.hk/eng/services/visas/overseas-chinese-entry-arrangement.html#c\" target=\"_blank\" >Entry Arrangements for Chinese residents of Taiwan</a> for details.",
             "visafreedays": "-"
         },
         {
-            "region" : "Japan",
-            "requires" : "",
+            "region": "Japan",
+            "requires": "",
             "visafreedays": "90 Days"
         },
         {
-            "region" : "Singapore",
-            "requires" : "",
+            "region": "Singapore",
+            "requires": "",
             "visafreedays": "90 Days"
         },
         {
-            "region" : "Germany",
-            "requires" : "",
+            "region": "Germany",
+            "requires": "",
             "visafreedays": "90 Days"
         },
         {
-            "region" : "British",
-            "requires" : "",
+            "region": "British",
+            "requires": "",
             "visafreedays": "90 Days"
         },
         {
-            "region" : "South Korea",
-            "requires" : "",
+            "region": "South Korea",
+            "requires": "",
             "visafreedays": "90 Days"
         },
         {
-            "region" : "Switzerland",
-            "requires" : "",
+            "region": "Switzerland",
+            "requires": "",
             "visafreedays": "90 Days"
         },
         {
-            "region" : "<b>Other</b>",
-            "requires" : "<a href=\"http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html\" target=\"_blank\" ><b>Check with the Hong Kong Immigration Department</b></a>",
+            "region": "<b>Other</b>",
+            "requires": "<a href=\"http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html\" target=\"_blank\" ><b>Check with the Hong Kong Immigration Department</b></a>",
             "visafreedays": ""
         }
     ]

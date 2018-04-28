@@ -9,14 +9,14 @@
     <!-- Page Content -->
     <section class="container">
         <h1 class="mt-4 mb-4">Travel</h1>
-        <div class="row">
+        <div class="row" id="venue-info">
             <div class="col-12">
                 <h3>Venue</h3>
             </div>
             <div class="col-12 col-md-8">
                 <div class="row">
                     <div class="col-12">
-                        <p>The ISVLSI 2018 will be held at</p>
+                        <p>The ISVLSI 2018 will be held during July 9-11 at</p>
                         <h5 class="text-center">
                             <strong>The Hong Kong Polytechnic University (PolyU)</strong><br>
                             Hong Kong SAR, China
@@ -29,6 +29,7 @@
                         <p class="text-center">
                             <a class="btn btn-md btn-success" target="_blank" href="https://www.polyu.edu.hk/fmo/eMap/map.php"> Campus Map <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
                         </p>
+
                     </div>
                 </div>
             </div>
@@ -43,23 +44,68 @@
             </div>
             {% endfor %}
         </div>
+        <hr>
+        <div class="row mb-4">
+            <div class="col-12">
+                <h3>Getting to PolyU</h3>
+                <p>Located at the centre of the city, PolyU is easily accessible by various means of public transport. Typical directions from the Airports:</p>
+            </div>
+            <div class="col-12 col-sm-6 portfolio-item">
+                <div class="card h-100">
+                    <h4 class="card-header">MTR (Subway)</h4>
+                    <div class="card-body">Est. Travel Time: 50 min </div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px"/> Airport Station</li>
+                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#00888A;" class="text-white">&nbsp Airport Express &nbsp</span> Line / <span style="background-color:#00888A;" class="text-white">&nbsp 機場快線 &nbsp</span> </li>
+                        <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px"/> Tsing Yi Station / 青衣站</li>
+                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#F7943E;" class="text-white">&nbsp Tung Chung Line &nbsp</span> /  <span style="background-color:#F7943E;" class="text-white">&nbsp 東涌綫 &nbsp</span> </li>
+                        <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px"/> Nam Cheong Station / 南昌站</li>
+                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#A6228E;" class="text-white">&nbspWest Rail Line &nbsp</span> / <span style="background-color:#A6228E;" class="text-white">&nbsp 西鐵綫 &nbsp</span> </li>
+                        <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px"/> Hung Hom Station / 紅磡 </li>
+                        <li class="list-group-item"><i class="fa fa-external-link-square" aria-hidden="true"></i> Exit A1 </li>
+                        <li class="list-group-item"><i class="fa fa-road" aria-hidden="true"></i> Take the footbridge and arrive in 5 min</li>
+                        <li class="list-group-item">
+                            <a href="https://goo.gl/maps/hK5H892PZ592" class="btn btn-primary" target="_blank">View on map</a>                                      
+                        </li>
+                    </ul>
+                </div></div>
+                <div class="col-12 col-sm-6 portfolio-item">
+                <div class="card mb-2">
+                    <h4 class="card-header">Buses</h4>
+                    <div class="card-body"><p>For public buses that run through the Cross Harbour Tunnel - get off at the stop at the entrance/exit of the Tunnel on the Kowloon side.</p><p>Details of bus routes are available from:</p></div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item text-center"><a href="http://www.kmb.hk/en/" target="_blank">Kowloon Motor Bus</a></li>
+                        <li class="list-group-item text-center"><a href="http://www.nwstbus.com.hk/home/default.aspx?intLangID=1" target="_blank">Citybus and New World First Bus</a></li>
+                    </ul>
+                </div>
+                <div class="card portfolio-item">
+                    <h4 class="card-header">Taxis</h4>
+                    <div class="card-body">Drop-off at the entrance on Cheong Wan Road.<br><br></div>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Est. Travel time: 30-40 min</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- Google Map -->
     <!-- /.container -->
     <section class="container-fluid">
-        <div class="row my-1" style="height: 48vh; background-color: #64c8ff">
+        <div class="row my-1" style="height: 46vh; background-color: #64c8ff">
             <div class="col-12 h-100" id="google-map">
                 <div class="row h-100 text-center align-items-center">
                     <div class="col-12">
                         <h5>Loading Map ...</h5>
-                        <p><small>If you cannot load the map, <br><a style="cursor: pointer;" onclick="directToGGMap()">Click Here to directly <strong>View on Google Map</strong> -</a></small></p>
+                        <p><small>If you cannot load the map, <br><br>
+                            Click to directly <a class="text-primary" style="cursor: pointer;" onclick="directToGGMap()"><strong>View on Google Map</strong> -</a><br><br>
+                            或 <a href="https://j.map.baidu.com/a3OlP" target="_blank">使用<b>百度地图</b>查看</a></small></p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- HK -->
-    <section class="container mt-4">
+    <section class="container mt-4" id="about-hk">
         <div class="row">
             <div class="col-12 col-sm-6 col-md-9 my-auto">
                 <h2>Hong Kong</h2>
@@ -90,7 +136,8 @@
                 <table class="table table-hover table-sm">
                     <thead>
                         <tr>
-                            <th scope="col">You are from<br>(Country/Region)</th>
+                            <th scope="col">You are from
+                                <br>(Country/Region)</th>
                             <th scope="col">Requirement</th>
                             <th scope="col">Visa-free Stay</th>
                         </tr>
@@ -110,6 +157,15 @@
         </div>
         <hr>
         <div class="row">
+            <div class="col-12 portfolio-item">
+                <div class="card">
+                    <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_hotel_sm.jpg" alt="Hong Kong Airport"> -->
+                    <div class="card-body">
+                        <h4>Visa Letter</h4>
+                        <p class="card-text">If needed, we will provide you a Visa letter after your conference registration. The registration system will open soon.</p>
+                    </div>
+                </div>
+            </div>
             <div class="col-md-6 portfolio-item">
                 <div class="card h-100">
                     <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_airport_sm.jpg" alt="Hong Kong Airport"> -->
@@ -130,6 +186,7 @@
                 Accommodation
               </h4>
                         <p class="card-text text-justify">As an international tourist city, Hong Kong offers plenty of choices of accommodation.</p>
+                        <p class="card-text">Some recommended hotels are listed <a href="#hotel">here</a>.</p>
                         <p class="card-text">More information will be provided in the future.</p>
                     </div>
                 </div>
@@ -163,9 +220,41 @@
             </div>
         </div>
     </section>
-    <div class="container my-4">
-        <hr>
+    <div class="py-4 bg-dark" id="hotel">
+        <div class="container text-white" id="specialsession">
+            <h3>Accommodation</h3>
+        </div>
     </div>
+    <section class="container my-3">
+        <div class="row">
+            <div class="col-12">
+                <p>Below are hotels that can reach to the conference venue (PolyU) in 10-min walking distance:</p>
+            </div>
+            <div class="col-12">
+                <table class="table table-hover">
+                    <!--  <thead>
+                        <tr>
+                            <th scope="col">Hotel</th>
+                            <th scope="col">Affiliation</th>
+                            <th scope="col">Track</th>
+                        </tr>
+                    </thead> -->
+                    <tbody>
+                        {% for h in hotels %}
+                        <tr>
+                            <td><i class="fa fa-bed fa-1x" aria-hidden="true"></i> <b>{{h.name}}</b></td>
+                            <td><a class="" target="_blank" href="{{h.url}}">Details <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a></td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <hr>
+                <div class="col-12">
+                    <p class="text-center">More information will be provided soon.</p>
+                </div>
+            </div>
+        </div>
+    </section>
     <!-- Footer -->
     @@include('./component/footer.p.html',{ "parentRel": "@@webRoot" })
     <script>
@@ -441,6 +530,7 @@
         }
         window.open(protocal + "://maps.google.com/maps?daddr=22.3028, 114.1786&amp;ll=");
     }
+
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFsHWCKp0h5YZbDYOql16ZETPOCNDv2GU&callback=initggMap"></script>
 </body>
