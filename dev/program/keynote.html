@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+@@include('./component/head.p.html',{ "title" : "Keynote - ISVLSI 2018", "parentRel": "@@webRoot" })
+
+<body>
+    <!-- Navigation : navbar -->
+    @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "program" })
+    <!-- Page Content -->
+    <section class="container">
+        <h1 class="mt-4 mb-3">Keynote</h1>
+        <!-- Two -->
+        {% for talk_id in page_keynote_list %}
+        <div class="row my-3">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto">
+                                <img class="img-fluid d-block mx-auto" style="max-height: 200px" src="@@webRoot/{{ keynote_pool[talk_id].photo_path }}" alt="{{ keynote_pool[talk_id].speaker }}" />
+                            </div>
+                            <div class="col-12 col-sm-9 col-md-9 col-lg-10 my-auto">
+                                <h4><b>{{ keynote_pool[talk_id].title }}</b></h4>
+                                <h5>{{ keynote_pool[talk_id].speaker }}</h5>
+                                <p>{{ keynote_pool[talk_id].affiliation }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-justify">{{ keynote_pool[talk_id].bio|safe }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+        <!-- /.row -->
+        <!-- Two -->
+        <!--         {% for talk_id in page_keynote_list %}
+        <hr>
+        <div class="row">
+            <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto">
+                <img class="img-fluid d-block mx-auto" style="max-height: 200px" src="@@webRoot/{{ keynote_pool[talk_id].photo_path }}" alt="{{ keynote_pool[talk_id].speaker }}" />
+            </div>
+            <div class="col-12 col-sm-9 col-md-9 col-lg-10 my-auto">
+            	<h4><b>{{ keynote_pool[talk_id].title }}</b></h4>
+            	<h5>{{ keynote_pool[talk_id].speaker }}</h5>
+            	<p >{{ keynote_pool[talk_id].affiliation }}</p>
+            </div>
+            <div class="col-12 mt-2">
+                <p class="text-justify">{{ keynote_pool[talk_id].bio }}</p>
+            </div>
+        </div>
+        {% endfor %} -->
+        <!-- /.row -->
+        <div class="col-12 mx-auto my-2">
+            <div class="card text-center bg-warning">
+                <div class="card-block">
+                    <h6 class="card-subtitle my-2 font-italic">More exciting talks coming soon ...</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.container ****************************** -->
+    <!--     <div class="py-4 bg-dark">
+        <div class="container text-white" id="specialsession">
+            <h3>seprator</h3>
+        </div>
+    </div>
+ -->
+    <!-- /.container -->
+    <div class="my-3"></div>
+    <!-- Footer -->
+    @@include('./component/footer.p.html',{ "parentRel": "@@webRoot" })
+</body>
+
+</html>
