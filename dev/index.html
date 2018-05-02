@@ -21,6 +21,56 @@
                 <img class="img-fluid d-block mx-auto" style="max-width: 150px" src="@@webRoot/img/ISVLSI_lable.png" alt="">
             </div>
         </div>
+        <hr>
+    </section>
+    <!-- new -->
+    <section class="container mb-4">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-5 col-lg-4 my-auto">
+                <div class="list-group" role="tablist">
+                    {% for news_key in news.default_show %} {% set item = news.news_pool[news_key] %}
+                    <!--  -->
+                    {% if item.type|lower ==="link" %}
+                    <a class="list-group-item list-group-item-action flex-column align-items-start" href="{{item.more_link}}">
+                    {% elseif item.type|lower ==="text" %}
+                    <div class="list-group-item list-group-item-action flex-column align-items-start" tabindex="-1" aria-disabled="true">
+                    {% else %} <!-- Tab -->
+                    <a class="list-group-item list-group-item-action flex-column align-items-start {% if news.default_active === news_key %} active {% endif %}" data-toggle="list" href="#{{news_key}}" role="tab">
+                    {% endif %}
+                        <div class="d-flex w-100 justify-content-between">
+                            {% if "short_title" in item %} <h5 class="mb-1">{{item.short_title}}</h5> {% endif %}
+                            {% if "date" in item %} <small class="text-muted">{{item.date}}</small> {% endif %}
+                        </div>
+                        {% if "short_description" in item %} <p class="mb-1">{{item.short_description}}</p> {% endif %}
+                        {% if "short_footnote" in item %} <small class="text-muted">{{item.short_footnote}}</small> {% endif %}
+                    {% if item.type|lower ==="text" %}</div>{% else %}</a>{% endif %}
+                    <!--  -->
+                    {% endfor %}
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-7 col-lg-8 my-1">
+                <div class="tab-content my-auto">
+                    {% for news_key in news.default_show %} {% set item = news.news_pool[news_key] %} {% if item.type|lower === "tab" %}
+                    <div class="tab-pane fade show {% if news.default_active === news_key %}active{% endif %}" id="{{news_key}}" role="tabpanel">
+                        <h3>{{item.short_title}}</h3>
+                        {% if item.panel_content_mode|lower ==="html" %}
+                        	{{ item.panel_content|safe }}
+                        {% else %}{% for p in item.panel_content %}
+                        	<p class="text-justify">{{ p }}</p>
+                        {% endfor %}
+                        {% endif %}
+                        {% if "panel_btn_href" in item %}
+                        <a href="{{item.panel_btn_href}}"
+                        {% if item.panel_btn_new_window" %} target="_blank" {% endif %}
+                        class="btn btn-primary float-right">Learn More</a>
+                        {% endif %}
+                    </div>
+                    {% endif %}{% endfor %}
+                    <div class="tab-pane fade show" id="new-id-messages" role="tabpanel">...</div>
+                    <div class="tab-pane fade show" id="new-id-settings" role="tabpanel">...</div>
+                </div>
+            </div>
+        </div>
     </section>
     <!-- /.row -->
     <div class="py-3 bg-info mb-4">
@@ -70,7 +120,6 @@
                             <br>
                             <!-- <li><b>Special Session Proposal Deadline</b>: March 11, 2018</li> -->
                             <!-- <li>Proposal Acceptance Notification: March 16, 2018</li> -->
-                            
                             <li>Conference Date: July 9 - 11, 2018</li>
                             <!-- <li><b>Student Forum</b> Submission Deadline: April 1, 2018</li> -->
                             <!-- <li>Student Forum Acceptance Notification: April 15, 2018</li> -->
@@ -91,7 +140,8 @@
                 </ul>
                 <a href="@@webRoot/submission.html" class="btn btn-primary float-right">Learn More</a> -->
                 <h4>Final Paper Submisson</h4>
-                <p>Congratulations to all authors on their accepted ISVLSI papers!<br>The final paper submission system is open now. Please submit before the deadline.</p>
+                <p>Congratulations to all authors on their accepted ISVLSI papers!
+                    <br>The final paper submission system is open now. Please submit before the deadline.</p>
                 <a href="@@webRoot/submission.html" class="btn btn-primary float-right">Learn More</a>
             </div>
         </div>

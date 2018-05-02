@@ -1,0 +1,70 @@
+{
+    "news": {
+        "default_active": "news_student_traval_awards",
+        "default_show": [
+            "news_student_traval_awards",
+            "news_final_paper_submit"
+        ],
+        "news_pool": {
+            "news_final_paper_submit": {
+                "date": "May 1",
+                "panel_btn_href": "@@webRoot/submission.html",
+                "panel_btn_new_window": false,
+                "panel_content": [
+                    "Congratulations to all authors on their accepted ISVLSI papers!",
+                    "The final paper submission system is open now. Please submit before the deadline."
+                ],
+                "panel_content_mode": "p",
+                "short_description": "The submission channel is open.",
+                "short_footnote": "Deadline: May 10, 2018",
+                "short_title": "Final Paper Submission",
+                "type": "tab"
+            },
+            "news_student_traval_awards": {
+                "__panel_btn_href": "",
+                "__short_footnote": "",
+                "date": "May 2",
+                "panel_content": [
+                    "We are pleased to announce that IEEE‐CS will support 4 student travel awards of $250 each. To apply, please contact the financial chair, Prof. Duo Liu at liuduo@cqu.edu.cn. In your email, please specify your paper information if you are an author."
+                ],
+                "panel_content_mode": "p",
+                "short_description": "Application is welcomed!",
+                "short_title": "Student Travel Awards",
+                "type": "tab"
+            },
+            "z_news_template_plain_text": {
+                "date": "",
+                "short_description": "This is a News. C.",
+                "short_footnote": "",
+                "short_title": "Shor Title",
+                "type": "text"
+            },
+            "z_news_template_with_panel": {
+                "__usage": [
+                    "1. add double undersore (__) to comment a field, then it will not be shown in the page;",
+                    "2. We have three types: tab/link/text. tab: sociated with a panel; link: no panel, but click to navigate to other page; text: unclickable.",
+                    "3. panel_content_mode: p or html. When mode is p, panel_content should be a list of strings; when mode is is html, panel_content should be a single string."
+                ],
+                "date": "",
+                "panel_btn_link": "#",
+                "panel_btn_new_window": true,
+                "panel_content": "Show something here",
+                "panel_content_mode": "p",
+                "short_description": "This is a News.",
+                "short_footnote": "This is footnote.",
+                "short_title": "Template Short Title",
+                "type": "tab"
+            },
+            "z_news_template_without_panel": {
+                "__note": "[warn]link type has not been debuged!",
+                "date": "",
+                "href": "#",
+                "href_target": "",
+                "short_description": "This is a News.",
+                "short_footnote": "",
+                "short_title": "Shor Title",
+                "type": "link"
+            }
+        }
+    }
+}
