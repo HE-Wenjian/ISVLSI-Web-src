@@ -20,9 +20,12 @@ var gSwig = require('gulp-swig');
 //var MergeStream = require('merge-stream');
 var pkg = require('./package.json');
 var runSequence = require('run-sequence');
+runSequence.options.showErrorStackTrace = true;
 var browserSync = require('browser-sync').create();
 
-//const SrcDir = "./dev"
+
+const appRoot = path.resolve(__dirname)
+const SrcDir = "./dev"
 const DestDir = "./publish";
 
 
@@ -34,17 +37,17 @@ gulp.task('just_for_test', function() {
 })
 
 gulp.task('clean-html', function(done) {
-    gutil.log("[clean]", del.sync([
-        './publish/**/*.html'
-    ]).length, " HTML Files.");
-    done();
+    del('./publish/**/*.html').then( function(deled_paths){
+        gutil.log("[Clean] ", deled_paths.length , " HTML Files:", deled_paths.join(';'));
+        done();
+    });
 })
 
 gulp.task('clean-debug', function(done) {
-    gutil.log("[clean]", del.sync([
-        './debug/**/*'
-    ]).length, " Debug Files.");
-    done();
+    del('./debug/**/*').then( function(deled_paths){
+        gutil.log("[Clean]", deled_paths.length, " Debug Files.");
+        done();
+    });
 })
 
 gulp.task('compile_html', ['clean-debug'], function() {
@@ -167,11 +170,23 @@ gulp.task('browserSync', function() {
 gulp.task('dev', ['browserSync'], function() {
     // Reloads the browser whenever HTML or CSS files change
     gulp.watch(['./dev/**/*.p.html',
-            './dev/**/*.json'
         ], { ignoreInitial: false, event: ['change', 'add'], read: false, readDelay: 100 })
         .on('change', function() {
             runSequence('clean-html', 'compile_html');
         });
+
+    gulp.watch(['./dev/**/*.json'
+        ], { ignoreInitial: false, event: ['change', 'add'], read: false, readDelay: 100 })
+        .on('change', function(event) {
+            var rel_path=path.relative(path.join(appRoot,SrcDir), event.path);
+            var html_path=path.join(DestDir, rel_path.substr(0, rel_path.lastIndexOf(".")) + ".html");
+            gutil.log('Changed File : ' + rel_path +
+                ';\tTo Delete : ' + html_path);
+            DeleteFilesThen(html_path,function(){runSequence('compile_html');});
+        }).on('add', function(event) {
+            gutil.log('Added File :' + event.path);
+        });
+
     gulp.watch([
             './dev/src_css/**/*.{jpeg,jpg,png,bmp,ico,gif,tiff}',
             './dev/src_css/**/*.css}',
@@ -180,7 +195,7 @@ gulp.task('dev', ['browserSync'], function() {
             './dev/src_js/**/*.js'
         ], { ignoreInitial: false, read: false, readDelay: 100 }, ['default'])
         .on('change', function(event) {
-            gutil.log('Changed File :' + event.path);
+            gutil.log('Changed File :' + path.relative(appRoot,event.path));
         }).on('add', function(event) {
             gutil.log('Added File :' + event.path);
         });
@@ -216,3 +231,11 @@ function requireUncached($module) {
     delete require.cache[require.resolve($module)];
     return require($module);
 }
+
+function DeleteFilesThen(glob,cb) {
+    del(glob).then(function(paths){
+        gutil.log("[DEL]", paths.join(';'));
+        cb();
+    })
+}
+
