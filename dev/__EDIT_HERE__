@@ -26,6 +26,6 @@ Some useful swig statements (tags):
 	statement
 {% endfor %}
 
-	Some built-in variables:
-	-- loop.first: True if the current object is the first in the object or array.
-	-- loop.last: True if the current object is the last in the object or array.
+	Some built-in variables for for-loop:
+	-- loop.first: True if the current object is the first in the object/array.
+	-- loop.last: True if the current object is the last in the object/array.
