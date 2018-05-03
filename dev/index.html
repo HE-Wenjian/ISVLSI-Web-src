@@ -30,9 +30,9 @@
                 <div class="list-group" role="tablist">
                     {% for news_key in news.default_show %} {% set item = news.news_pool[news_key] %}
                     <!--  -->
-                    {% if item.type|lower ==="link" %}
+                    {% if item.type|lower === "link" %}
                     <a class="list-group-item list-group-item-action flex-column align-items-start" href="{{item.more_link}}">
-                    {% elseif item.type|lower ==="text" %}
+                    {% elseif item.type|lower === "text" %}
                     <div class="list-group-item list-group-item-action flex-column align-items-start" tabindex="-1" aria-disabled="true">
                     {% else %} <!-- Tab -->
                     <a class="list-group-item list-group-item-action flex-column align-items-start {% if news.default_active === news_key %} active {% endif %}" data-toggle="list" href="#{{news_key}}" role="tab">
@@ -59,10 +59,12 @@
                         	<p class="text-justify">{{ p }}</p>
                         {% endfor %}
                         {% endif %}
-                        {% if "panel_btn_href" in item %}
+                        {% if "panel_btn_href" in item && item.panel_btn_href %}
                         <a href="{{item.panel_btn_href}}"
                         {% if item.panel_btn_new_window" %} target="_blank" {% endif %}
-                        class="btn btn-primary float-right">Learn More</a>
+                        class="btn btn-primary float-right">
+                        {{ item.panel_btn_text|default('Learn More') }}
+                        </a>
                         {% endif %}
                     </div>
                     {% endif %}{% endfor %}

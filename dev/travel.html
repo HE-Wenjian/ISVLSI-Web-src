@@ -127,45 +127,7 @@
             </div>
             {% endfor %}
         </div>
-        <hr>
-        <div class="row" id="hong-kong-visa">
-            <div class="col">
-                <h4 class="my-3"><b>Visa Policy</b></h4>
-                <p class="text-justify">As a Special Administrative Region of China, the visa policy of Hong Kong is <b>different from Mainland China</b>. Visitors from <b>most countries</b> can enter Hong Kong <b>without a visa</b> for periods of 7 to 180 days, depending on nationality. However, you are strongly recommended to <b>check with <a href="http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html" target="_blank" >the Hong Kong Immigration Department</a></b> for details about visa requirements.</p>
-                <p>We list the visa policy towards some countries/regions for your reference:<sup>*</sup></p>
-                <table class="table table-hover table-sm">
-                    <thead>
-                        <tr>
-                            <th scope="col">You are from
-                                <br>(Country/Region)</th>
-                            <th scope="col">Requirement</th>
-                            <th scope="col">Visa-free Stay</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        {% for item in visainfo %}
-                        <tr>
-                            <td>{{item.region|safe}}</td>
-                            <td>{% if item.requires == "" %}-{% else %}<i class="fa fa-exclamation-circle" aria-hidden="true"></i> {{item.requires|safe}}</td>{% endif %}
-                            <td>{{item.visafreedays}}</td>
-                        </tr>
-                        {% endfor %}
-                    </tbody>
-                </table>
-                <sup>* The information is gathered from the Hong Kong Immigration Department website and is subject to change without notice. You are strongly recommended to double <b>check with <a href="http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html" target="_blank" >the Hong Kong Immigration Department</a></b>.</sup>
-            </div>
-        </div>
-        <hr>
         <div class="row">
-            <div class="col-12 portfolio-item">
-                <div class="card">
-                    <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_hotel_sm.jpg" alt="Hong Kong Airport"> -->
-                    <div class="card-body">
-                        <h4>Visa Letter</h4>
-                        <p class="card-text">If needed, we will provide you a Visa letter after your conference registration. The registration system will open soon.</p>
-                    </div>
-                </div>
-            </div>
             <div class="col-md-6 portfolio-item">
                 <div class="card h-100">
                     <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_airport_sm.jpg" alt="Hong Kong Airport"> -->
@@ -192,9 +154,7 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- FAQ -->
-    <section class="container">
+        <!-- FAQ -->
         <div class="row">
             <div class="col-12 col-sm-2 col-md-1 text-center">
                 <h3>FAQ</h3>
@@ -216,6 +176,47 @@
                         </div>
                     </div>
                     {% endfor %}
+                </div>
+            </div>
+        </div>
+        <hr>
+    </section>
+    <section class="container" id="hong-kong-visa">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="my-3">Visa Policy</h2>
+                <p class="text-justify">As a Special Administrative Region of China, the visa policy of Hong Kong is <b>different from Mainland China</b>. Visitors from <b>most countries</b> can enter Hong Kong <b>without a visa</b> for periods of 7 to 180 days, depending on nationality. However, you are strongly recommended to <b>check with <a href="http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html" target="_blank" >the Hong Kong Immigration Department</a></b> for details about visa requirements.</p>
+                <p>We list the visa policy towards some countries/regions for your reference:<sup>*</sup></p>
+                <table class="table table-hover table-sm">
+                    <thead>
+                        <tr>
+                            <th scope="col">You are from
+                                <br>(Country/Region)</th>
+                            <th scope="col">Requirement</th>
+                            <th scope="col">Visa-free Stay</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in visainfo %}
+                        <tr>
+                            <td>{{item.region|safe}}</td>
+                            <td>{% if item.requires == "" %}-{% else %}<i class="fa fa-exclamation-circle" aria-hidden="true"></i> {{item.requires|safe}}</td>{% endif %}
+                            <td>{{item.visafreedays}}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                <sup>* The information is gathered from the Hong Kong Immigration Department website and is subject to change without notice. You are strongly recommended to double <b>check with <a href="http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html" target="_blank" >the Hong Kong Immigration Department</a></b>.</sup>
+            </div>
+            <hr>
+            <div class="col-12 portfolio-item">
+                <div class="card">
+                    <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_hotel_sm.jpg" alt="Hong Kong Airport"> -->
+                    <div class="card-body">
+                        <h4>Visa Supporting Letter</h4>
+                        <p class="card-text">If you do need a Visa supporting letter, please contact the registration chair, Prof. Weichen Liu (wchliu@gmail.com).</p>
+                        <p class="card-text">In your email, please list your <b>contact information</b>. If you are an author, please specify your <b>paper title</b> as well. If any special format requirement of Visa support letter is required, please also tell us in the email.</p>
+                    </div>
                 </div>
             </div>
         </div>
