@@ -21,11 +21,13 @@
             "q": "Will I be able to use my electrical equipment in Hong Kong?"
         }
     ],
-    "hotels": [
+    "partner_hotels":[
         {
             "name": "Harbour Plaza Metropolis",
             "url": "https://www.harbour-plaza.com/metropolis/Index-en.htm"
-        },
+        }
+    ],
+    "hotels": [
         {
             "name": "Regal Kowloon Hotel",
             "url": "https://www.regalhotel.com/regal-kowloon-hotel/en/home/home.html"
