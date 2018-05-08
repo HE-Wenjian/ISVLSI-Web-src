@@ -32,7 +32,7 @@ fi
 readlink -e "$SRC_DIR" || { echo >&2 "[ERROR] local directory <$SRC_DIR> does not exist. Abort."; exit 1; }
 
 echo
-echo "IP=<$FTP_IP>"
+echo "FTP IP=<$FTP_IP>"
 echo "User=<$FTP_USER>"
 echo "parallel=<$LINK_PARA>"
 FTP_ARGS="--no-perms "
@@ -46,7 +46,7 @@ if [ -n "$DEBUG" ]; then
 	echo "FTP_ARGS=<$FTP_ARGS>"
 fi
 
-echo "Upload files in <$SRC_DIR> to <$FTP_IP> to <$FTP_DIR> ..."
+echo "Upload files in <$SRC_DIR> to remote <$FTP_DIR> of <$FTP_IP> ..."
 echo
 
 lftp -u "$FTP_USER","$FTP_PWD" $FTP_IP <<LFTPEOF
@@ -56,7 +56,7 @@ lftp -u "$FTP_USER","$FTP_PWD" $FTP_IP <<LFTPEOF
 # set ssl:verify-certificate no
 # transfer starts now...
 lcd $SRC_DIR
-!echo "Files to be uploaded:"
+!echo "Files and Folders to be uploaded:"
 !ls
 !echo 
 cd $FTP_DIR
@@ -64,7 +64,12 @@ cd $FTP_DIR
 mirror -R -v $FTP_ARGS -P $LINK_PARA
 exit
 LFTPEOF
+lftp_retcode=$?
 
-echo "lftp return code =" $?
-echo
-echo "Task finished. Succeed if return code==0."
+if [[ $lftp_retcode -eq 0 ]]; then
+	echo
+	echo "[Success] Task finished."
+else
+	echo "[ERROR] lftp error code =" $lftp_retcode
+fi
+
