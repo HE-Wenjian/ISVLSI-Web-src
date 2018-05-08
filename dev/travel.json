@@ -23,22 +23,22 @@
     ],
     "partner_hotels":[
         {
+            "name": "Regal Kowloon Hotel",
+            "url": "https://www.regalhotel.com/regal-kowloon-hotel/en/home/home.html"
+        },
+        {
+            "name": "Hotel ICON",
+            "url": "https://www.hotel-icon.com/"
+        },
+        {
             "name": "Harbour Plaza Metropolis",
             "url": "https://www.harbour-plaza.com/metropolis/Index-en.htm"
         }
     ],
     "hotels": [
         {
-            "name": "Regal Kowloon Hotel",
-            "url": "https://www.regalhotel.com/regal-kowloon-hotel/en/home/home.html"
-        },
-        {
             "name": "Best Western Plus Hotel Kowloon",
             "url": "http://www.bestwesternplushotelkowloon.com/en/location.html"
-        },
-        {
-            "name": "Hotel ICON",
-            "url": "https://www.hotel-icon.com/"
         },
         {
             "name": "InterContinental Grand Stanford Hong Kong",
