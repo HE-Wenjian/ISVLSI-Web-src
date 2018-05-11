@@ -2,14 +2,14 @@
     "self_ad": {
         "ad_list": [
             {
-                "card_img": "/img/venue/PolyU/campus3.jpg",
+                "card_img": "/img/venue/PolyU/campus_venue.jpg",
                 "card_text": "ISVLSI 2018 will be held at PolyU during July 9-11 in Hong Kong.",
-                "link_url": "/travel.html#about-hk",
+                "link_url": "/travel.html",
                 "title": "ISVLSI 2018 Venue"
             },
             {
-                "card_img": "/img/venue/PolyU/campus5.jpg",
-                "card_text": "We explores emerging trends and novel ideas in the area of VLSI.",
+                "card_img": "/img/venue/PolyU/campus7.jpg",
+                "card_text": "Eguxplore emerging trends and novel ideas in the area of VLSI.",
                 "link_url": "/program/keynote.html",
                 "title": "ISVLSI 2018 Keynote"
             },
