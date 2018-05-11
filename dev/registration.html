@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- head -->
+@@include('./component/head.p.html',{ "title" : "Registration - ISVLSI 2018", "parentRel": "@@webRoot" })
+
+<body>
+    <!-- Navigation : navbar -->
+    @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "register" })
+    <!-- Page Content -->
+    <section class="container">
+        <h1 class="mt-4 mb-3">Registration</h1>
+        <div class="row">
+            <div class="col-12 col-xl-8">
+                <p> Conference registration is now OPEN!</p>
+                <p>
+                    <h5>Note:</h5> - <b>Advanced registration</b> by June 15th;
+                    <br> - <b>Author registration</b> by May 22nd
+                </p>
+            </div>
+            <div class="col-12 col-xl-4">
+                <div class="row">
+                    <div class="col-12 portfolio-item">
+                        <div class="card mx-1">
+                            <h4 class="card-header text-center"><b>ISVLSI 2018</b></h4>
+                            <!-- <div class="card-body"> -->
+                            <!-- <ul class="card-text list-unstyled">
+                            <li><b>Submission Deadline</b>: May 10, 2018</li>
+                        </ul> -->
+                            <!-- <div class="card-text">
+                            <b>Submission Deadline</b>: May 10, 2018
+                        </div> -->
+                            <!-- </div> -->
+                            <!-- <div class="card-footer text-center "> -->
+                            <a class="btn btn-success text-center" target="_blank" href="https://ieeecomputersociety.regfox.com/isvlsi2018">
+                                <h3>Register Now !</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-12 portfolio-item">
+                        <div class="card mx-4">
+                            <!-- <h4 class="card-header text-center"><b>ISVLSI 2018</b></h4> -->
+                            <div class="card-body">
+                                <!-- <h6 class="card-title">Project One</h6> -->
+                                <p class="card-text"><small>Click the link below if you would like to view or make changes to your registration:</small>
+                                </p>
+                            <!-- <ul class="card-text list-unstyled">
+                            <li><b>Submission Deadline</b>: May 10, 2018</li>
+                        </ul> -->
+                            <!-- <div class="card-text">
+                            <b>Submission Deadline</b>: May 10, 2018
+                        </div> -->
+                            </div>
+                            <!-- <div class="card-footer text-center "> -->
+                            <a class="btn btn-success text-center" target="_blank" href="https://ieeecomputersociety.account.webconnex.com/">
+                                Modify Registration
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       <hr>
+        <div class="row text-center">
+            <div class="col-12 col-md-6 my-auto">
+                <p>For inquiry, please contact Registration Chair:</p>
+            </div>
+            <div class="col-12 col-md-4">
+                <div class="card bg-warning mx-4">
+                    <div class="card-block">
+                        <h6 class="card-title">Prof. Weichen Liu</h6>
+                        <p class="card-subtitle mb-2">liu@ntu.edu.sg </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <div class="py-2 my-4 bg-dark">
+        <div class="container text-white text-center">
+            <h4>ISVLSI 2018</h4>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            {% for ad in self_ad.ad_list %}
+            <div class="col-lg-3 col-md-4 col-sm-6 col-6 portfolio-item">
+                <div class="card h-100">
+                    <a href="{{ad.link_url}}"><img class="card-img-top" style="height: 180px; object-fit: cover;" src="@@webRoot{{ad.card_img}}" alt="{{ad.title}}"></a>
+                    <!-- <a href="#"><img class="card-img-top" src="" alt=""></a> -->
+                    <div class="card-body">
+                        <h5 class="card-title">
+                <a href="{{ad.link_url}}">{{ad.title}}</a>
+              </h5>
+                        <p class="card-text"><small>{{ad.card_text}}</small></p>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+    <!-- /.container ****************************** -->
+    <!--     <div class="py-4 bg-dark">
+        <div class="container text-white" id="specialsession">
+            <h3>seprator</h3>
+        </div>
+    </div>
+ -->
+    <!-- /.container -->
+    <div class="my-3"></div>
+    <!-- Footer -->
+    @@include('./component/footer.p.html',{ "parentRel": "@@webRoot" })
+</body>
+
+</html>
