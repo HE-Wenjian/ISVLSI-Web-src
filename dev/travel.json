@@ -1,4 +1,14 @@
 {
+    "polyU":{
+        "gallery_img_url":[
+            "@@webRoot/img/venue/PolyU/campus1.jpg",
+            "@@webRoot/img/venue/PolyU/campus2.jpg",
+            "@@webRoot/img/venue/PolyU/campus3.jpg",
+            "@@webRoot/img/venue/PolyU/campus4.jpg",
+            "@@webRoot/img/venue/PolyU/polyU_conf_room_1000x666.jpg",
+            "@@webRoot/img/venue/PolyU/campus6.jpg"
+        ]
+    },
     "faq": [
         {
             "ans": "Visitors from most countries can enter Hong Kong without a visa for periods of 7 to 180 days, depending on nationality. However, you are strongly recommended to check with <a href=\"http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html\" target=\"_blank\" >the Hong Kong Immigration Department</a> for details about visa requirements.",
