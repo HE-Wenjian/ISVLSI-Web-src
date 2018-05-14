@@ -1,0 +1,36 @@
+{
+    "self_ad": {
+        "ad_list": [
+            {
+                "card_img": "/img/venue/PolyU/campus_venue.jpg",
+                "card_text": "ISVLSI 2018 will be held at PolyU during July 9-11 in Hong Kong.",
+                "link_url": "/travel.html",
+                "title": "ISVLSI 2018 Venue"
+            },
+            {
+                "card_img": "/img/venue/PolyU/campus7.jpg",
+                "card_text": "Explore emerging trends and novel ideas in the area of VLSI.",
+                "link_url": "/program/keynote.html",
+                "title": "ISVLSI 2018 Keynote"
+            },
+            {
+                "card_img": "/img/social/ferry.jpg",
+                "card_text": "Follow us and tour around the famous international city.",
+                "link_url": "/program/social.html",
+                "title": "ISVLSI 2018 Events"
+            },
+            {
+                "card_img": "/img/social/peak.jpg",
+                "card_text": "Find a room that is neat and near the conference venue.",
+                "link_url": "/travel.html#hotel",
+                "title": "Book Hotel Room"
+            }
+        ],
+        "self_ad_template": {
+            "card_img": "",
+            "card_text": "",
+            "link_url": "",
+            "title": ""
+        }
+    }
+}

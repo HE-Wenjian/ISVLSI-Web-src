@@ -10,13 +10,17 @@ var gInclude = require('gulp-file-include');
 var gCount = require('gulp-count');
 var gChanged = require('gulp-changed');
 var gHtmlMin = require('gulp-htmlmin');
-var gHtmlLint = require('gulp-htmllint')
+var gHtmlLint = require('gulp-htmllint');
 var gCleanCSS = require('gulp-clean-css');
 const gIf = require('gulp-if');
 var gData = require('gulp-data');
 var gSwig = require('gulp-swig');
-//var gHtmlHint = require("gulp-htmlhint");
-//var gFrontMatter = require('gulp-front-matter');
+var dayjs = require('dayjs');
+function dayjsformat_wrapper(input,fmt){
+    fmt= fmt || "YYYY-MM-DD";
+    var t=dayjs(input);
+    return (t.isValid())? t.format(fmt) : input;
+}
 //var MergeStream = require('merge-stream');
 var pkg = require('./package.json');
 var runSequence = require('run-sequence');
@@ -68,6 +72,9 @@ gulp.task('compile_html', ['clean-debug'], function() {
         ))
         .pipe(gIf(DEBUG_MODE, gDebug({ showFiles: true, title: '[HTML] JSON Loaded:' })))
         .pipe(gSwig({
+            setup: function(swig){
+                swig.setFilter('dayjsformat', dayjsformat_wrapper);
+            },
             load_json: false,
             defaults: { 
                 cache: false, 

@@ -8,7 +8,7 @@
         ],
         "news_pool": {
             "news_final_paper_submit": {
-                "date": "May 1",
+                "date": "2018-5-1",
                 "panel_btn_href": "@@webRoot/submission.html",
                 "panel_btn_new_window": false,
                 "panel_content": [
@@ -23,7 +23,7 @@
             },
             "news_student_traval_awards": {
                 "__panel_btn_href": "",
-                "date": "May 3",
+                "date": "2018-5-3",
                 "panel_content": [
                     "We are pleased to announce that IEEE‐CS will support 4 student travel awards of $250 each. To apply, please contact the financial chair, Prof. Duo Liu at liuduo@cqu.edu.cn.",
                     "In your email, please provide a brief CV if available. If you are an author, please specify your paper information as well.",
@@ -37,12 +37,12 @@
             },
             "news_visa_letter": {
                 "__short_footnote": "",
-                "date": "May 3",
+                "date": "2018-5-3",
                 "panel_btn_href": "@@webRoot/travel.html#hong-kong-visa",
                 "panel_btn_text": "Learn more about Visa",
                 "panel_content": [
                     "Please note that visitors from most countries can enter Hong Kong without a Visa.",
-                    "But if you do need a Visa supporting letter, please contact the registration chair, Prof. Weichen Liu (wchliu@gmail.com).",
+                    "But if you do need a Visa supporting letter, please contact the registration chair, Prof. Weichen Liu (liu@ntu.edu.sg).",
                     "In your email, please list your contact information. If you are an author, please specify your paper title as well. If any special format requirement of Visa support letter is required, please also tell us in the email."
                 ],
                 "panel_content_mode": "p",
@@ -51,7 +51,7 @@
                 "type": "tab"
             },
             "z_news_template_plain_text": {
-                "date": "",
+                "date": "2011-11-11",
                 "short_description": "This is a News. C.",
                 "short_footnote": "",
                 "short_title": "Short Title",
@@ -63,7 +63,7 @@
                     "2. We have three types: tab/link/text. tab: associated with a panel; link: no panel, but click to navigate to other page; text: unclickable.",
                     "3. panel_content_mode: p or html. When mode is p, panel_content should be a list of strings; when mode is is html, panel_content should be a single string."
                 ],
-                "date": "",
+                "date": "2011-11-11",
                 "panel_btn_href": "#",
                 "panel_btn_new_window": true,
                 "panel_btn_text": "Learn more about Visa",
@@ -78,7 +78,7 @@
             },
             "z_news_template_without_panel": {
                 "__note": "[warn]link type has not been debugged!",
-                "date": "",
+                "date": "2011-11-11",
                 "href": "#",
                 "href_target": "",
                 "short_description": "This is a News.",

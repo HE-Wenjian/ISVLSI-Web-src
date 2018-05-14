@@ -26,7 +26,7 @@
     <!-- new -->
     <section class="container mb-4">
         <div class="row">
-            <div class="col-12 col-sm-6 col-md-5 col-lg-4 my-auto">
+            <div class="col-12 col-md-5 col-lg-4 my-auto">
                 <div class="list-group" role="tablist">
                     {% for news_key in news.default_show %} {% set item = news.news_pool[news_key] %}
                     <!--  -->
@@ -39,7 +39,7 @@
                     {% endif %}
                         <div class="d-flex w-100 justify-content-between">
                             {% if "short_title" in item %} <h5 class="mb-1">{{item.short_title}}</h5> {% endif %}
-                            {% if "date" in item %} <small class="text-muted">{{item.date}}</small> {% endif %}
+                            {% if "date" in item %} <small class="text-muted">{{ item.date|dayjsformat('MMM D' )}}</small> {% endif %}
                         </div>
                         {% if "short_description" in item %} <p class="mb-1">{{item.short_description}}</p> {% endif %}
                         {% if "short_footnote" in item %} <small class="text-muted">{{item.short_footnote}}</small> {% endif %}
@@ -48,11 +48,14 @@
                     {% endfor %}
                 </div>
             </div>
-            <div class="col-12 col-sm-6 col-md-7 col-lg-8 my-1">
+            <div class="col-12 col-md-7 col-lg-8 my-1">
                 <div class="tab-content my-auto">
                     {% for news_key in news.default_show %} {% set item = news.news_pool[news_key] %} {% if item.type|lower === "tab" %}
                     <div class="tab-pane fade show {% if news.default_active === news_key %}active{% endif %}" id="{{news_key}}" role="tabpanel">
-                        <h3>{{item.short_title}}</h3>
+                        <div class="d-flex w-100 justify-content-between">
+                        	<h3>{{item.short_title}}</h3>
+                        	{% if "date" in item %}<small class="text-muted align-text-bottom">Updated on: {{item.date|dayjsformat()}}</small> {% endif %}
+                        </div>
                         {% if item.panel_content_mode|lower ==="html" %}
                         	{{ item.panel_content|safe }}
                         {% else %}{% for p in item.panel_content %}
