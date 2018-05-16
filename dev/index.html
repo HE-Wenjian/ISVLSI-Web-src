@@ -35,7 +35,7 @@
                     {% elseif item.type|lower === "text" %}
                     <div class="list-group-item list-group-item-action flex-column align-items-start" tabindex="-1" aria-disabled="true">
                     {% else %} <!-- Tab -->
-                    <a class="list-group-item list-group-item-action flex-column align-items-start {% if news.default_active === news_key %} active {% endif %}" data-toggle="list" href="#{{news_key}}" role="tab" onclick="tab_view_validate('{{news_key}}')">
+                    <a class="list-group-item list-group-item-action flex-column align-items-start {% if news.default_active === news_key %} active {% endif %}" data-toggle="list" href="#{{news_key}}" role="tab">
                     {% endif %}
                         <div class="d-flex w-100 justify-content-between">
                             {% if "short_title" in item %} <h5 class="mb-1">{{item.short_title}}</h5> {% endif %}
