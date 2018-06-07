@@ -17,23 +17,6 @@
     border-bottom-style: solid
 }
 
-.c31 {
-    border-right-style: solid;
-    padding: 2pt 6pt 2pt 6pt;
-    border-bottom-color: #000000;
-    border-top-width: 0pt;
-    border-right-width: 0pt;
-    border-left-color: #000000;
-    vertical-align: top;
-    border-right-color: #000000;
-    border-left-width: 0pt;
-    border-top-style: solid;
-    border-left-style: solid;
-    border-bottom-width: 0pt;
-    width: 323.5pt;
-    border-top-color: #000000;
-    border-bottom-style: solid
-}
 
 .c38 {
     border-right-style: solid;
@@ -48,7 +31,7 @@
     border-top-style: solid;
     border-left-style: solid;
     border-bottom-width: 0pt;
-    width: 46pt;
+    width: 60pt;
     border-top-color: #000000;
     border-bottom-style: solid
 }
@@ -102,28 +85,11 @@
     border-top-style: solid;
     border-left-style: solid;
     border-bottom-width: 0pt;
-    width: 392.7pt;
+    /* width: 392.7pt; */
     border-top-color: #000000;
     border-bottom-style: solid
 }
 
-.c5 {
-    border-right-style: solid;
-    padding: 2pt 6pt 2pt 6pt;
-    border-bottom-color: #000000;
-    border-top-width: 0pt;
-    border-right-width: 0pt;
-    border-left-color: #000000;
-    vertical-align: top;
-    border-right-color: #000000;
-    border-left-width: 0pt;
-    border-top-style: solid;
-    border-left-style: solid;
-    border-bottom-width: 0pt;
-    width: 395.1pt;
-    border-top-color: #000000;
-    border-bottom-style: solid
-}
 
 .c7 {
     border-right-style: solid;
@@ -138,7 +104,7 @@
     border-top-style: solid;
     border-left-style: solid;
     border-bottom-width: 0pt;
-    width: 56.2pt;
+    width: 60pt;
     border-top-color: #000000;
     border-bottom-style: solid
 }
@@ -166,7 +132,7 @@
     font-weight: 700;
     text-decoration: none;
     vertical-align: baseline;
-    font-size: 23pt;
+    font-size: 20pt;
     font-family: "Arial";
     font-style: normal
 }
@@ -246,7 +212,7 @@
     font-weight: 700;
     text-decoration: none;
     vertical-align: baseline;
-    font-size: 11pt;
+    font-size: 12pt;
     font-family: "Arial";
     font-style: normal
 }
@@ -281,7 +247,7 @@
 .c12 {
     padding-top: 3pt;
     padding-bottom: 3pt;
-    line-height: 1.15;
+    line-height: 1.1;
     orphans: 2;
     widows: 2;
     text-align: center
@@ -335,11 +301,6 @@
     text-align: justify
 }
 
-/* .c30 {
-    background-color: #ffffff;
-    max-width: 451.4pt;
-    padding: 72pt 72pt 72pt 72pt
-} */
 
 .c16 {
     orphans: 2;
@@ -374,7 +335,7 @@
     font-style: italic
 }
 
-.c48 {
+/* .c48 {
     height: 72pt
 }
 
@@ -413,11 +374,4 @@
 .c15 {
     height: 53pt
 }
-
-.c20 {
-    height: 57pt
-}
-
-.c40 {
-    height: 54pt
-}
+*/
