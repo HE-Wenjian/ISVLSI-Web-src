@@ -22,9 +22,14 @@
                             <div class="col-12 col-sm-9 col-md-9 col-lg-10 my-auto">
                                 <h4><b>{{ keynote_pool[talk_id].title }}</b></h4>
                                 <h5>{{ keynote_pool[talk_id].speaker }}</h5>
-                                <p>{{ keynote_pool[talk_id].affiliation }}</p>
+                                <p>{{ keynote_pool[talk_id].affiliation|safe }}</p>
                             </div>
                         </div>
+                        {% if "abstract" in keynote_pool[talk_id] %}
+                        <div class="row"><div class="col-12">
+                            <p class="text-justify">{{ keynote_pool[talk_id].abstract }}</p>
+                        </div></div>
+                        {% endif %}
                     </div>
                     <div class="card-footer">
                         <p class="text-justify">{{ keynote_pool[talk_id].bio|safe }}</p>

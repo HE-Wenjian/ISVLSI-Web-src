@@ -1,6 +1,6 @@
 {
 	"page_keynote_list":[
-		"keynote_highlight_1","keynote_highlight_2","keynote_highlight_3"
+		"keynote_highlight_1","keynote_highlight_2","keynote_highlight_3","keynote_highlight_4","keynote_highlight_5"
 	],
 	"keynote_pool":{
 		"keynote_highlight_1" : {
@@ -25,7 +25,23 @@
 			"title":"Self-Awareness for Heterogeneous MPSoCs: A Case Study using Adaptive, Reflective Middleware",
 			"photo_path":"img/speaker_photo/nikil_dutt.jpg",
 			"bio":"Nikil Dutt is a Chancellor's Professor of CS, Cognitive Sciences, and EECS at the University of California, Irvine.  He received a PhD from the University of Illinois at Urbana-Champaign (1989).  His research interests are in embedded systems, EDA, computer architecture and compilers, distributed systems, and brain-inspired architectures and computing. He has received numerous best paper awards and is coauthor of 7 books. Professor Dutt has served as EiC of ACM TODAES and AE for ACM TECS and IEEE TVLSI.  He is on the steering, organizing, and program committees of several premier EDA and Embedded System Design conferences and workshops, and has also been on the advisory boards of ACM SIGBED, ACM SIGDA, ACM TECS and IEEE ESL. He is an ACM Fellow, IEEE Fellow, and recipient of the IFIP Silver Core Award."
-		},
+        },
+        "keynote_highlight_4" : {
+			"speaker":"Vijaykrishnan Narayanan",
+			"time":"",
+			"affiliation":"Pennsylvania State University, USA",
+			"photo_path":"img/speaker_photo/vijaykrishnan_narayanan.jpg",
+			"title":"Cogntive Vision Systems: Energy Efficiency Influences from Algorithms to Architectures",
+			"bio":"Vijay Narayanan is a Distinguished Professor of Computer Science and Engineering and Electrical Engineering at The Pennsylvania State University. He is the director of the NSF Expeditions-in-Computing Program on Visual Cortex on Silicon and a thrust leader for the JUMP Center on Brain-Inspired Computing. He has published more than 400 papers and won several awards in recognition of his research in power-aware systems, embedded systems and computer architecture. He is a fellow of IEEE and ACM."
+        },
+        "keynote_highlight_5" : {
+			"speaker":"Weibin Ding",
+			"time":"",
+			"affiliation":"Cadence Software Engineering Group Director<br>Head of Cadence Global AI Center of Digital and Signoff Group",
+			"photo_path":"img/speaker_photo/weibin_ding.jpg",
+			"title":"Machine Learning Further Improve Physical Design PPA At Advanced Node",
+            "bio":"Weibin is based in Shanghai – the APAC Headquarter of Cadence and currently leading the Global AI Center of DSG which is a new strategic function in Cadence since January 2018.  Prior to that, he led 100+ software engineers responsible for Innovus product development.  He initiated the Machine Learning direction for Innovus in early 2015 and responsible for making it production. He has been working at Cadence for 12 years and held 3 US patents. Weibin received a B.S. and M.S. degree in Computer Science from Shanghai Jiao Tong University."
+        },
 		"keynote_template" : {
 			"speaker":"",
 			"time":"",
