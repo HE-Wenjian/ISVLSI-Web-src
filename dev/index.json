@@ -1,10 +1,10 @@
 {
     "news": {
-        "default_active": "news_visa_letter",
+        "default_active": "news_poster_require",
         "default_show": [
+            "news_poster_require",
             "news_visa_letter",
-            "news_student_traval_awards",
-            "news_final_paper_submit"
+            "news_student_traval_awards"
         ],
         "news_pool": {
             "news_final_paper_submit": {
@@ -48,6 +48,23 @@
                 "panel_content_mode": "p",
                 "short_description": "Email us to get.",
                 "short_title": "Visa Supporting Letter",
+                "type": "tab"
+            },
+            "news_poster_require": {
+                "date": "2018-06-08",
+                "__panel_btn_href": "#",
+                "panel_btn_new_window": true,
+                "__panel_btn_text": "Learn more about Visa",
+                "panel_content": [
+                    "1. You have a display area sized 90 cm tall by 110 cm wide. You are free to use this area in any way (e.g., one large poster, multiple sheets, etc.).",
+                    "2. Thumbtacks (pushpins) will be provided to hang your poster. Do not use foam core material for your poster or any other thick/heavy material.",
+                    "3. ISVLSI does not provide output or production services.",
+                    "4. Please remove your poster/display after the poster session. Otherwise, the pages or poster will be discarded."
+                ],
+                "panel_content_mode": "p",
+                "short_description": "For poster presenters.",
+                "__short_footnote": "This is footnote.",
+                "short_title": "Poster Requirements",
                 "type": "tab"
             },
             "z_news_template_plain_text": {
