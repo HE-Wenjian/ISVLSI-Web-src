@@ -43,7 +43,7 @@
                         </div>
                         {% if "short_description" in item %} <p class="mb-1">{{item.short_description}}</p> {% endif %}
                         {% if "short_footnote" in item %} <small class="text-muted">{{item.short_footnote}}</small> {% endif %}
-                    {% if item.type|lower ==="text" %}</div>{% else %}</a>{% endif %}
+                    {% if item.type|lower === "text" %}</div>{% else %}</a>{% endif %}
                     <!--  -->
                     {% endfor %}
                 </div>
@@ -217,6 +217,19 @@
         <!-- /.container -->
         <!-- Footer -->
         @@include('./component/footer.p.html',{ "parentRel": "@@webRoot" })
+    <script> 
+    	function tab_view_validate(news_key){
+    		tab_view_validate.multiclick=tab_view_validate.multiclick || 0;
+    		tab_view_validate.multiclick+=1;
+    		setTimeout(function(){
+    			tab_view_validate.multiclick-=1;
+				if($("#"+news_key).hasClass('active') && tab_view_validate.multiclick===0){
+					gtag('event','screen_view',{'screen_name':news_key});
+				}
+			},1500);
+    		
+    	}
+    </script>
 </body>
 
 </html>
