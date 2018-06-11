@@ -66,6 +66,7 @@
                         <a href="{{item.panel_btn_href}}"
                         {% if item.panel_btn_new_window" %} target="_blank" {% endif %}
                         class="btn btn-primary float-right">
+                        {% if item.panel_btn_fa" %}<i class="fa {{item.panel_btn_fa}}" aria-hidden="true"></i> {% endif %}
                         {{ item.panel_btn_text|default('Learn More') }}
                         </a>
                         {% endif %}
