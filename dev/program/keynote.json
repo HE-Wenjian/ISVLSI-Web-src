@@ -42,7 +42,8 @@
 			"time":"",
 			"affiliation":"Cadence Software Engineering Group Director<br>Head of Cadence Global AI Center of Digital and Signoff Group",
 			"photo_path":"img/speaker_photo/weibin_ding.jpg",
-			"title":"Machine Learning Further Improve Physical Design PPA At Advanced Node",
+            "title":"Machine Learning Further Improve Physical Design PPA At Advanced Node",
+            "abstract" :"Place and route at advanced process node is becoming much more complicated than ever, to meet both timing and DRC closure need multiple core engines to co-work seamlessly well.  Traditionally it is very hard problem to decide a solution finally works or not along the flow, the machine learning method opens a door to give better correlated result in the flow. We have constantly seen the improvement trend in our product development.",
             "bio":"Weibin is based in Shanghai – the APAC Headquarter of Cadence and currently leading the Global AI Center of DSG which is a new strategic function in Cadence since January 2018.  Prior to that, he led 100+ software engineers responsible for Innovus product development.  He initiated the Machine Learning direction for Innovus in early 2015 and responsible for making it production. He has been working at Cadence for 12 years and held 3 US patents. Weibin received a B.S. and M.S. degree in Computer Science from Shanghai Jiao Tong University."
         },
 		"keynote_template" : {
