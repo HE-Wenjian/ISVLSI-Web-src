@@ -51,15 +51,17 @@
                 "type": "tab"
             },
             "news_poster_require": {
-                "date": "2018-06-08",
-                "__panel_btn_href": "#",
+                "date": "2018-06-11",
+                "panel_btn_href": "@@webRoot/download/ISVLSI-2018_Poster_Template.pptx",
                 "panel_btn_new_window": true,
-                "__panel_btn_text": "Learn more about Visa",
+                "panel_btn_fa": "fa-cloud-download",
+                "panel_btn_text": "Poster Template",
                 "panel_content": [
                     "1. You have a display area sized 90 cm tall by 110 cm wide. You are free to use this area in any way (e.g., one large poster, multiple sheets, etc.).",
                     "2. Thumbtacks (pushpins) will be provided to hang your poster. Do not use foam core material for your poster or any other thick/heavy material.",
                     "3. ISVLSI does not provide output or production services.",
-                    "4. Please remove your poster/display after the poster session. Otherwise, the pages or poster will be discarded."
+                    "4. Please remove your poster/display after the poster session. Otherwise, the pages or poster will be discarded.",
+                    "A poster template can be downloaded througth the bottun below."
                 ],
                 "panel_content_mode": "p",
                 "short_description": "For poster presenters.",

@@ -17,46 +17,58 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto"> 
-                                <img class="img-fluid d-block mx-auto" style="max-height: 140px" src="@@webRoot/{{ keynote_pool[talk_id].photo_path }}" alt="{{ keynote_pool[talk_id].speaker }}" />
+                                <img class="img-fluid d-block mx-auto" style="max-height: 140px" src="@@webRoot/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
                             </div>
                             <div class="col-12 col-sm-9 col-md-9 col-lg-10">
-                                <h4><b>{{ keynote_pool[talk_id].title }}</b></h4>
-                                <h5>{{ keynote_pool[talk_id].speaker }}</h5>
-                                <p>{{ keynote_pool[talk_id].affiliation|safe }}</p>
+                                <h4><b>{{ talk_pool[talk_id].title }}</b></h4>
+                                <h5>{{ talk_pool[talk_id].speaker }}</h5>
+                                <p>{{ talk_pool[talk_id].affiliation|safe }}</p>
                             </div>
                         </div>
-                        {% if "abstract" in keynote_pool[talk_id] %}
+                        {% if "abstract" in talk_pool[talk_id] %}
                         <div class="row"><div class="col-12">
-                            <p class="card-text text-justify mt-3">{{ keynote_pool[talk_id].abstract|safe }}</p>
+                            <p class="card-text text-justify mt-3">{{ talk_pool[talk_id].abstract|safe }}</p>
                         </div></div>
                         {% endif %}
                     </div>
                     <div class="card-footer">
-                        <p class="text-justify"><b>Biography: </b>{{ keynote_pool[talk_id].bio|safe }}</p>
+                        <p class="text-justify"><b>Biography: </b>{{ talk_pool[talk_id].bio|safe }}</p>
                     </div>
                 </div>
             </div>
         </div>
         {% endfor %}
         <!-- /.row -->
-        <!-- Two -->
-        <!--         {% for talk_id in page_keynote_list %}
-        <hr>
-        <div class="row">
-            <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto">
-                <img class="img-fluid d-block mx-auto" style="max-height: 200px" src="@@webRoot/{{ keynote_pool[talk_id].photo_path }}" alt="{{ keynote_pool[talk_id].speaker }}" />
-            </div>
-            <div class="col-12 col-sm-9 col-md-9 col-lg-10 my-auto">
-            	<h4><b>{{ keynote_pool[talk_id].title }}</b></h4>
-            	<h5>{{ keynote_pool[talk_id].speaker }}</h5>
-            	<p >{{ keynote_pool[talk_id].affiliation }}</p>
-            </div>
-            <div class="col-12 mt-2">
-                <p class="text-justify">{{ keynote_pool[talk_id].bio }}</p>
+        <h1 class="mt-4 mb-3">Visionary Talks</h1>
+        {% for talk_id in page_visionary_list %}
+        <div class="row my-3">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto"> 
+                                <img class="img-fluid d-block mx-auto" style="max-height: 140px" src="@@webRoot/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
+                            </div>
+                            <div class="col-12 col-sm-9 col-md-9 col-lg-10">
+                                <h4><b>{{ talk_pool[talk_id].title }}</b></h4>
+                                <h5>{{ talk_pool[talk_id].speaker }}</h5>
+                                <p>{{ talk_pool[talk_id].affiliation|safe }}</p>
+                            </div>
+                        </div>
+                        {% if "abstract" in talk_pool[talk_id] %}
+                        <div class="row"><div class="col-12">
+                            <p class="card-text text-justify mt-3">{{ talk_pool[talk_id].abstract|safe }}</p>
+                        </div></div>
+                        {% endif %}
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-justify"><b>Biography: </b>{{ talk_pool[talk_id].bio|safe }}</p>
+                    </div>
+                </div>
             </div>
         </div>
-        {% endfor %} -->
-        <!-- /.row -->
+        {% endfor %}
+        <hr>
         <div class="col-12 mx-auto my-2">
             <div class="card text-center bg-warning">
                 <div class="card-block">

@@ -4,3 +4,5 @@ publish
 ftpconfig.ini
 *.gen.p.html
 hyTODO.log
+
+dev/.vscode
