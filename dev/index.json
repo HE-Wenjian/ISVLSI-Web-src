@@ -1,10 +1,10 @@
 {
     "news": {
-        "default_active": "news_poster_require",
+        "default_active": "news_early_registration",
         "default_show": [
+            "news_early_registration",
             "news_poster_require",
-            "news_visa_letter",
-            "news_student_traval_awards"
+            "news_visa_letter"
         ],
         "news_pool": {
             "news_final_paper_submit": {
@@ -61,12 +61,29 @@
                     "2. Thumbtacks (pushpins) will be provided to hang your poster. Do not use foam core material for your poster or any other thick/heavy material.",
                     "3. ISVLSI does not provide output or production services.",
                     "4. Please remove your poster/display after the poster session. Otherwise, the pages or poster will be discarded.",
-                    "A poster template can be downloaded througth the bottun below."
+                    "A poster template can be downloaded through the button below."
                 ],
                 "panel_content_mode": "p",
                 "short_description": "For poster presenters.",
                 "__short_footnote": "This is footnote.",
                 "short_title": "Poster Requirements",
+                "type": "tab"
+            },
+            "news_early_registration": {
+                "date": "2018-06-14",
+                "panel_btn_href": "@@webRoot/registration.html",
+                "panel_btn_new_window": false,
+                "__panel_btn_fa": "fa-",
+                "panel_btn_text": "Go to Registration!",
+                "panel_content": [
+                   "Early registration deadline, June 15th,  is approaching! Do not miss the chance to get discount.",
+                   "The early registration fee is $550 for IEEE member; $400 for student member.",
+                   "Late or on-site registration will be $600 for IEEE member and 450 for student member. 20% more for non-member."
+                ],
+                "panel_content_mode": "p",
+                "short_description": "Deadline approaching!",
+                "short_footnote": "Register before June 15 to enjoy discount",
+                "short_title": "Early Registration",
                 "type": "tab"
             },
             "z_news_template_plain_text": {
