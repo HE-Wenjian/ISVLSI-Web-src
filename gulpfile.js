@@ -118,8 +118,10 @@ gulp.task('copy_image', function() {
 })
 
 gulp.task('copy_assets', function() {
-    gulp.src(['dev/download/**/*.pdf',
-            '!dev/download/**/*.src.*'
+    gulp.src(['dev/download/*.*',
+            'dev/download/**/*.pdf',
+            '!dev/download/**/*.src.*',
+            '!dev/download/src/**/*.*'
         ])
         .pipe(gChanged(path.join(DestDir, 'download')))
         .pipe(gCount({ showFiles: true, title: '[download] Num Copied= ##'}))
