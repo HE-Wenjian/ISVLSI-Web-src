@@ -1,0 +1,1 @@
+Use GNU Gimp (>2.8) to open the Logo_ISVLSI.xcf, which contains the source design of ISVLSI logo.
