@@ -6,16 +6,7 @@
 <body>
     <!-- Navigation : navbar -->
     @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "program" })
-    <!-- Page Content -->
-    <section class="container">
-        <h1 class="mt-4 mb-3">Program Schedule</h1>
-        <div class="row">
-            <div class="col-12">
-                <img class="img-fluid mb-3" src="@@webRoot/img/sched.png" alt="Program Schedule">
-                <small>Note: The sessions with (*) have Best Paper Candidates.</small>
-            </div>
-        </div>
-        <script type="text/javascript">
+    <script type="text/javascript">
         function loadCSS(filename) {
             var file = document.createElement("link");
             file.setAttribute("rel", "stylesheet");
@@ -24,7 +15,90 @@
             document.head.appendChild(file);
         }
         loadCSS("@@webRoot/css/sched.css");
-        </script>
+    </script>
+    <!-- Page Content -->
+    <section class="container">
+        <h1 class="mt-4 mb-3">Program Schedule</h1>
+        <div class="row">
+            <div class="col-12">
+                <small class="text-muted align-text-top float-right">Updating...</small>
+                <img class="img-fluid mb-3" src="@@webRoot/img/sched.png" alt="Program Schedule">
+                <small>Note: The sessions with (*) have Best Paper Candidates.</small>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <ul class="nav nav-tabs nav-justified" id="schd-main-tab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link" id="schd-keynote-tab" data-toggle="tab" href="#schd-keynote" role="tab">
+                            <h4>
+                                <i class="fa fa-calendar"></i> Keynote </h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="schd-plenary-tab" data-toggle="tab" href="#schd-plenary" role="tab">
+                            <h4>
+                                <i class="fa fa-calendar"></i> Plenary Talks </h4>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" id="schd-sessions-tab" data-toggle="tab" href="#schd-sessions" role="tab">
+                            <h4>
+                                <i class="fa fa-calendar"></i> Program Schedule </h4>
+                        </a>
+                    </li>
+                </ul>
+                <div class="tab-content" id="schd-main-panel">
+                    <div class="tab-pane fade" id="schd-keynote" role="tabpanel">
+                        {% for talk_id in page_keynote_list %}
+                        <div class="card my-1">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto">
+                                        <img class="img-fluid d-block mx-auto" style="max-height: 100px" src="@@webRoot/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
+                                    </div>
+                                    <div class="col-12 col-sm-9 col-md-9 col-lg-10">
+                                        <h5>
+                                            <b>{{ talk_pool[talk_id].title }}</b>
+                                        </h5>
+                                        <h5>{{ talk_pool[talk_id].speaker }}</h5>
+                                        <p><small>{{ talk_pool[talk_id].affiliation|safe }}</small></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="card-footer"></div> -->
+                        </div>
+                        {% endfor %}
+                    </div>
+                    <div class="tab-pane fade" id="schd-plenary" role="tabpanel">
+                            {% for talk_id in page_visionary_list %}
+                            <div class="card my-1">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto">
+                                            <img class="img-fluid d-block mx-auto" style="max-height: 100px" src="@@webRoot/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
+                                        </div>
+                                        <div class="col-12 col-sm-9 col-md-9 col-lg-10">
+                                            <h5>
+                                                <b>{{ talk_pool[talk_id].title }}</b>
+                                            </h5>
+                                            <h5>{{ talk_pool[talk_id].speaker }}</h5>
+                                            <p><small>{{ talk_pool[talk_id].affiliation|safe }}</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="card-footer"></div> -->
+                            </div>
+                            {% endfor %}
+                    </div>
+                    <div class="tab-pane fade show active" id="schd-sessions" role="tabpanel">
+                        ..
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="row">
             <div class="col-12">
                 <h1 class="c13">
@@ -336,7 +410,8 @@
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Xuanqi Chen, Zhifei Wang, Yi-Shing Chang, Jiang Xu, Peng Yang, Zhehui Wang and Luan H.K.
-                                        Duong</span>
+                                        Duong
+                                    </span>
                                 </p>
                             </td>
                         </tr>
@@ -414,7 +489,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">High Bandwidth Off-Chip Memory Access Through Hybrid Switching and Inter-Chip Wireless
-                                        Links</span>
+                                        Links
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Sri Harsha Gade, Hemanta Kumar Mondal and Sujay Deb</span>
@@ -480,7 +556,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">A Short Survey at the Intersection of Reliability and Security in Processor Architecture
-                                        Designs</span>
+                                        Designs
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Lake Bu, Miguel Mark, Michel A. Kinsy</span>
@@ -686,7 +763,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">Fully-on-Chip Digitally Assisted LDO Regulator with Improved Regulation and Transient
-                                        Responses</span>
+                                        Responses
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Han Li, Chenchang Zhan and Ning Zhang</span>
@@ -793,7 +871,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">Precise Duty Cycle Variation Detection and Self-Calibration System for High-Speed Data
-                                        Links</span>
+                                        Links
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Karen Khachikyan, Abraham Balabanyan and Hrachya Gumroyan</span>
@@ -1037,7 +1116,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">A Dynamic Resource Allocation Strategy for NoC Based Multicore Systems with Permanent
-                                        Faults</span>
+                                        Faults
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Suraj Paul, Navonil Chatterjee and Prasun Ghosal</span>
@@ -1068,7 +1148,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">Generating Safety Guidance for Medical Injection with Three-Compartment Pharmacokinetics
-                                        Model</span>
+                                        Model
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Cunxi Yu, Heinz Riener, Francesca Stradolini and Giovanni De Micheli</span>
@@ -1087,7 +1168,8 @@
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Anirban Bhattacharjee, Chandan Bandyopadhyay, Robert Wille, Rolf Drechsler and Hafizur
-                                        Rahaman</span>
+                                        Rahaman
+                                    </span>
                                 </p>
                             </td>
                         </tr>
@@ -1163,7 +1245,8 @@
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Bi Wu, Xiaolong Zhang, Yuanqing Cheng, Zhaohao Wang, Dijun Liu, Youguang Zhang and Weisheng
-                                        Zhao</span>
+                                        Zhao
+                                    </span>
                                 </p>
                             </td>
                         </tr>
@@ -1176,7 +1259,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">Time Stamp Based Scheduling for Energy Harvesting Systems with Hybrid Nonvolatile Hardware
-                                        Support</span>
+                                        Support
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Xin Shi, Tongda Wu, Keni Qiu, Huazhong Yang and Yongpan Liu</span>
@@ -1526,7 +1610,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">A Mixed-Mode Neuron with On-Chip Tunability for Generic Use in Memristive Neuromorphic
-                                        Systems</span>
+                                        Systems
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Sagarvarma Sayyaparaju, Ryan Weiss and Garrett S. Rose</span>
@@ -1614,7 +1699,7 @@
                                 <p class="c1">
                                     <span class="c6">Ankit Rehani, Sujay Deb, Pydi Ganga Bahubalindruni, Bhavin Odedara and Srikanth Bojja</span>
                                 </p>
-                            </td> 
+                            </td>
                         </tr>
                     </tbody>
                 </table>
@@ -2023,7 +2108,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">Towards Dynamic Execution Environment for System Security Protection against Hardware
-                                        Flaws</span>
+                                        Flaws
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Kenneth Schmitz, Oliver Keszocze, Jurij Schmidt, Daniel Grosse and Rolf Drechsler</span>
@@ -2081,7 +2167,8 @@
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Hiroyuki Baba, Tongxin Yang, Masahiro Inoue, Kaori Tajima, Tomoaki Ukezono and Toshinori
-                                        Sato</span>
+                                        Sato
+                                    </span>
                                 </p>
                             </td>
                         </tr>
@@ -2304,7 +2391,8 @@
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Ehsan Aerabi, Ahmad Patooghy, Hamidreza Rezaei, Miguel Mark, Mahdi Fazeli and Michel
-                                        Kinsy</span>
+                                        Kinsy
+                                    </span>
                                 </p>
                             </td>
                         </tr>
@@ -2353,7 +2441,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">Very Large-Scale and Node-Heavy Graph Analytics with Heterogeneous FPGA+CPU Computing
-                                        Platform</span>
+                                        Platform
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Yu Zou and Mingjie Lin</span>
@@ -2422,7 +2511,8 @@
                             <td class="c3" colspan="1" rowspan="1">
                                 <p class="c1">
                                     <span class="c10">Multi-Target Many-Reactant Sample Preparation for Reactant Minimization on Microfluidic
-                                        Biochips</span>
+                                        Biochips
+                                    </span>
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Yung-Chun Lei, Tien-Kuo Lin, Juinn-Dar Huang</span>
@@ -2496,7 +2586,8 @@
                                 </p>
                                 <p class="c1">
                                     <span class="c6">Kumar K Sudeendra, Seth Saurabh, Sahoo Sauvagya, Mahapatra Abhishek, Ayas Kanta Swain,
-                                        K.K.Mahapatra</span>
+                                        K.K.Mahapatra
+                                    </span>
                                 </p>
                             </td>
                         </tr>
@@ -2967,30 +3058,6 @@
         </div>
     </section>
     <!-- List Start -->
-    <!--         {% for talk_id in page_keynote_list %}
-        <div class="row my-3">
-            <div class="col-12">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="row">
-                            <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto">
-                                <img class="img-fluid d-block mx-auto" style="max-height: 200px" src="@@webRoot/{{ keynote_pool[talk_id].photo_path }}" alt="{{ keynote_pool[talk_id].speaker }}" />
-                            </div>
-                            <div class="col-12 col-sm-9 col-md-9 col-lg-10 my-auto">
-                                <h4><b>{{ keynote_pool[talk_id].title }}</b></h4>
-                                <h5>{{ keynote_pool[talk_id].speaker }}</h5>
-                                <p>{{ keynote_pool[talk_id].affiliation }}</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card-footer">
-                        <p class="text-justify">{{ keynote_pool[talk_id].bio|safe }}</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        {% endfor %} -->
-    <!-- List End -->
     <!--   -->
     <hr>
     <!--  Ending -->
