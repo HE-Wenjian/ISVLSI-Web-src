@@ -64,9 +64,7 @@ gulp.task('compile_html', ['clean-debug'], function() {
         .pipe(gDebug({ showFiles: DEBUG_MODE, title: '[HTML] Start to compile:' }))
         .pipe(gData(
             function(file) {
-                var ItsJSONFile = (path.basename(file.path).includes('keynote')) ?
-                	"./dev/program/keynote.json":
-                	gutil.replaceExtension(file.path, '.json');
+                var ItsJSONFile = gutil.replaceExtension(file.path, '.json');
                 return (fs.existsSync(ItsJSONFile)) ? requireUncached(ItsJSONFile) : {};
             }
         ))
