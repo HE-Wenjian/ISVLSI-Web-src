@@ -8,8 +8,10 @@
         "keynote_highlight_6"
     ],
     "page_visionary_list": [
-        "vision_1",
-        "vision_2"
+    	"vision_2",
+    	"vision_3",
+        "vision_5",
+        "vision_6"
     ],
     "talk_pool": {
         "keynote_highlight_1": {
@@ -65,7 +67,25 @@
             "abstract": "Place and route at advanced process node is becoming much more complicated than ever, to meet both timing and DRC closure need multiple core engines to co-work seamlessly well.  Traditionally it is very hard problem to decide a solution finally works or not along the flow, the machine learning method opens a door to give better correlated result in the flow. We have constantly seen the improvement trend in our product development.",
             "bio": "Weibin is based in Shanghai – the APAC Headquarter of Cadence and currently leading the Global AI Center of DSG which is a new strategic function in Cadence since January 2018.  Prior to that, he led 100+ software engineers responsible for Innovus product development.  He initiated the Machine Learning direction for Innovus in early 2015 and responsible for making it production. He has been working at Cadence for 12 years and held 3 US patents. Weibin received a B.S. and M.S. degree in Computer Science from Shanghai Jiao Tong University."
         },
-        "vision_1": {
+         "vision_2": {
+            "speaker": "Zhou Ma",
+            "time": "",
+            "affiliation": "Deputy General Manager<br>SoC R&D Center of Phytium",
+            "photo_path": "img/speaker_photo/zhuo_ma.jpg",
+            "title": "The Advanced Technologies in the New Generation of Phytium's Processors – From the Architecture to Implementation",
+            "abstract": "In the past decades, the computer technology comes to a rapid increasing new ear, and the silicon-based high performance processors give the main impetus. To be a member of the first group of CPU design houses, Phytium Technology Co., Ltd. is a fast-growing Chinese IC design company, and is dedicated to design, manufacture high performance and low power CPU chips as well as services around the products.",
+            "bio": "Dr. MA is the deputy general manager of SoC R&D center of Phytium. In the past two decades, Dr. MA focused on the technologies of the implementation of high performance processors. He is leading a group of gifted engineers to build the most high-performance ARM-based CPU chips. In the presentation, He will introduce the advanced design technologies of Phytium's CPUs, and share a lot of successful stories."
+        },
+        "vision_3": {
+            "speaker": "Prof. Deming Chen",
+            "time": "",
+            "affiliation": "Donald Biggar Willett Scholar<br>University of Illinois Urbana-Champaign",
+            "photo_path": "img/speaker_photo/deming_chen.png",
+            "title": "Overcoming Challenges of Accelerating Deep Neural Network Computations",
+            "abstract": "Deep Neural Networks (DNNs) are computation intensive. Without efficient hardware implementations of DNNs, many promising AI applications will not be practically realizable. In this talk, we will analyze several challenges facing the AI community for mapping DNNs to hardware accelerators. Especially, we will evaluate FPGA's potential role for accelerating DNNs for both the cloud and edge devices. Although FPGAs can provide desirable customized hardware solutions, they are difficult to program and optimize.  We will present a series of effective design techniques for implementing DNNs on FPGAs with high performance and energy efficiency. These include automated hardware/software co-design, the use of configurable DNN IPs, resource allocation across DNN layers, smart pipeline scheduling, Winograd and FFT techniques, and DNN reduction and re-training. We showcase several design solutions including Long-term Recurrent Convolution Network (LRCN) for video captioning, Inception module (GoogleNet) for face recognition, as well as Long Short-Term Memory (LSTM) for sound recognition. We will also present some of our recent work on developing new DNN models and data structures for achieving higher accuracy for several interesting applications such as crowd counting, genomics, and music synthesis.",
+            "bio": "Dr. Deming Chen obtained his BS in computer science from University of Pittsburgh, Pennsylvania in 1995, and his MS and PhD in computer science from University of California at Los Angeles in 2001 and 2005 respectively. He joined the ECE department of University of Illinois at Urbana-Champaign (UIUC) in 2005 and has been a full professor in the same department since 2015. His current research interests include system-level and high-level synthesis, machine learning, computational genomics, GPU and reconfigurable computing, and hardware security. He has given about 100 invited talks sharing these research results worldwide. Dr. Chen is a technical committee member for a series of top conferences and symposia on EDA, FPGA, low-power design, and VLSI systems design. He is an associated editor for several leading IEEE and ACM journals. He received the NSF CAREER Award in 2008, the ACM SIGDA Outstanding New Faculty Award in 2010, and IBM Faculty Award in 2014 and 2015. He also received seven Best Paper Awards and the First Place Winner Award of DAC International Hardware Contest on IoT in 2017. He is included in the List of Teachers Ranked as Excellent in 2008 and 2017. He was involved in two startup companies previously, which were both acquired. In 2016, he co-founded a new startup, Inspirit IoT, Inc., for design and synthesis for machine learning applications targeting the IoT industry. He is the Donald Biggar Willett Faculty Scholar of College of Engineering of UIUC."
+        },
+        "vision_5": {
             "speaker": "Prof. Ulf Schlichtmann",
             "time": "",
             "affiliation": "Electrical and Computer Engineering<br>Technical University of Munich (TUM)",
@@ -74,7 +94,7 @@
             "abstract": "Thanks to still ever increasing advances in manufacturing technology, we can implement ever more complex systems. System-level design is essential to deal with the enormous complexity of today’s advanced systems. At the same time, fast time to market is as essential as ever. And robustness and reliability are increasing in importance, as the focus of the semiconductor industry shifts to applications with high safety requirements such as automotive. High-level system models, known as Virtual Prototypes, are essential to meet all these challenges. Fault injection is the most common technique to evaluate system robustness.<br>I will outline some recent progress in Virtual Prototypes for safety evaluations. I will especially discuss how both high performance and high accuracy in fault injection can be achieved at the same time. Robustness evaluation has to be extended to Firmware in addition to Hardware. Future challenges for system design will conclude my presentation.",
             "bio": "Ulf Schlichtmann holds a Dipl.-Ing. degree (MSc equivalent) and a doctorate in electrical engineering from TUM, as well as a technology business degree. He spent about 10 years in the semiconductor industry (Siemens, Infineon) in various engineering, management and executive positions, working on design automation, design libraries, IP reuse, and product development.<br>In 2003, he joined TUM as professor and head of the Chair of Electronic Design Automation. From 2007-2013 he served as Dean and Vice Dean of TUM’s Department of Electrical and Computer Engineering (ECE). Since 2016, Ulf is an elected member of TUM’s Academic Senate as well as the TUM Board of Trustees. Since 2017, he is a member of the Advisory Council of TUM’s Institute for Advanced Studies. Also, since 2017, Ulf serves as Vice Dean of TUM’s ECE Department again. Ulf is currently a visiting Professor at Nanyang Technological University (NTU), Singapore as well as Honorary Chair Professor at National Taiwan University of Science and Technology (NTUST), Taipei.<br>Ulf’s current research interests include computer-aided design of electronic circuits and systems, with an emphasis on designing reliable and robust systems. His research increasingly focuses on emerging technologies, such as microfluidic biochips and photonic interconnects."
         },
-        "vision_2": {
+        "vision_6": {
             "speaker": "Swarup Bhunia",
             "time": "",
             "affiliation": "Electrical and Computer Engineering<br>University of Florida, Gainesville, Florida",
