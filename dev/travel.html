@@ -22,13 +22,7 @@
                             Hong Kong SAR, China
                           </h5>
                         <p class="text-justify">The university campus of PolyU is located in Hung Hom, Kowloon, on a 9.46-hectare site adjacent to the Cross Harbour Tunnel. In addition to classrooms, laboratories and academic facilities, the campus offers sport, recreational facilities and other facilities including multi-purpose auditorium and Industrial Centre. A full range of campus services including restaurants, bookstore and banks are also provided. </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <p class="text-center">
-                            <a class="btn btn-md btn-success" target="_blank" href="https://www.polyu.edu.hk/fmo/eMap/map.php"> Campus Map <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
-                        </p>
+                        <p><b>Free WiFi</b> named "Wi-Fi.HK via PolyU" is availabe on campus. </p>
                     </div>
                 </div>
             </div>
@@ -41,6 +35,12 @@
             {% for img_url in polyU.gallery_img_url %}
             <div class="col-6 col-sm-4 col-md-2 mb-3"><img class="img-fluid rounded d-block" src="{{img_url}}" alt="PolyU-{{loop.index}}"></div>
             {% endfor %}
+            <div class="col-12 full-width"><img class="img-fluid" src="@@webRoot/img/venue/PolyU/campus_map.jpg" alt="PolyU Campus Map"></div>
+                    <div class="col-12">
+                        <p class="text-center">
+                            <a class="btn btn-md btn-success" target="_blank" href="https://www.polyu.edu.hk/fmo/eMap/map.php"> Campus Map <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
+                        </p>
+                    </div>
         </div>
         <hr>
         <div class="row mb-4">
