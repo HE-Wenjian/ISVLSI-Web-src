@@ -17,6 +17,8 @@
     "talk_pool": {
         "keynote_highlight_1": {
             "speaker": "K.-T. Tim Cheng",
+            "time": "8:30am ~ 9:30am, Monday July 9",
+            "venue": "N003",
             "photo_path": "img/speaker_photo/timcheng_portrait.jpg",
             "affiliation": "Professor, Dean of School of Engineering<br>Hong Kong University of Science and Technology",
             "title": "Future Hybrid Circuits for Functionality, Performance and Energy Efficiency",
@@ -25,16 +27,28 @@
         },
         "keynote_highlight_2": {
             "speaker": "Hironori Kasahara",
-            "time": "",
+            "time": "1:20pm ~ 2:20pm, Monday July 9",
+            "venue": "N003",
             "affiliation": "President of IEEE Computer Society<br>Professor, Department of Computer Science and Engineering, Waseda University, Japan",
             "title": "Low Power High Performance Multicore Hardware and Software Co-Design",
 			"photo_path": "img/speaker_photo/HironoriKasaharaIEEECS2018.jpg",
 			"abstract":"Multicores have been attracting much attention to improve performance and reduce power consumption of computing systems, from embedded to supercomputing systems. To obtain high performance and low power on multicores, co-design of hardware and software is essential. Especially architecture supports for parallelizing and power reducing compiler are very important. This talk first introduces a parallelizing, memory usage optimizing and power reducing compiler and its performance on various multicores from Intel, IBM, arm, Fujitsu, Infineon, and Renesas for various applications including multimedia, automobile, cancer treatment, and earthquake simulation. It next explains architecture supports for the compiler, such as, global address space, data and group barrier synchronization, vector accelerators, data transfer controllers, and power control using DVFS and Clock and Power Gating. The hardware and software co-design allows us not only high performance and low power but also short development period and low development cost of parallel software. ",
             "bio": "Hironori Kasahara is an IEEE Computer Society President 2018 and a professor in the Department of Computer Science and Engineering at Waseda University. He is an IEEE Fellow, an IPSJ Fellow, a Golden Core Member of the IEEE Computer Society, a professional member of the IEEE Eta Kappa Nu, a member of the Engineering Academy of Japan and the Science Council of Japan. He received a PhD in 1985 from Waseda University, Tokyo, joined its faculty in 1986, and has been a professor of computer science since 1997 and a director of the Advanced Multicore Research Institute since 2004. He was a visiting scholar at University of California, Berkeley, and the University of Illinois at Urbana–Champaign’s Center for Supercomputing R&D. <br>He has served as a chair or member of 250 society and government committees, including a member of the CS Board of Governors and Executive Committee; chair of CS Planning Committee, Constitution & Bylaws Committee, Multicore STC and CS Japan chapter; associate editor of IEEE Transactions on Computers; vice PC chair of the 1996 ENIAC 50th Anniversary International Conference on Supercomputing; general chair of LCPC; PC member of SC, PACT, and ASPLOS; board member of IEEE Tokyo section; and member of the Earth Simulator and K supercomputer committees.  Kasahara received the CS Golden Core Member Award, IFAC World Congress Young Author Prize, Sakai Special Research Award, and the Japanese Minister’s Science and Technology Prize. He led Japanese national projects on parallelizing compilers and embedded multicores, and has presented 215 papers, 155 invited talks, and 30 patents. His research has appeared in 557 newspaper and Web articles."
         },
+        "keynote_highlight_3": {
+            "speaker": "Weibin Ding",
+            "time": "8:30am ~ 9:30am, Tuesday July 10",
+            "venue": "N003",
+            "affiliation": "Cadence Software Engineering Group Director<br>Head of Cadence Global AI Center of Digital and Signoff Group",
+            "photo_path": "img/speaker_photo/weibin_ding.jpg",
+            "title": "Machine Learning Further Improve Physical Design PPA At Advanced Node",
+            "abstract": "Place and route at advanced process node is becoming much more complicated than ever, to meet both timing and DRC closure need multiple core engines to co-work seamlessly well.  Traditionally it is very hard problem to decide a solution finally works or not along the flow, the machine learning method opens a door to give better correlated result in the flow. We have constantly seen the improvement trend in our product development.",
+            "bio": "Weibin is based in Shanghai – the APAC Headquarter of Cadence and currently leading the Global AI Center of DSG which is a new strategic function in Cadence since January 2018.  Prior to that, he led 100+ software engineers responsible for Innovus product development.  He initiated the Machine Learning direction for Innovus in early 2015 and responsible for making it production. He has been working at Cadence for 12 years and held 3 US patents. Weibin received a B.S. and M.S. degree in Computer Science from Shanghai Jiao Tong University."
+        },
         "keynote_highlight_4": {
             "speaker": "Jörg Henkel",
-            "time": "",
+            "time": "1:20pm ~ 2:20pm, Tuesday July 10",
+            "venue": "N003",
             "affiliation": "Chair of Embedded System, Professor of Computer Science<br>Karlsruhe Institute of Technology (KIT), Germany",
             "title": "Power Density and Circuit Aging – System-Level Means for Mitigation",
             "photo_path": "img/speaker_photo/jorg_Henkel.png",
@@ -43,7 +57,8 @@
         },
         "keynote_highlight_5": {
             "speaker": "Nikil Dutt",
-            "time": "",
+            "time": "8:30am ~ 9:30am, Wednesday July 11",
+            "venue": "N003",
             "affiliation": "Center for Embedded and CyberPhysical Systems (CECS)<br>Center for Cognitive Neuroscience and Engineering (CENCE)<br>Chancellor's Professor, Department of Computer Science<br>University of California, Irvine",
             "title": "Self-Awareness for Heterogeneous MPSoCs: A Case Study using Adaptive, Reflective Middleware",
             "photo_path": "img/speaker_photo/nikil_dutt.jpg",
@@ -52,52 +67,48 @@
         },
         "keynote_highlight_6": {
             "speaker": "Vijaykrishnan Narayanan",
-            "time": "",
+            "time": "1:20pm ~ 2:20pm, Wednesday July 11",
+            "venue": "N003",
             "affiliation": "Distinguished Professor, Computer Science and Engineering and Electrical Engineering<br>Pennsylvania State University, USA",
             "photo_path": "img/speaker_photo/vijaykrishnan_narayanan.jpg",
             "title": "Cognitive Vision Systems: Energy Efficiency Influences from Algorithms to Architectures",
             "abstract": "Shopping is widely considered as a relaxing leisure activity. However, grocery shopping can be a frustrating experience for those with visual impairment. While getting to a grocery shop itself is not as much of a challenge for them, locating and picking the items in the grocery shelf becomes a task as challenging as picking a needle from the haystack. Imagine picking up five items for your dinner recipe from a typical grocery store in the US that carries around 35,000 unique items and can have more than 30 aisles spanning 45,000 square meters. This talk will showcase synergistic advances in algorithms, architectures and interface design for assisting those with visual impairment to do shopping. The talk will focus on multiple energy-efficient solutions that consider the battery life time of the vision system.",
             "bio": "Vijay Narayanan is a Distinguished Professor of Computer Science and Engineering and Electrical Engineering at The Pennsylvania State University. He is the director of the NSF Expeditions-in-Computing Program on Visual Cortex on Silicon and a thrust leader for the JUMP Center on Brain-Inspired Computing. He has published more than 400 papers and won several awards in recognition of his research in power-aware systems, embedded systems and computer architecture. He is a fellow of IEEE and ACM."
         },
-        "keynote_highlight_3": {
-            "speaker": "Weibin Ding",
-            "time": "",
-            "affiliation": "Cadence Software Engineering Group Director<br>Head of Cadence Global AI Center of Digital and Signoff Group",
-            "photo_path": "img/speaker_photo/weibin_ding.jpg",
-            "title": "Machine Learning Further Improve Physical Design PPA At Advanced Node",
-            "abstract": "Place and route at advanced process node is becoming much more complicated than ever, to meet both timing and DRC closure need multiple core engines to co-work seamlessly well.  Traditionally it is very hard problem to decide a solution finally works or not along the flow, the machine learning method opens a door to give better correlated result in the flow. We have constantly seen the improvement trend in our product development.",
-            "bio": "Weibin is based in Shanghai – the APAC Headquarter of Cadence and currently leading the Global AI Center of DSG which is a new strategic function in Cadence since January 2018.  Prior to that, he led 100+ software engineers responsible for Innovus product development.  He initiated the Machine Learning direction for Innovus in early 2015 and responsible for making it production. He has been working at Cadence for 12 years and held 3 US patents. Weibin received a B.S. and M.S. degree in Computer Science from Shanghai Jiao Tong University."
-        },
         "vision_1": {
             "speaker": "Yi Shan",
-            "time": "",
+            "time": "2:40pm ~ 3:10pm, Monday July 9",
+            "venue": "N003",
             "affiliation": "CTO and Partner of DeePhi Tech",
             "photo_path": "img/speaker_photo/yi_shan.png",
             "title": "Achieving 19 TFLOPS in 10W for deep learning using network pruning on Xilinx Zynq Ultrascale + FPGA",
             "abstract": "Deep learning algorithms such as Convolution Neural Network (CNN)  is fast becoming the critical part of image perceptions in embedded vision applications in the automotive, drones, surveillance and industrial vision markets. Applications include multi-object detection, semantic segmentation and image classification. However, when scaling these networks to modern resolutions like HD and 4K, the computational requirements for real-time system could easily go over 10 TFLOPS consuming hundreds of watts of power, which is simply unacceptable for most edge applications. In this talk, we will describe a network/weight pruning methodology that achieves over 10 times performance gain on Zynq Ultrascale+ with very small accuracy loss. The network inference running on Zynq Ultrascale+ has achieved 19 TFLOPS-equivalent of the original SSD network in less than 10W.",
             "bio": "Yi Shan graduated from Tsinghua University with a Ph.D. degree in Electronic Science and Technology. He was joint educated at Imperial College London. He has been engaged in research work at Microsoft Research, IBM Research and Baidu Research. He was selected as an outstanding talents program in Beijing.<br>Dr. Shan is the CTO and partner of DeePhi Tech and fully responsible for the technical development and the management of engineering and production teams. In the development and application of the original innovation technology in frontier industries such as artificial intelligence, he has achieved a number of scientific and technological achievements. He led the team to develop DPUs (Deep Processing Units) and its hardware and software systems for AI applications. Based on this, they formed two key directions for deep learning accelerated on FPGA modules and ASIC. Now DeePhi's products are widely used in smart surveillance, data center, ADAS (advanced driver assistance systems) and other fields."
         },
-         "vision_3": {
-            "speaker": "Zhou Ma",
-            "time": "",
-            "affiliation": "Deputy General Manager<br>SoC R&D Center of Phytium",
-            "photo_path": "img/speaker_photo/zhuo_ma.jpg",
-            "title": "The Advanced Technologies in the New Generation of Phytium's Processors – From the Architecture to Implementation",
-            "abstract": "In the past decades, the computer technology comes to a rapid increasing new ear, and the silicon-based high performance processors give the main impetus. To be a member of the first group of CPU design houses, Phytium Technology Co., Ltd. is a fast-growing Chinese IC design company, and is dedicated to design, manufacture high performance and low power CPU chips as well as services around the products.",
-            "bio": "Dr. MA is the deputy general manager of SoC R&D center of Phytium. In the past two decades, Dr. MA focused on the technologies of the implementation of high performance processors. He is leading a group of gifted engineers to build the most high-performance ARM-based CPU chips. In the presentation, He will introduce the advanced design technologies of Phytium's CPUs, and share a lot of successful stories."
-        },
         "vision_2": {
             "speaker": "Deming Chen",
-            "time": "",
+            "time": "3:10pm ~ 3:40pm, Monday July 9",
+            "venue": "N003",
             "affiliation": "Donald Biggar Willett Scholar, Professor, Electrical and Computer Engineering<br>University of Illinois Urbana-Champaign",
             "photo_path": "img/speaker_photo/deming_chen.png",
             "title": "Overcoming Challenges of Accelerating Deep Neural Network Computations",
             "abstract": "Deep Neural Networks (DNNs) are computation intensive. Without efficient hardware implementations of DNNs, many promising AI applications will not be practically realizable. In this talk, we will analyze several challenges facing the AI community for mapping DNNs to hardware accelerators. Especially, we will evaluate FPGA's potential role for accelerating DNNs for both the cloud and edge devices. Although FPGAs can provide desirable customized hardware solutions, they are difficult to program and optimize.  We will present a series of effective design techniques for implementing DNNs on FPGAs with high performance and energy efficiency. These include automated hardware/software co-design, the use of configurable DNN IPs, resource allocation across DNN layers, smart pipeline scheduling, Winograd and FFT techniques, and DNN reduction and re-training. We showcase several design solutions including Long-term Recurrent Convolution Network (LRCN) for video captioning, Inception module (GoogleNet) for face recognition, as well as Long Short-Term Memory (LSTM) for sound recognition. We will also present some of our recent work on developing new DNN models and data structures for achieving higher accuracy for several interesting applications such as crowd counting, genomics, and music synthesis.",
             "bio": "Dr. Deming Chen obtained his BS in computer science from University of Pittsburgh, Pennsylvania in 1995, and his MS and PhD in computer science from University of California at Los Angeles in 2001 and 2005 respectively. He joined the ECE department of University of Illinois at Urbana-Champaign (UIUC) in 2005 and has been a full professor in the same department since 2015. His current research interests include system-level and high-level synthesis, machine learning, computational genomics, GPU and reconfigurable computing, and hardware security. He has given about 100 invited talks sharing these research results worldwide. Dr. Chen is a technical committee member for a series of top conferences and symposia on EDA, FPGA, low-power design, and VLSI systems design. He is an associated editor for several leading IEEE and ACM journals. He received the NSF CAREER Award in 2008, the ACM SIGDA Outstanding New Faculty Award in 2010, and IBM Faculty Award in 2014 and 2015. He also received seven Best Paper Awards and the First Place Winner Award of DAC International Hardware Contest on IoT in 2017. He is included in the List of Teachers Ranked as Excellent in 2008 and 2017. He was involved in two startup companies previously, which were both acquired. In 2016, he co-founded a new startup, Inspirit IoT, Inc., for design and synthesis for machine learning applications targeting the IoT industry. He is the Donald Biggar Willett Faculty Scholar of College of Engineering of UIUC."
         },
+         "vision_3": {
+            "speaker": "Zhou Ma",
+            "time": "2:40pm ~ 3:10pm, Tuesday July 10",
+            "venue": "N003",
+            "affiliation": "Deputy General Manager<br>SoC R&D Center of Phytium",
+            "photo_path": "img/speaker_photo/zhuo_ma.jpg",
+            "title": "The Advanced Technologies in the New Generation of Phytium's Processors – From the Architecture to Implementation",
+            "abstract": "In the past decades, the computer technology comes to a rapid increasing new ear, and the silicon-based high performance processors give the main impetus. To be a member of the first group of CPU design houses, Phytium Technology Co., Ltd. is a fast-growing Chinese IC design company, and is dedicated to design, manufacture high performance and low power CPU chips as well as services around the products.",
+            "bio": "Dr. MA is the deputy general manager of SoC R&D center of Phytium. In the past two decades, Dr. MA focused on the technologies of the implementation of high performance processors. He is leading a group of gifted engineers to build the most high-performance ARM-based CPU chips. In the presentation, He will introduce the advanced design technologies of Phytium's CPUs, and share a lot of successful stories."
+        },
         "vision_4": {
             "speaker": "Swarup Bhunia",
-            "time": "",
+            "time": "3:10pm ~ 3:40pm, Tuesday July 10",
+            "venue": "N003",
             "affiliation": "Professor, Electrical and Computer Engineering<br>University of Florida, Gainesville, Florida",
             "photo_path": "img/speaker_photo/swarup_bhunia.png",
             "title": "Security of the Internet of Things: Can Hardware Can Change the Game?",
@@ -106,7 +117,8 @@
         },
         "vision_5": {
             "speaker": "Ulf Schlichtmann",
-            "time": "",
+            "time": "3:40pm ~ 4:10pm, Tuesday July 10",
+            "venue": "N003",
             "affiliation": "Professor, Electrical and Computer Engineering<br>Technical University of Munich",
             "photo_path": "img/speaker_photo/ulf_schlichtmann.jpg",
             "title": "Designing Safety-critical Systems: Rapidly and Accurately!",
@@ -116,6 +128,7 @@
         "talk_template": {
             "speaker": "",
             "time": "",
+            "venue": "N003",
             "affiliation": "",
             "photo_path": "",
             "title": "",

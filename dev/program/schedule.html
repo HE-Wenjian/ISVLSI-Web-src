@@ -7,14 +7,15 @@
     <!-- Navigation : navbar -->
     @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "program" })
     <script type="text/javascript">
-        function loadCSS(filename) {
-            var file = document.createElement("link");
-            file.setAttribute("rel", "stylesheet");
-            file.setAttribute("type", "text/css");
-            file.setAttribute("href", filename);
-            document.head.appendChild(file);
-        }
-        loadCSS("@@webRoot/css/sched.css");
+    function loadCSS(filename) {
+        var file = document.createElement("link");
+        file.setAttribute("rel", "stylesheet");
+        file.setAttribute("type", "text/css");
+        file.setAttribute("href", filename);
+        document.head.appendChild(file);
+    }
+    loadCSS("@@webRoot/css/sched.css");
+
     </script>
     <!-- Page Content -->
     <section class="container">
@@ -25,7 +26,6 @@
                 <small>Note: The sessions with (*) have Best Paper Candidates.</small>
             </div>
         </div>
-
         <div class="row mt-4">
             <div class="col-12">
                 <ul class="nav nav-tabs nav-justified" id="schd-main-tab" role="tablist">
@@ -54,15 +54,26 @@
                         <div class="card my-1">
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto">
-                                        <img class="img-fluid d-block mx-auto" style="max-height: 100px" src="@@webRoot/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
+                                    <div class="col-12 col-sm-3 col-lg-2 my-auto">
+                                        <img class="img-fluid d-block mx-auto" style="max-height: 110px" src="@@webRoot/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
                                     </div>
-                                    <div class="col-12 col-sm-9 col-md-9 col-lg-10">
+                                    <div class="col-12 col-sm-9 col-lg-10">
                                         <h5>
                                             <b>{{ talk_pool[talk_id].title }}</b>
                                         </h5>
-                                        <h5>{{ talk_pool[talk_id].speaker }}</h5>
-                                        <p><small>{{ talk_pool[talk_id].affiliation|safe }}</small></p>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4 order-2 order-lg-1">
+                                                <h5>{{ talk_pool[talk_id].speaker }}</h5>
+                                            </div>
+                                            <div class="col-12 col-lg-8 order-1 order-lg-2">
+                                                Time: {{ talk_pool[talk_id].time }} | 
+                                                Venue: {{ talk_pool[talk_id].venue }} | 
+                                                <a href="@@webRoot/program/keynote.html#{{talk_id}}">Details</a>
+                                            </div>
+                                            <div class="col-12 order-3">
+	                                            <small>{{ talk_pool[talk_id].affiliation|safe }}</small>
+	                                        </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -71,25 +82,36 @@
                         {% endfor %}
                     </div>
                     <div class="tab-pane fade" id="schd-plenary" role="tabpanel">
-                            {% for talk_id in page_visionary_list %}
-                            <div class="card my-1">
-                                <div class="card-body">
-                                    <div class="row">
-                                        <div class="col-12 col-sm-3 col-md-3 col-lg-2 my-auto">
-                                            <img class="img-fluid d-block mx-auto" style="max-height: 100px" src="@@webRoot/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
-                                        </div>
-                                        <div class="col-12 col-sm-9 col-md-9 col-lg-10">
-                                            <h5>
-                                                <b>{{ talk_pool[talk_id].title }}</b>
-                                            </h5>
-                                            <h5>{{ talk_pool[talk_id].speaker }}</h5>
-                                            <p><small>{{ talk_pool[talk_id].affiliation|safe }}</small></p>
+                        {% for talk_id in page_visionary_list %}
+                        <div class="card my-1">
+                            <div class="card-body">
+                                <div class="row">
+                                    <div class="col-12 col-sm-3 col-lg-2 my-auto">
+                                        <img class="img-fluid d-block mx-auto" style="max-height: 110px" src="@@webRoot/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
+                                    </div>
+                                    <div class="col-12 col-sm-9 col-lg-10">
+                                        <h5>
+                                            <b>{{ talk_pool[talk_id].title }}</b>
+                                        </h5>
+                                        <div class="row">
+                                            <div class="col-12 col-lg-4 order-2 order-lg-1">
+                                                <h5>{{ talk_pool[talk_id].speaker }}</h5>
+                                            </div>
+                                            <div class="col-12 col-lg-8 order-1 order-lg-2">
+                                                Time: {{ talk_pool[talk_id].time }} | 
+                                                Venue: {{ talk_pool[talk_id].venue }} | 
+                                                <a href="@@webRoot/program/keynote.html#{{talk_id}}">Details</a>
+                                            </div>
+                                            <div class="col-12 order-3">
+	                                            <small>{{ talk_pool[talk_id].affiliation|safe }}</small>
+	                                        </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="card-footer"></div> -->
                             </div>
-                            {% endfor %}
+                            <!-- <div class="card-footer"></div> -->
+                        </div>
+                        {% endfor %}
                     </div>
                     <div class="tab-pane fade show active" id="schd-sessions" role="tabpanel">
                         <p class="invisible">Dummy panel, content at below</p>
@@ -97,7 +119,6 @@
                 </div>
             </div>
         </div>
-
         <div class="row">
             <div class="col-12">
                 {% include "./detailed_sched.htmlpart" with {} only %}
@@ -108,7 +129,6 @@
                 </p>
             </div>
         </div>
-
     </section>
     <!-- List Start -->
     <!--   -->
