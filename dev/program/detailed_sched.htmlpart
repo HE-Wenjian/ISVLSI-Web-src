@@ -88,11 +88,11 @@
         </tr>
         <tr class="c8">
             <td class="c0" colspan="1" rowspan="1">
-                <p class="c9"><span class="c4 c33 c2">10:10 AM</span></p>
+                <p class="c9"><span class="c4 c2">10:10 AM</span></p>
             </td>
             <td class="c17" colspan="1" rowspan="1">
-                <p class="c9"><span class="c6 c33">PGIREM: Reliability-Constrained IR Drop Minimization and Electromigration Assessment of VLSI Power Grid Networks using Cooperative Coevolution </span></p>
-                <p class="c9"><span class="c19 c2 c33">Sukanta Dey, Satyabrata Dash, Sukumar Nandi and Gaurav Trivedi</span></p>
+                <p class="c9"><span class="c6">PGIREM: Reliability-Constrained IR Drop Minimization and Electromigration Assessment of VLSI Power Grid Networks using Cooperative Coevolution </span></p>
+                <p class="c9"><span class="c19 c2">Sukanta Dey, Satyabrata Dash, Sukumar Nandi and Gaurav Trivedi</span></p>
             </td>
         </tr>
         <tr class="c8">
@@ -100,7 +100,7 @@
                 <p class="c9"><span class="c4 c2">10:30 AM</span></p>
             </td>
             <td class="c17" colspan="1" rowspan="1">
-                <p class="c9"><span class="c33 c25">Silicon Debug with Maximally Expanded Internal Observability using Nearest Neighbor Algorithm</span></p>
+                <p class="c9"><span class="c6">Silicon Debug with Maximally Expanded Internal Observability using Nearest Neighbor Algorithm</span></p>
                 <p class="c9"><span class="c4 c2">Ankit Jindal, Binod Kumar, Nitish Jindal, Masahiro Fujita and Virendra Singh</span></p>
             </td>
         </tr>
@@ -215,7 +215,7 @@
         </tr>
     </tbody>
 </table>
-<h1 class="c15"><span class="c22 c14">Industrial and Plenary Talk</span></h1>
+<!-- <h1 class="c15"><span class="c22 c14">Industrial and Plenary Talk</span></h1>
 <p class="c5"><span class="c6">2:40pm ~ 3:40pm Monday July 09, 2018</span></p>
 <p class="c5"><span class="c4 c2">N003</span></p>
 <p class="c13"><span class="c12">Achieving 19 TFLOPS in 10W for deep learning using network pruning on Xilinx Zynq Ultrascale+ FPGA</span></p>
@@ -223,7 +223,7 @@
 <p class="c31"><span class="c4 c14">Deep learning algorithms such as Convolution Neural Network (CNN)  is fast becoming the critical part of image perceptions in embedded vision applications in the automotive, drones, surveillance and industrial vision markets. Applications include multi-object detection, semantic segmentation and image classification. However, when scaling these networks to modern resolutions like HD and 4K, the computational requirements for real-time system could easily go over 10 TFLOPS consuming hundreds of watts of power, which is simply unacceptable for most edge applications. In this talk, we will describe a network/weight pruning methodology that achieves over 10 times performance gain on Zynq Ultrascale+ with very small accuracy loss. The network inference running on Zynq Ultrascale+ has achieved 19 TFLOPS-equivalent of the original SSD network in less than 10W.</span></p>
 <p class="c13"><span class="c25 c43">Overcoming Challenges of Accelerating Deep Neural Network Computations</span></p>
 <p class="c13"><span>Speaker: </span><span class="c2 c25">Deming Chen, University of Illinois Urbana-Champaign</span></p>
-<p class="c31"><span class="c4 c14">Deep Neural Networks (DNNs) are computation intensive. Without efficient hardware implementations of DNNs, many promising AI applications will not be practically realizable. In this talk, we will analyze several challenges facing the AI community for mapping DNNs to hardware accelerators. Especially, we will evaluate FPGA&#39;s potential role for accelerating DNNs for both the cloud and edge devices. Although FPGAs can provide desirable customized hardware solutions, they are difficult to program and optimize.  We will present a series of effective design techniques for implementing DNNs on FPGAs with high performance and energy efficiency. These include automated hardware/software co-design, the use of configurable DNN IPs, resource allocation across DNN layers, smart pipeline scheduling, Winograd and FFT techniques, and DNN reduction and re-training. We showcase several design solutions including Long-term Recurrent Convolution Network (LRCN) for video captioning, Inception module (GoogleNet) for face recognition, as well as Long Short-Term Memory (LSTM) for sound recognition. We will also present some of our recent work on developing new DNN models and data structures for achieving higher accuracy for several interesting applications such as crowd counting, genomics, and music synthesis.</span></p>
+<p class="c31"><span class="c4 c14">Deep Neural Networks (DNNs) are computation intensive. Without efficient hardware implementations of DNNs, many promising AI applications will not be practically realizable. In this talk, we will analyze several challenges facing the AI community for mapping DNNs to hardware accelerators. Especially, we will evaluate FPGA&#39;s potential role for accelerating DNNs for both the cloud and edge devices. Although FPGAs can provide desirable customized hardware solutions, they are difficult to program and optimize.  We will present a series of effective design techniques for implementing DNNs on FPGAs with high performance and energy efficiency. These include automated hardware/software co-design, the use of configurable DNN IPs, resource allocation across DNN layers, smart pipeline scheduling, Winograd and FFT techniques, and DNN reduction and re-training. We showcase several design solutions including Long-term Recurrent Convolution Network (LRCN) for video captioning, Inception module (GoogleNet) for face recognition, as well as Long Short-Term Memory (LSTM) for sound recognition. We will also present some of our recent work on developing new DNN models and data structures for achieving higher accuracy for several interesting applications such as crowd counting, genomics, and music synthesis.</span></p> -->
 <h1 class="c15"><span class="c22 c14">SPECIAL Session 01</span></h1>
 <p class="c5"><span class="c6">Monday July 09, 2018</span></p>
 <p class="c5"><span class="c4 c2">N001</span></p>
@@ -251,11 +251,11 @@
         </tr>
         <tr class="c8">
             <td class="c0" colspan="1" rowspan="1">
-                <p class="c9"><span class="c4 c33 c2">4:40 PM</span></p>
+                <p class="c9"><span class="c4 c2">4:40 PM</span></p>
             </td>
             <td class="c17" colspan="1" rowspan="1">
-                <p class="c9"><span class="c6 c33">A Short Survey at the Intersection of Reliability and Security in Processor Architecture Designs</span></p>
-                <p class="c9"><span class="c19 c33 c2">Michel A. Kinsy</span></p>
+                <p class="c9"><span class="c6">A Short Survey at the Intersection of Reliability and Security in Processor Architecture Designs</span></p>
+                <p class="c9"><span class="c19 c2">Michel A. Kinsy</span></p>
             </td>
         </tr>
         <tr class="c8">
@@ -263,8 +263,8 @@
                 <p class="c9"><span class="c4 c2">5:00 PM</span></p>
             </td>
             <td class="c17" colspan="1" rowspan="1">
-                <p class="c9"><span class="c6 c33">Can Soft Errors Be Handled Securely?</span></p>
-                <p class="c9"><span class="c19 c33 c2">Senwen Kan, Jennifer Dworak</span></p>
+                <p class="c9"><span class="c6">Can Soft Errors Be Handled Securely?</span></p>
+                <p class="c9"><span class="c19 c2">Senwen Kan, Jennifer Dworak</span></p>
             </td>
         </tr>
     </tbody>
@@ -841,11 +841,11 @@
         </tr>
         <tr class="c8">
             <td class="c0" colspan="1" rowspan="1">
-                <p class="c9"><span class="c4 c33 c2">10:30 AM</span></p>
+                <p class="c9"><span class="c4 c2">10:30 AM</span></p>
             </td>
             <td class="c17" colspan="1" rowspan="1">
-                <p class="c9"><span class="c33 c2 c25 c51">Harnessing Emerging Technology for Compute-In-Memory Support</span></p>
-                <p class="c9"><span class="c1 c33">Nicholas Jao</span></p>
+                <p class="c9"><span class="c6">Harnessing Emerging Technology for Compute-In-Memory Support</span></p>
+                <p class="c9"><span class="c2">Nicholas Jao</span></p>
             </td>
         </tr>
     </tbody>
@@ -929,7 +929,8 @@
 <p class="c5"><span class="c12">Memristive devices for computing: circuits, architectures and applications</span></p>
 <p class="c28"><span>Speaker: </span><span class="c2 c25">Said Hamdioui, Delft University of Technology</span><span class="c4 c2">    </span></p>
 <p class="c31"><span class="c4 c14">Both today&rsquo;s computer architectures and device technologies (used to manufacture them) are facing major challenges making them incapable to deliver the required functionalities and features. Computers are facing the three well-known walls, which are the memory wall, the instruction level parallelism wall, and the power wall. Meanwhile, nanoscale CMOS technology also faces three walls, which are the reliability wall, the leakage wall, and the cost wall. All of these have led to the slowdown of the traditional device scaling. Thus, alternative  computing  architectures  and notions  have  to  be  explored  in  the  light  of  emerging  new  device  technologies.  In this session/tutorial, we will explore the potential of memristor devices (as emerging devices) for enabling a new computing paradigm, called &ldquo;computation-in-memory&rdquo; (as an alternative architecture), covering the topics of the memory, logic design, and computing with memristive devices.</span></p>
-<h1 class="c15"><span class="c22 c14">Industrial and Plenary Talk</span></h1>
+
+<!-- <h1 class="c15"><span class="c22 c14">Industrial and Plenary Talk</span></h1>
 <p class="c5"><span class="c6">2:40pm ~ 4:10pm Tuesday July 10, 2018</span></p>
 <p class="c5"><span class="c4 c2">N003</span></p>
 <p class="c13"><span class="c12">The Advanced Technologies in the New Generation of Phytium&#39;s Processors -- From the Architecture to Implementation</span></p>
@@ -943,7 +944,8 @@
 <p class="c13"><span>Speaker: </span><span class="c24 c2">Ulf Schlichtmann, Technical University of Munich</span></p>
 <p class="c40"><span class="c4 c14">Thanks to still ever increasing advances in manufacturing technology, we can implement ever more complex systems. System-level design is essential to deal with the enourmous complexity of today&rsquo;s advanced systems. At the same time, fast time to market is as essential as ever. And robustness and reliability are increasing in importance, as the focus of the semiconductor industry shifts to applications with high safety requirements such as automotive. High-level system models, known as Virtual Prototypes, are essential to meet all these challenges. Fault injection is the most common technique to evaluate system robustness.</span></p>
 <p class="c40"><span class="c4 c14">I will outline some recent progress in Virtual Prototypes for safety evaluations. I will especially discuss how both high performance and high accuracy in fault injection can be achieved at the same time. Robustness evaluation has to be extended to Firmware in addition to Hardware. Future challenges for system design will conclude my presentation.</span></p>
-<h1 class="c10"><span class="c22 c14"></span></h1>
+
+ -->
 <h1 class="c15"><span class="c22 c14">SPECIAL Session 03</span></h1>
 <p class="c5"><span class="c6">Tuesday July 10, 2018</span></p>
 <p class="c5"><span class="c2">N001</span><span class="c12"> </span></p>
@@ -1073,8 +1075,8 @@
                 <p class="c9"><span class="c4 c2">5:30 PM</span></p>
             </td>
             <td class="c17" colspan="1" rowspan="1">
-                <p class="c9"><span class="c6 c33">Emerging Neuromorphic Computing Paradigms Exploring Magnetic Skyrmions</span></p>
-                <p class="c9"><span class="c19 c33 c2">Sai Li, Xing Chen, Wang Kang, Weisheng Zhao, Jinyu Bai, Biao Pan, Youguang Zhan</span></p>
+                <p class="c9"><span class="c6">Emerging Neuromorphic Computing Paradigms Exploring Magnetic Skyrmions</span></p>
+                <p class="c9"><span class="c1">Sai Li, Xing Chen, Wang Kang, Weisheng Zhao, Jinyu Bai, Biao Pan, Youguang Zhan</span></p>
             </td>
         </tr>
     </tbody>
@@ -1181,7 +1183,7 @@
                 <p class="c9"><span class="c4 c2">10:30 AM</span></p>
             </td>
             <td class="c17" colspan="1" rowspan="1">
-                <p class="c9"><span class="c33 c25">Enabling Reliable High Throughput On-Chip Wireless Communication for Many Core Architectures</span><span class="c6"> </span></p>
+                <p class="c9"><span class="c6">Enabling Reliable High Throughput On-Chip Wireless Communication for Many Core Architectures</span><span class="c6"> </span></p>
                 <p class="c9"><span class="c19 c2">Sri Harsha Gade, Mitali Sinha, Sidhartha Sankar Rout, Sujay Deb</span></p>
             </td>
         </tr>
