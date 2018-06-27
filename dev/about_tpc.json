@@ -86,13 +86,13 @@
                 "name": "Yuan-Hao Chang"
             },
             {
-                "track": "<span data-toggle=\"tooltip\" data-delay=\"1\" title=\"Student Research Forum\">SRF</span>",
+                "track": "<span data-toggle=tooltip data-delay=1 title=Student Research Forum>SRF</span>",
                 "affiliation": "Nanyang Technological Univr. Singapore",
                 "name": "Anupam Chattopadhyay"
             },
             {
                 "name": "Zheng Wang",
-                "track": "<span data-toggle=\"tooltip\" data-delay=\"1\" title=\"Student Research Forum\">SRF</span>"
+                "track": "<span data-toggle=tooltip data-delay=1 title=Student Research Forum>SRF</span>"
             }
         ],
         "members": [
@@ -285,7 +285,7 @@
                 "name": "Luciano Ost"
             },
             {
-                "affiliation": "\"University of Maryland, Baltimore County (UMBC)\"",
+                "affiliation": "University of Maryland, Baltimore County (UMBC)",
                 "name": "Naghmeh Karimi"
             },
             {
@@ -293,7 +293,7 @@
                 "name": "Chen Liu"
             },
             {
-                "affiliation": "\"Indian Institute of Technology, Madras.\"",
+                "affiliation": "Indian Institute of Technology, Madras.",
                 "name": "Madhu Mutyam"
             },
             {
@@ -317,7 +317,7 @@
                 "name": "Fabio Campi"
             },
             {
-                "affiliation": "\"Citi, INSA-Lyon\"",
+                "affiliation": "Citi, INSA-Lyon",
                 "name": "Tanguy Risset"
             },
             {
