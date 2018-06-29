@@ -14,6 +14,7 @@ var gHtmlLint = require('gulp-htmllint');
 var gCleanCSS = require('gulp-clean-css');
 const gIf = require('gulp-if');
 var gData = require('gulp-data');
+var swig = require('swig');
 var gSwig = require('gulp-swig');
 var dayjs = require('dayjs');
 function dayjsformat_wrapper(input,fmt){
@@ -32,7 +33,7 @@ const appRoot = path.resolve(__dirname)
 const SrcDir = "./dev"
 const DestDir = "./publish";
 
-
+const devRoot = path.join(appRoot,SrcDir)
 
 gulp.task('just_for_test', function() {
     gulp.src(['dev/src_css/**/*.min.css'])
@@ -65,7 +66,12 @@ gulp.task('compile_html', ['clean-debug'], function() {
         .pipe(gData(
             function(file) {
                 var ItsJSONFile = gutil.replaceExtension(file.path, '.json');
-                return (fs.existsSync(ItsJSONFile)) ? requireUncached(ItsJSONFile) : {};
+                var FileJsonData= fs.existsSync(ItsJSONFile) ? JSON.parse(fs.readFileSync(ItsJSONFile)) : {};
+                FileJsonData.file={};
+                FileJsonData.file.relative=file.relative;
+                FileJsonData.file.WebRoot=path.normalize(path.relative(path.dirname(file.path),devRoot));
+                FileJsonData.testloadmacro="./component/page.macro";
+                return FileJsonData ;
             }
         ))
         .pipe(gIf(DEBUG_MODE, gDebug({ showFiles: true, title: '[HTML] JSON Loaded:' })))
@@ -75,8 +81,8 @@ gulp.task('compile_html', ['clean-debug'], function() {
             },
             load_json: false,
             defaults: { 
-                cache: false, 
-                locals: { gettime_now : function () { return new Date(); } }
+                cache: false,
+                loader: swig.loaders.fs(devRoot)
             }
         }))
         .pipe(gIf(DEBUG_MODE, gDebug({ showFiles: true, title: '[HTML] Swig Done:' })))

@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
-@@include('./component/head.p.html',{ "title" : "Travel - ISVLSI 2018", "parentRel": "@@webRoot" })
-
+{% import "./component/page.macro" as macros %}
+<head>
+    {{ macros.common_head({title: "Travel - ISVLSI 2018",  WebRoot: file.WebRoot}) }}
+</head>
 <body>
+    {{thenext}}
     <!-- Navigation : navbar -->
     @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "travel" })
     <!-- Page Content -->
@@ -156,9 +159,8 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 portfolio-item">
+            <div class="col-12 portfolio-item" id="octopus-card">
                 <div class="card h-100">
-                    <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_hotel_sm.jpg" alt="Hong Kong Airport"> -->
                     <div class="card-body">
                         <h4 class="card-title text-center">Octopus Card</h4>
                         <div class="row">
@@ -215,7 +217,7 @@
                             </div>
                         </div>
                         <p class="card-text text-justify"><b>- How to add value? </b> If the value on your Octopus is at or below HK$0, it cannot be used until you add value to it. You can reload your Octopus with cash at thousands of locations, including MTR stations, continence stores, McDonald's, Starbucks, and most supermarkets. </p>
-                        <p class="card-text text-justify"><b>- How to get refunded? </b> You can apply for a refund at the MTR Customer Service Center in almost every MTR station. For On-Loan Octopus, the deposit and the remaining value in the card will be returned to you, and the card will be recycled by MTR. For Sold Tourist Octopus, the remaining value will be returned to you after deactivation, but you can keep the card as a souvenir.</p>
+                        <p class="card-text text-justify"><b>- How to get refunded? </b> You can apply for a refund at the MTR Customer Service Center in almost every MTR station. For On-Loan Octopus, the deposit and the remaining value in the card will be returned to you, and the card will be recycled by MTR. For Sold Tourist Octopus, the remaining value will be returned to you after card deactivation, but you can keep the card as a souvenir.</p>
                         <!-- <p class="card-text text-justify">As an international tourist city, Hong Kong offers plenty of choices of accommodation.</p> -->
                         <!-- <p class="card-text"></p> -->
                         <!-- <p class="card-text">More information will be provided in the future.</p> -->
@@ -400,7 +402,7 @@
             </table>
             <hr>
             <div class="col-12">
-                <p class="text-center">More information will be provided soon.</p>
+                <!-- <p class="text-center">More information will be provided soon.</p> -->
             </div>
         </div>
         </div>

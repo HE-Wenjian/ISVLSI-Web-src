@@ -1,23 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
-@@include('./component/head.p.html',{ "title" : "Program Schedule - ISVLSI 2018", "parentRel": "@@webRoot" })
+{% import "./component/page.macro" as macros %}
+<head>
+    {{ macros.common_head({title: "Program Schedule - ISVLSI 2018",  WebRoot: file.WebRoot}) }}
+    <link rel="stylesheet" type="text/css" href="{{file.WebRoot}}/css/sched.css" />
+</head>
 
 <body>
     <!-- Navigation : navbar -->
     @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "program" })
-    <script type="text/javascript">
-    function loadCSS(filename) {
-        var file = document.createElement("link");
-        file.setAttribute("rel", "stylesheet");
-        file.setAttribute("type", "text/css");
-        file.setAttribute("href", filename);
-        document.head.appendChild(file);
-    }
-    loadCSS("@@webRoot/css/sched.css");
 
-    </script>
-    <!-- Page Content -->
     <section class="container">
         <h1 class="mt-4 mb-3">Program Schedule</h1>
         <div class="row">
@@ -121,7 +114,7 @@
         </div>
         <div class="row">
             <div class="col-12">
-                {% include "./detailed_sched.htmlpart" with {} only %}
+                {% include "./program/detailed_sched.htmlpart" with {} only %}
             </div>
             <div class="col-12">
                 <p class="mt-4">
