@@ -2,21 +2,46 @@
 <html lang="en">
 <!-- head -->
 {% import "./component/page.macro" as macros %}
+
 <head>
-    {{ macros.common_head({title: "Program Schedule - ISVLSI 2018",  WebRoot: file.WebRoot}) }}
+    {{ macros.common_head({title: "Program Schedule - ISVLSI 2018", WebRoot: file.WebRoot}) }}
     <link rel="stylesheet" type="text/css" href="{{file.WebRoot}}/css/sched.css" />
+    <link rel="stylesheet" href="{{file.WebRoot}}/css/viewer.min.css">
 </head>
 
 <body>
     <!-- Navigation : navbar -->
     @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "program" })
-
     <section class="container">
         <h1 class="mt-4 mb-3">Program Schedule</h1>
         <div class="row">
             <div class="col-12">
                 <img class="img-fluid mb-3" src="@@webRoot/img/sched.png" alt="Program Schedule">
                 <small>Note: The sessions with (*) have Best Paper Candidates.</small>
+            </div>
+        </div>
+        <div class="row my-4">
+            <div class="col-12 portfolio-item">
+                <div class="card mx-4" id="tab-assembly-point">
+                    <a class="btn btn-outline-primary w-100" data-toggle="collapse" data-parent="#tab-assembly-point" href="#id-point-panel" role="tab">
+                        <h6 class="mb-0">
+                            <i class="fa fa-question-circle"></i>
+                            Assembly Point for Lunch, Banquet and Cruise
+                            <i class="fa fa-chevron-down"></i>
+                        </h6>
+                    </a>
+                    <div id="id-point-panel" class="collapse" role="tabpanel">
+                        <div class="card-body">
+                            <p class="text-justify">We will first assemble at the following place and the student helper will lead us to the restaurant for lunches or to the bus stop for coach boarding. If you prefer, you can also go to the lunch restaurant or coach bus stop by yourself. We have included <a id="call-map-viewer" href="javascript:void(0);">the map</a> for your reference.
+                                <br>
+                                <b>Assemble Place</b>: Before N003
+                                <br>
+                                <b>Assemble time</b>: 11:50am for the lunch; 7:10pm for the Cruise; and 6:20pm for the Banquet.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
             </div>
         </div>
         <div class="row mt-4">
@@ -59,13 +84,12 @@
                                                 <h5>{{ talk_pool[talk_id].speaker }}</h5>
                                             </div>
                                             <div class="col-12 col-lg-8 order-1 order-lg-2">
-                                                Time: {{ talk_pool[talk_id].time }} | 
-                                                Venue: {{ talk_pool[talk_id].venue }} | 
+                                                Time: {{ talk_pool[talk_id].time }} | Venue: {{ talk_pool[talk_id].venue }} |
                                                 <a href="@@webRoot/program/keynote.html#{{talk_id}}">Details</a>
                                             </div>
                                             <div class="col-12 order-3">
-	                                            <small>{{ talk_pool[talk_id].affiliation|safe }}</small>
-	                                        </div>
+                                                <small>{{ talk_pool[talk_id].affiliation|safe }}</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -91,13 +115,12 @@
                                                 <h5>{{ talk_pool[talk_id].speaker }}</h5>
                                             </div>
                                             <div class="col-12 col-lg-8 order-1 order-lg-2">
-                                                Time: {{ talk_pool[talk_id].time }} | 
-                                                Venue: {{ talk_pool[talk_id].venue }} | 
+                                                Time: {{ talk_pool[talk_id].time }} | Venue: {{ talk_pool[talk_id].venue }} |
                                                 <a href="@@webRoot/program/keynote.html#{{talk_id}}">Details</a>
                                             </div>
                                             <div class="col-12 order-3">
-	                                            <small>{{ talk_pool[talk_id].affiliation|safe }}</small>
-	                                        </div>
+                                                <small>{{ talk_pool[talk_id].affiliation|safe }}</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -148,6 +171,31 @@
     <!-- /.container -->
     <div class="my-3"></div>
     <!-- Footer -->
+    <script src="{{file.WebRoot}}/js/viewer.min.js"></script>
+    <script>
+    var dummy_gallery = document.createElement('div');
+    function append_image(url,alt) {
+        var image = new Image();
+        image.src = url;
+        image.alt = alt;
+        dummy_gallery.appendChild(image);
+    }
+    append_image("{{file.WebRoot}}/img/venue/PolyU/campus_map.jpg","Campus Map");
+
+    window.addEventListener('DOMContentLoaded', function() {
+        var viewer = new Viewer(dummy_gallery, {
+            navbar: false,
+            rotatable: false,
+            toolbar: 0,
+            tooltip: false,
+            zoomRatio: 0.3
+        });
+        document.getElementById('call-map-viewer').addEventListener('click', function() {
+            viewer.view(0);
+        });
+    });
+
+    </script>
     @@include('./component/footer.p.html',{ "parentRel": "@@webRoot" })
 </body>
 
