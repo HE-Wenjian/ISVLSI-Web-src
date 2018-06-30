@@ -19,9 +19,7 @@
                 <img class="img-fluid" src="{{file.WebRoot}}/img/sched.png" alt="Program Schedule">
             </div>
             <div class="col-12">
-                
-                	<p class="pull-right small"><a id="call-sched-viewer" href="javascript:void(0);"><i class="fa fa-search-plus"></i> Zoomable view</a></p>
-                
+                <p class="pull-right small"><a id="call-sched-viewer" href="javascript:void(0);"><i class="fa fa-search-plus"></i> Zoomable view</a></p>
                 <small>Note: The sessions with (*) have Best Paper Candidates.</small>
             </div>
         </div>
@@ -179,20 +177,36 @@
     <script src="{{file.WebRoot}}/js/viewer.min.js"></script>
     <script>
     var dummy_gallery = document.createElement('div');
-    function append_image(url,alt) {
+
+    function append_image(url, alt) {
         var image = new Image();
         image.src = url;
         image.alt = alt;
         dummy_gallery.appendChild(image);
     }
-    append_image("{{file.WebRoot}}/img/sched.png","Program Schedule");
-    append_image("{{file.WebRoot}}/img/venue/PolyU/map_v1.0.jpg","Campus Map (Updated on June 30, 2018)");
+    append_image("{{file.WebRoot}}/img/sched.png", "Program Schedule");
+    append_image("{{file.WebRoot}}/img/venue/PolyU/map_v1.0.jpg", "Campus Map (Updated on June 30, 2018)");
 
     window.addEventListener('DOMContentLoaded', function() {
         var viewer = new Viewer(dummy_gallery, {
             navbar: false,
             rotatable: false,
-            toolbar: 0,
+            toolbar: {
+                zoomIn: 0,
+                zoomOut: 0,
+                oneToOne: 0,
+                reset: 0,
+                prev: { show : 1,
+                	click: function() {
+                    viewer.hide();
+                }},
+                play: 0,
+                next: 0,
+                rotateLeft: 0,
+                rotateRight: 0,
+                flipHorizontal: 0,
+                flipVertical: 0,
+            },
             tooltip: false,
             zoomRatio: 0.3
         });
@@ -202,7 +216,6 @@
         document.getElementById('call-map-viewer').addEventListener('click', function() {
             viewer.view(1);
         });
-        
     });
 
     </script>

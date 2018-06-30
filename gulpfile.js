@@ -91,7 +91,7 @@ gulp.task('compile_html', ['clean-debug'], function() {
             prefix: '@@',
             basepath: './dev'
         }))
-        //.pipe(gHtmlHint()).pipe(gHtmlHint.failOnError())
+        //.pipe(gHtmlLint({},htmllintReporter))
         .pipe(gIf(!DEBUG_MODE,
             gHtmlMin({
                 collapseWhitespace: true,

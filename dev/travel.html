@@ -2,9 +2,12 @@
 <html lang="en">
 <!-- head -->
 {% import "./component/page.macro" as macros %}
+
 <head>
-    {{ macros.common_head({title: "Travel - ISVLSI 2018",  WebRoot: file.WebRoot}) }}
+    {{ macros.common_head({title: "Travel - ISVLSI 2018", WebRoot: file.WebRoot}) }}
+    <link rel="stylesheet" href="{{file.WebRoot}}/css/viewer.min.css">
 </head>
+
 <body>
     {{thenext}}
     <!-- Navigation : navbar -->
@@ -38,12 +41,17 @@
             {% for img_url in polyU.gallery_img_url %}
             <div class="col-6 col-sm-4 col-md-2 mb-3"><img class="img-fluid rounded d-block" src="{{img_url}}" alt="PolyU-{{loop.index}}"></div>
             {% endfor %}
-            <div class="col-12 full-width"><img class="img-fluid" src="@@webRoot/img/venue/PolyU/campus_map.jpg" alt="PolyU Campus Map"></div>
+            <div class="col-12 full-width">
+                <img class="img-fluid" src="{{file.WebRoot}}/img/venue/PolyU/map_v1.0.jpg" alt="PolyU Campus Map">
+            </div>
             <div class="col-12">
+                <p class="pull-right small"><a id="call-sched-viewer" href="javascript:void(0);"><i class="fa fa-search-plus"></i> Zoomable view</a></p>
+            </div>
+            <!-- <div class="col-12">
                 <p class="text-center">
                     <a class="btn btn-md btn-success" target="_blank" href="https://www.polyu.edu.hk/fmo/eMap/map.php"> Campus Map <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
                 </p>
-            </div>
+            </div> -->
         </div>
         <hr>
         <div class="row mb-4">
@@ -52,22 +60,20 @@
                 <p>Located at the centre of the city, PolyU is easily accessible by various means of public transport. Typical choices:</p>
             </div>
             <div class="col-12 col-sm-6 portfolio-item">
-                <div class="card h-100">
+                <div class="card">
                     <h4 class="card-header">MTR (Subway)</h4>
-                    <div class="card-body">Est. Travel Time: 50 min </div>
+                    <div class="card-body"><p class="card-text">Est. Travel Time: 50 min</p></div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Airport Station</li>
-                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#00888A;" class="text-white">&nbsp Airport Express &nbsp</span> Line / <span style="background-color:#00888A;" class="text-white">&nbsp 機場快線 &nbsp</span> </li>
+                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#00888A;" class="text-white">&nbsp; Airport Express &nbsp;</span> Line / <span style="background-color:#00888A;" class="text-white">&nbsp; 機場快線 &nbsp;</span> </li>
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Tsing Yi Station / 青衣站</li>
-                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#F7943E;" class="text-white">&nbsp Tung Chung Line &nbsp</span> / <span style="background-color:#F7943E;" class="text-white">&nbsp 東涌綫 &nbsp</span> </li>
+                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#F7943E;" class="text-white">&nbsp; Tung Chung Line &nbsp;</span> / <span style="background-color:#F7943E;" class="text-white">&nbsp; 東涌綫 &nbsp;</span> </li>
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Nam Cheong Station / 南昌站</li>
-                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#A6228E;" class="text-white">&nbspWest Rail Line &nbsp</span> / <span style="background-color:#A6228E;" class="text-white">&nbsp 西鐵綫 &nbsp</span> </li>
+                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#A6228E;" class="text-white">&nbsp;West Rail Line &nbsp;</span> / <span style="background-color:#A6228E;" class="text-white">&nbsp; 西鐵綫 &nbsp;</span> </li>
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Hung Hom Station / 紅磡 </li>
                         <li class="list-group-item"><i class="fa fa-external-link-square" aria-hidden="true"></i> Exit A1 </li>
                         <li class="list-group-item"><i class="fa fa-road" aria-hidden="true"></i> Take the footbridge and arrive in 5 min</li>
-                        <li class="list-group-item">
-                            <a href="https://goo.gl/maps/hK5H892PZ592" class="btn btn-primary" target="_blank">View on map</a>
-                        </li>
+                        <li class="list-group-item"><a href="https://goo.gl/maps/hK5H892PZ592" class="btn btn-primary" target="_blank">View on map</a></li>
                     </ul>
                 </div>
             </div>
@@ -136,20 +142,18 @@
             {% endfor %}
         </div>
         <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <div class="card h-100">
+            <div class="col-12 col-md-6 portfolio-item">
+                <div class="card">
                     <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_airport_sm.jpg" alt="Hong Kong Airport"> -->
                     <div class="card-body">
-                        <h4 class="card-title text-center">
-                HK International Airport (Code: HKG)
-              </h4>
+                        <h4 class="card-title text-center">HK International Airport (Code: HKG)</h4>
                         <p class="card-text text-justify">Hong Kong is a key aviation hub serviced by more than 100 airlines that provide connections to major cities throughout the world. Your gateway to the city is the 24-hour Hong Kong International Airport, which is consistently ranked among the best airports in the world.</p>
                         <p class="card-text text-justify">It takes approximately 30-40 minutes by taxi or 1 hour via public transportation to reach from the airport to the conference venue.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 portfolio-item">
-                <div class="card h-100">
+            <div class="col-12 col-md-6 portfolio-item d-flex align-items-stretch">
+                <div class="card">
                     <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_hotel_sm.jpg" alt="Hong Kong Airport"> -->
                     <div class="card-body">
                         <h4 class="card-title text-center">Accommodation</h4>
@@ -159,8 +163,10 @@
                     </div>
                 </div>
             </div>
-            <div class="col-12 portfolio-item" id="octopus-card">
-                <div class="card h-100">
+        </div>
+        <div class="row" id="octopus-card">
+            <div class="col-12 portfolio-item">
+                <div class="card">
                     <div class="card-body">
                         <h4 class="card-title text-center">Octopus Card</h4>
                         <div class="row">
@@ -175,7 +181,7 @@
                                 </p>
                             </div>
                             <div class="col-12">
-                                <table class="table table-hover table-sm">
+                                <table class="table table-hover table-sm fontsize-80-percent-rem">
                                     <thead>
                                         <tr>
                                             <th scope="col" rowspan="2">Version</th>
@@ -206,10 +212,12 @@
                                         <tr>
                                             <td rowspan="2">Tourist Day Pass</td>
                                             <td>65</td>
-                                            <td>65</td><td>N.A.</td><td>N.A.</td>
+                                            <td>65</td>
+                                            <td>N.A.</td>
+                                            <td>N.A.</td>
                                         </tr>
                                         <tr>
-                                            <td style="width: 80%" colspan="4">Remarks: Unlimited travel on MTR valid for 24 hours. This is not Octopus card and we do not recommend it. We list it here only for your reference, details are available <a href="http://www.mtr.com.hk/en/customer/tickets/day_pass_tourist.html" target="_blank">here</a>. </td>
+                                            <td colspan="4">Remarks: Unlimited travel on MTR valid for 24 hours. This is not Octopus card and we do not recommend it. We list it here only for your reference, details are available <a href="http://www.mtr.com.hk/en/customer/tickets/day_pass_tourist.html" target="_blank">here</a>. </td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -325,7 +333,7 @@
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div class="my-auto"><small class="text-muted"></small></div>
-                            <a class="btn btn-primary" href="@@webRoot/download/Hotel-Regal Kowloon-RSV Form.pdf" download="Regal Kowloon - RSV Form.pdf"><i class="fa fa-cloud-download" aria-hidden="true"></i> Reservation Form</a>
+                            <a class="btn btn-primary" href="{{file.WebRoot}}/download/Hotel-Regal Kowloon-RSV Form.pdf" download="Regal Kowloon - RSV Form.pdf"><i class="fa fa-cloud-download"></i> Reservation Form</a>
                         </div>
                     </div>
                     <div class="card">
@@ -343,7 +351,7 @@
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div class="my-auto"><small class="text-muted">Group Code: ISVLSI_2018</small></div>
-                            <a href="https://gc.synxis.com/rez.aspx?Hotel=76636&Chain=21619&arrive=7/7/2018&adult=1&child=0&group=ISVLSI_2018" target="_blank" class="btn btn-primary">View Offer</a>
+                            <a href="https://gc.synxis.com/rez.aspx?Hotel=76636&amp;Chain=21619&amp;arrive=7/7/2018&amp;adult=1&amp;child=0&amp;group=ISVLSI_2018" target="_blank" class="btn btn-primary">View Offer</a>
                         </div>
                     </div>
                     <div class="card">
@@ -363,7 +371,7 @@
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div class="my-auto"><small class="text-muted">Group Code: GPIEEE</small></div>
-                            <a href="https://gc.synxis.com/rez.aspx?Hotel=51197&Chain=12116&arrive=7/8/2019&depart=7/12/2019&adult=1&child=0&promo=GPIEEE" target="_blank" class="btn btn-primary">View Offer</a>
+                            <a href="https://gc.synxis.com/rez.aspx?Hotel=51197&amp;Chain=12116&amp;arrive=7/8/2019&amp;depart=7/12/2019&amp;adult=1&amp;child=0&amp;promo=GPIEEE" target="_blank" class="btn btn-primary">View Offer</a>
                         </div>
                     </div>
                 </div>
@@ -409,6 +417,49 @@
     </section>
     <!-- Footer -->
     @@include('./component/footer.p.html',{ "parentRel": "@@webRoot" })
+    <script src="{{file.WebRoot}}/js/viewer.min.js"></script>
+    <script>
+    var dummy_gallery = document.createElement('div');
+
+    function append_image(url, alt) {
+        var image = new Image();
+        image.src = url;
+        image.alt = alt;
+        dummy_gallery.appendChild(image);
+    }
+    append_image("{{file.WebRoot}}/img/venue/PolyU/map_v1.0.jpg", "Campus Map (Updated on June 30, 2018)");
+
+    window.addEventListener('DOMContentLoaded', function() {
+        var viewer = new Viewer(dummy_gallery, {
+            navbar: false,
+            rotatable: false,
+            toolbar: {
+                zoomIn: 0,
+                zoomOut: 0,
+                oneToOne: 0,
+                reset: 0,
+                prev: {
+                    show: 1,
+                    click: function() {
+                        viewer.hide();
+                    }
+                },
+                play: 0,
+                next: 0,
+                rotateLeft: 0,
+                rotateRight: 0,
+                flipHorizontal: 0,
+                flipVertical: 0,
+            },
+            tooltip: false,
+            zoomRatio: 0.3
+        });
+        document.getElementById('call-sched-viewer').addEventListener('click', function() {
+            viewer.view(0);
+        });
+    });
+
+    </script>
     <script>
     function initggMap() {
 
@@ -684,7 +735,7 @@
     }
 
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFsHWCKp0h5YZbDYOql16ZETPOCNDv2GU&callback=initggMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFsHWCKp0h5YZbDYOql16ZETPOCNDv2GU&amp;callback=initggMap"></script>
 </body>
 
 </html>
