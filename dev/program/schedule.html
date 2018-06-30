@@ -16,10 +16,12 @@
         <h1 class="mt-4 mb-3">Program Schedule</h1>
         <div class="row">
             <div class="col-12">
-                <img class="img-fluid" src="@@webRoot/img/sched.png" alt="Program Schedule">
+                <img class="img-fluid" src="{{file.WebRoot}}/img/sched.png" alt="Program Schedule">
             </div>
             <div class="col-12">
-                <!-- <small class="pull-right">Zoomable view</small> -->
+                
+                	<p class="pull-right small"><a id="call-sched-viewer" href="javascript:void(0);"><i class="fa fa-search-plus"></i> Zoomable view</a></p>
+                
                 <small>Note: The sessions with (*) have Best Paper Candidates.</small>
             </div>
         </div>
@@ -35,7 +37,7 @@
                     </a>
                     <div id="id-point-panel" class="collapse" role="tabpanel">
                         <div class="card-body">
-                            <p class="text-justify">We will first assemble at the following place and the student helper will lead us to the restaurant for lunches or to the bus stop for coach boarding. If you prefer, you can also go to the lunch restaurant or coach bus stop by yourself. We have included <a id="call-map-viewer" href="javascript:void(0);">the map</a> for your reference.
+                            <p class="text-justify">We will first assemble at the following place and the student helper will lead us to the restaurant for lunches or to the bus stop for coach boarding. If you prefer, you can also go to the lunch restaurant or coach bus stop by yourself. We have included <a id="call-map-viewer" href="javascript:void(0);"> the map</a> for your reference.
                                 <br>
                                 <b>Assemble Place</b>: In front of N003
                                 <br>
@@ -76,7 +78,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-12 col-sm-3 col-lg-2 my-auto">
-                                        <img class="img-fluid d-block mx-auto" style="max-height: 110px" src="@@webRoot/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
+                                        <img class="img-fluid d-block mx-auto" style="max-height: 110px" src="{{file.WebRoot}}/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
                                     </div>
                                     <div class="col-12 col-sm-9 col-lg-10">
                                         <h5>
@@ -88,7 +90,7 @@
                                             </div>
                                             <div class="col-12 col-lg-8 order-1 order-lg-2">
                                                 Time: {{ talk_pool[talk_id].time }} | Venue: {{ talk_pool[talk_id].venue }} |
-                                                <a href="@@webRoot/program/keynote.html#{{talk_id}}">Details</a>
+                                                <a href="{{file.WebRoot}}/program/keynote.html#{{talk_id}}">Details</a>
                                             </div>
                                             <div class="col-12 order-3">
                                                 <small>{{ talk_pool[talk_id].affiliation|safe }}</small>
@@ -107,7 +109,7 @@
                             <div class="card-body">
                                 <div class="row">
                                     <div class="col-12 col-sm-3 col-lg-2 my-auto">
-                                        <img class="img-fluid d-block mx-auto" style="max-height: 110px" src="@@webRoot/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
+                                        <img class="img-fluid d-block mx-auto" style="max-height: 110px" src="{{file.WebRoot}}/{{ talk_pool[talk_id].photo_path }}" alt="{{ talk_pool[talk_id].speaker }}" />
                                     </div>
                                     <div class="col-12 col-sm-9 col-lg-10">
                                         <h5>
@@ -119,7 +121,7 @@
                                             </div>
                                             <div class="col-12 col-lg-8 order-1 order-lg-2">
                                                 Time: {{ talk_pool[talk_id].time }} | Venue: {{ talk_pool[talk_id].venue }} |
-                                                <a href="@@webRoot/program/keynote.html#{{talk_id}}">Details</a>
+                                                <a href="{{file.WebRoot}}/program/keynote.html#{{talk_id}}">Details</a>
                                             </div>
                                             <div class="col-12 order-3">
                                                 <small>{{ talk_pool[talk_id].affiliation|safe }}</small>
@@ -183,7 +185,8 @@
         image.alt = alt;
         dummy_gallery.appendChild(image);
     }
-    append_image("{{file.WebRoot}}/img/venue/PolyU/campus_map.jpg","Campus Map");
+    append_image("{{file.WebRoot}}/img/sched.png","Program Schedule");
+    append_image("{{file.WebRoot}}/img/venue/PolyU/map_v1.0.jpg","Campus Map (Updated on June 30, 2018)");
 
     window.addEventListener('DOMContentLoaded', function() {
         var viewer = new Viewer(dummy_gallery, {
@@ -193,9 +196,13 @@
             tooltip: false,
             zoomRatio: 0.3
         });
-        document.getElementById('call-map-viewer').addEventListener('click', function() {
+        document.getElementById('call-sched-viewer').addEventListener('click', function() {
             viewer.view(0);
         });
+        document.getElementById('call-map-viewer').addEventListener('click', function() {
+            viewer.view(1);
+        });
+        
     });
 
     </script>
