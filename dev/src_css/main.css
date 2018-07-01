@@ -84,3 +84,16 @@ body {
 .cur-hover-not-allowed:hover { 
   cursor: not-allowed; 
 }
+
+.btn-wrap-text {
+    white-space: normal !important;
+    word-wrap: break-word !important;
+}
+
+.fontsize-80-percent-rem{
+  font-size: 0.8rem;
+}
+
+.fontsize-50-percent-rem{
+  font-size: 0.5rem;
+}

@@ -1,24 +1,24 @@
-<head>
+<!-- <HTML> -->
+{% macro common_head(args) %}
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="IEEE Computer Society Annual Symposium on VLSI 2018 : The Symposium covers VLSI circuits and systems, and their design methods,alongwith new areas like nano-devices and MEMS.">
     <meta name="keywords" content="Conference, ISVLSI, VLSI, Nanoelectronics, MEMS, Circuits and Systems, Reconfigurable Systems, System-on-Chip, Low Power, Test and Verification, Mixed-Signal Design and Analysis">
     <meta name="author" content="">
-    <title>@@title</title>
+    <title>{{ args.title }}</title>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <!-- Bootstrap core CSS : changed to use CDN-->
-    <!-- <link href="@@parentRel/css/bootstrap/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
     <!-- Custom styles for this template -->
-    <link href="@@parentRel/css/main.css" rel="stylesheet">
-    <link rel="shortcut icon"  type="image/png" href="@@parentRel/img/ico.png">
+    <link href="{{args.WebRoot}}/css/main.css" rel="stylesheet">
+    <link rel="shortcut icon"  type="image/png" href="{{args.WebRoot}}/img/ico.png">
     <!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108069633-1"></script>
-	<script>
-	  window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-108069633-1');
-	</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108069633-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-108069633-1');
+    </script>
     <!-- Global site tag (gtag.js) - Google Analytics End -->
     <!-- GDPR Banner -->
     <script src="https://s3-us-west-2.amazonaws.com/ieeeshutpages/gdpr/settings.js"></script>
@@ -30,4 +30,4 @@
         });
     </script>
     <!-- GDPR Banner End-->
-</head>
+{% endmacro %}

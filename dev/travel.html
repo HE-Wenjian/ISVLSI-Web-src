@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <!-- head -->
-@@include('./component/head.p.html',{ "title" : "Travel - ISVLSI 2018", "parentRel": "@@webRoot" })
+{% import "./component/page.macro" as macros %}
+
+<head>
+    {{ macros.common_head({title: "Travel - ISVLSI 2018", WebRoot: file.WebRoot}) }}
+    <link rel="stylesheet" href="{{file.WebRoot}}/css/viewer.min.css">
+</head>
 
 <body>
+    {{thenext}}
     <!-- Navigation : navbar -->
     @@include('./component/navbar.p.html',{ "parentRel": "@@webRoot", "page": "travel" })
     <!-- Page Content -->
@@ -22,13 +28,7 @@
                             Hong Kong SAR, China
                           </h5>
                         <p class="text-justify">The university campus of PolyU is located in Hung Hom, Kowloon, on a 9.46-hectare site adjacent to the Cross Harbour Tunnel. In addition to classrooms, laboratories and academic facilities, the campus offers sport, recreational facilities and other facilities including multi-purpose auditorium and Industrial Centre. A full range of campus services including restaurants, bookstore and banks are also provided. </p>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-12">
-                        <p class="text-center">
-                            <a class="btn btn-md btn-success" target="_blank" href="https://www.polyu.edu.hk/fmo/eMap/map.php"> Campus Map <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
-                        </p>
+                        <p><b>Free WiFi</b> named "Wi-Fi.HK via PolyU" is availabe on campus. </p>
                     </div>
                 </div>
             </div>
@@ -41,6 +41,17 @@
             {% for img_url in polyU.gallery_img_url %}
             <div class="col-6 col-sm-4 col-md-2 mb-3"><img class="img-fluid rounded d-block" src="{{img_url}}" alt="PolyU-{{loop.index}}"></div>
             {% endfor %}
+            <div class="col-12 full-width">
+                <img class="img-fluid" src="{{file.WebRoot}}/img/venue/PolyU/map_v1.0.jpg" alt="PolyU Campus Map">
+            </div>
+            <div class="col-12">
+                <p class="pull-right small"><a id="call-sched-viewer" href="javascript:void(0);"><i class="fa fa-search-plus"></i> Zoomable view</a></p>
+            </div>
+            <!-- <div class="col-12">
+                <p class="text-center">
+                    <a class="btn btn-md btn-success" target="_blank" href="https://www.polyu.edu.hk/fmo/eMap/map.php"> Campus Map <i class="fa fa-external-link fa-1x" aria-hidden="true"></i></a>
+                </p>
+            </div> -->
         </div>
         <hr>
         <div class="row mb-4">
@@ -49,22 +60,20 @@
                 <p>Located at the centre of the city, PolyU is easily accessible by various means of public transport. Typical choices:</p>
             </div>
             <div class="col-12 col-sm-6 portfolio-item">
-                <div class="card h-100">
+                <div class="card">
                     <h4 class="card-header">MTR (Subway)</h4>
-                    <div class="card-body">Est. Travel Time: 50 min </div>
+                    <div class="card-body"><p class="card-text">Est. Travel Time: 50 min</p></div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Airport Station</li>
-                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#00888A;" class="text-white">&nbsp Airport Express &nbsp</span> Line / <span style="background-color:#00888A;" class="text-white">&nbsp 機場快線 &nbsp</span> </li>
+                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#00888A;" class="text-white">&nbsp; Airport Express &nbsp;</span> Line / <span style="background-color:#00888A;" class="text-white">&nbsp; 機場快線 &nbsp;</span> </li>
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Tsing Yi Station / 青衣站</li>
-                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#F7943E;" class="text-white">&nbsp Tung Chung Line &nbsp</span> / <span style="background-color:#F7943E;" class="text-white">&nbsp 東涌綫 &nbsp</span> </li>
+                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#F7943E;" class="text-white">&nbsp; Tung Chung Line &nbsp;</span> / <span style="background-color:#F7943E;" class="text-white">&nbsp; 東涌綫 &nbsp;</span> </li>
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Nam Cheong Station / 南昌站</li>
-                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#A6228E;" class="text-white">&nbspWest Rail Line &nbsp</span> / <span style="background-color:#A6228E;" class="text-white">&nbsp 西鐵綫 &nbsp</span> </li>
+                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#A6228E;" class="text-white">&nbsp;West Rail Line &nbsp;</span> / <span style="background-color:#A6228E;" class="text-white">&nbsp; 西鐵綫 &nbsp;</span> </li>
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Hung Hom Station / 紅磡 </li>
                         <li class="list-group-item"><i class="fa fa-external-link-square" aria-hidden="true"></i> Exit A1 </li>
                         <li class="list-group-item"><i class="fa fa-road" aria-hidden="true"></i> Take the footbridge and arrive in 5 min</li>
-                        <li class="list-group-item">
-                            <a href="https://goo.gl/maps/hK5H892PZ592" class="btn btn-primary" target="_blank">View on map</a>
-                        </li>
+                        <li class="list-group-item"><a href="https://goo.gl/maps/hK5H892PZ592" class="btn btn-primary" target="_blank">View on map</a></li>
                     </ul>
                 </div>
             </div>
@@ -133,28 +142,93 @@
             {% endfor %}
         </div>
         <div class="row">
-            <div class="col-md-6 portfolio-item">
-                <div class="card h-100">
+            <div class="col-12 col-md-6 portfolio-item">
+                <div class="card">
                     <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_airport_sm.jpg" alt="Hong Kong Airport"> -->
                     <div class="card-body">
-                        <h4 class="card-title text-center">
-                HK International Airport (Code: HKG)
-              </h4>
+                        <h4 class="card-title text-center">HK International Airport (Code: HKG)</h4>
                         <p class="card-text text-justify">Hong Kong is a key aviation hub serviced by more than 100 airlines that provide connections to major cities throughout the world. Your gateway to the city is the 24-hour Hong Kong International Airport, which is consistently ranked among the best airports in the world.</p>
                         <p class="card-text text-justify">It takes approximately 30-40 minutes by taxi or 1 hour via public transportation to reach from the airport to the conference venue.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-md-6 portfolio-item">
-                <div class="card h-100">
+            <div class="col-12 col-md-6 portfolio-item d-flex align-items-stretch">
+                <div class="card">
                     <!-- <img class="card-img-top" src="@@webRoot/img/venue/hongkong/hk_intl_hotel_sm.jpg" alt="Hong Kong Airport"> -->
                     <div class="card-body">
-                        <h4 class="card-title text-center">
-                Accommodation
-              </h4>
+                        <h4 class="card-title text-center">Accommodation</h4>
                         <p class="card-text text-justify">As an international tourist city, Hong Kong offers plenty of choices of accommodation.</p>
                         <p class="card-text">Some recommended hotels are listed <a href="#hotel">here</a>.</p>
-                        <p class="card-text">More information will be provided in the future.</p>
+                        <!-- <p class="card-text">More information will be provided in the future.</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="octopus-card">
+            <div class="col-12 portfolio-item">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-center">Octopus Card</h4>
+                        <div class="row">
+                            <div class="col-12">
+                                <img class="img-fluid rounded d-none d-md-block ml-3 mb-1 pull-right" style="max-height: 170px" src="@@webRoot/img/hk_octopus_2.jpg" alt="Octopus Card Picture" />
+                                <div class="row d-md-none">
+                                    <div class="col-12"><img class="img-fluid rounded d-block mx-auto mb-1" style="max-height: 130px" src="@@webRoot/img/hk_octopus_2.jpg" alt="Octopus Card Picture" /></div>
+                                </div>
+                                <p class="card-text text-justify">Octopus card is a contactless payment tool which is well accepted all over Hong Kong! It will win you access to all of Hong Kong’s public transport, including Subway (MTR), taxis, local ferries, trams, buses and minibuses. You can also use it for small-value payments in most places, like bakeries, fast food chains, cafés, cinemas, apparel shops, convenience stores, department stores and supermarkets. The card is ubiquitous around Hong Kong, with almost all residents using it and it’s an excellent way to save time. We recommand you to purchase one.
+                                </p>
+                                <p class="card-text text-justify"><b>- How to get one?</b> You can buy an Octopus Card at the MTR Customer Service Center in almost every MTR station, as well as convenience stores of 7-Eleven, Circle K and VanGo. Two versions of the card are available to select from:
+                                </p>
+                            </div>
+                            <div class="col-12">
+                                <table class="table table-hover table-sm fontsize-80-percent-rem">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col" rowspan="2">Version</th>
+                                            <th scope="col" rowspan="2">Price</th>
+                                            <th colspan="3">Price Breakdown</th>
+                                        </tr>
+                                        <tr>
+                                            <th scope="col">Service Fee</th>
+                                            <th scope="col">Deposit (Refundable)</th>
+                                            <th scope="col">Initial stored value (Refundable)</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>On-Loan Octopus</td>
+                                            <td>150</td>
+                                            <td>9</td>
+                                            <td>41</td>
+                                            <td>100</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Sold Tourist Octopus</td>
+                                            <td>39</td>
+                                            <td>39</td>
+                                            <td>0</td>
+                                            <td>0 (You can add value when purchasing)</td>
+                                        </tr>
+                                        <tr>
+                                            <td rowspan="2">Tourist Day Pass</td>
+                                            <td>65</td>
+                                            <td>65</td>
+                                            <td>N.A.</td>
+                                            <td>N.A.</td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="4">Remarks: Unlimited travel on MTR valid for 24 hours. This is not Octopus card and we do not recommend it. We list it here only for your reference, details are available <a href="http://www.mtr.com.hk/en/customer/tickets/day_pass_tourist.html" target="_blank">here</a>. </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <hr>
+                            </div>
+                        </div>
+                        <p class="card-text text-justify"><b>- How to add value? </b> If the value on your Octopus is at or below HK$0, it cannot be used until you add value to it. You can reload your Octopus with cash at thousands of locations, including MTR stations, continence stores, McDonald's, Starbucks, and most supermarkets. </p>
+                        <p class="card-text text-justify"><b>- How to get refunded? </b> You can apply for a refund at the MTR Customer Service Center in almost every MTR station. For On-Loan Octopus, the deposit and the remaining value in the card will be returned to you, and the card will be recycled by MTR. For Sold Tourist Octopus, the remaining value will be returned to you after card deactivation, but you can keep the card as a souvenir.</p>
+                        <!-- <p class="card-text text-justify">As an international tourist city, Hong Kong offers plenty of choices of accommodation.</p> -->
+                        <!-- <p class="card-text"></p> -->
+                        <!-- <p class="card-text">More information will be provided in the future.</p> -->
                     </div>
                 </div>
             </div>
@@ -211,7 +285,7 @@
                         {% endfor %}
                     </tbody>
                 </table>
-                <sup>* The information is gathered from the Hong Kong Immigration Department website and is subject to change without notice. You are strongly recommended to double <b>check with <a href="http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html" target="_blank" >the Hong Kong Immigration Department</a></b>.</sup>
+                <p><small>* The information is gathered from the Hong Kong Immigration Department website and is subject to change without notice. You are strongly recommended to double <b>check with <a href="http://www.immd.gov.hk/eng/services/visas/visit-transit/visit-visa-entry-permit.html" target="_blank" >the Hong Kong Immigration Department</a></b>.</small></p>
             </div>
             <hr>
             <div class="col-12 portfolio-item">
@@ -233,7 +307,8 @@
     </div>
     <section class="container my-3">
         <div class="row">
-            <div class="col-12 text-center"><h3>Partner Hotels:</h3></div>
+            <div class="col-12 text-center">
+                <h3>Partner Hotels:</h3></div>
             <!-- <div class="col-12 text-center my-auto">
                 <p></p>
                 <h1 class="text-center"><i class="fa fa-bed fa-5x" aria-hidden="true"></i>Hotels</h1>
@@ -258,7 +333,7 @@
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div class="my-auto"><small class="text-muted"></small></div>
-                            <a class="btn btn-primary" href="@@webRoot/download/Hotel-Regal Kowloon-RSV Form.pdf" download="Regal Kowloon - RSV Form.pdf"><i class="fa fa-cloud-download" aria-hidden="true"></i> Reservation Form</a>
+                            <a class="btn btn-primary" href="{{file.WebRoot}}/download/Hotel-Regal Kowloon-RSV Form.pdf" download="Regal Kowloon - RSV Form.pdf"><i class="fa fa-cloud-download"></i> Reservation Form</a>
                         </div>
                     </div>
                     <div class="card">
@@ -276,7 +351,7 @@
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div class="my-auto"><small class="text-muted">Group Code: ISVLSI_2018</small></div>
-                            <a href="https://gc.synxis.com/rez.aspx?Hotel=76636&Chain=21619&arrive=7/7/2018&adult=1&child=0&group=ISVLSI_2018" target="_blank" class="btn btn-primary">View Offer</a>
+                            <a href="https://gc.synxis.com/rez.aspx?Hotel=76636&amp;Chain=21619&amp;arrive=7/7/2018&amp;adult=1&amp;child=0&amp;group=ISVLSI_2018" target="_blank" class="btn btn-primary">View Offer</a>
                         </div>
                     </div>
                     <div class="card">
@@ -296,7 +371,7 @@
                         </div>
                         <div class="card-footer d-flex justify-content-between">
                             <div class="my-auto"><small class="text-muted">Group Code: GPIEEE</small></div>
-                            <a href="https://gc.synxis.com/rez.aspx?Hotel=51197&Chain=12116&arrive=7/8/2019&depart=7/12/2019&adult=1&child=0&promo=GPIEEE" target="_blank" class="btn btn-primary">View Offer</a>
+                            <a href="https://gc.synxis.com/rez.aspx?Hotel=51197&amp;Chain=12116&amp;arrive=7/8/2019&amp;depart=7/12/2019&amp;adult=1&amp;child=0&amp;promo=GPIEEE" target="_blank" class="btn btn-primary">View Offer</a>
                         </div>
                     </div>
                 </div>
@@ -335,13 +410,56 @@
             </table>
             <hr>
             <div class="col-12">
-                <p class="text-center">More information will be provided soon.</p>
+                <!-- <p class="text-center">More information will be provided soon.</p> -->
             </div>
         </div>
         </div>
     </section>
     <!-- Footer -->
     @@include('./component/footer.p.html',{ "parentRel": "@@webRoot" })
+    <script src="{{file.WebRoot}}/js/viewer.min.js"></script>
+    <script>
+    var dummy_gallery = document.createElement('div');
+
+    function append_image(url, alt) {
+        var image = new Image();
+        image.src = url;
+        image.alt = alt;
+        dummy_gallery.appendChild(image);
+    }
+    append_image("{{file.WebRoot}}/img/venue/PolyU/map_v1.0.jpg", "Campus Map (Updated on June 30, 2018)");
+
+    window.addEventListener('DOMContentLoaded', function() {
+        var viewer = new Viewer(dummy_gallery, {
+            navbar: false,
+            rotatable: false,
+            toolbar: {
+                zoomIn: 0,
+                zoomOut: 0,
+                oneToOne: 0,
+                reset: 0,
+                prev: {
+                    show: 1,
+                    click: function() {
+                        viewer.hide();
+                    }
+                },
+                play: 0,
+                next: 0,
+                rotateLeft: 0,
+                rotateRight: 0,
+                flipHorizontal: 0,
+                flipVertical: 0,
+            },
+            tooltip: false,
+            zoomRatio: 0.3
+        });
+        document.getElementById('call-sched-viewer').addEventListener('click', function() {
+            viewer.view(0);
+        });
+    });
+
+    </script>
     <script>
     function initggMap() {
 
@@ -617,7 +735,7 @@
     }
 
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFsHWCKp0h5YZbDYOql16ZETPOCNDv2GU&callback=initggMap"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAFsHWCKp0h5YZbDYOql16ZETPOCNDv2GU&amp;callback=initggMap"></script>
 </body>
 
 </html>

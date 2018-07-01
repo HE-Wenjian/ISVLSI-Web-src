@@ -14,18 +14,24 @@
                 <p> Conference registration is now OPEN!</p>
                 <p>
                     <h5>Note:</h5>
-                    - <b>Advanced registration</b> by June 15th;<br> 
-                    - <b>Author registration</b> by May 22nd
+                    -<b>Advanced registration (Early registration)</b> by June 15th;
+                    <br>
+                    -<b>Author registration</b> by May 22nd
                 </p>
                 <div class="card portfolio-item">
-                            <div class="card-body">
-                                <h4><i class="fa fa-info-circle" aria-hidden="true"></i> About Author Registration</h4>
-                                <p class="card-text text-justify">
-                                 - A <b>regular paper</b> (including oral presentation and poster paper) requires at least one full non-student registration.<br>
-                                 - One full non-student registration can cover <b>at most two papers</b> with 6 pages, i.e. two 6-page papers can be registered under a full non-student registration. A paper allows 2 extra pages, with page fee of 175 USD per extra page.</p>
-                            </div>
-                        </div>
-            <!--     <div class="card portfolio-item">
+                    <div class="card-body">
+                        <h4>
+                            <i class="fa fa-info-circle" aria-hidden="true"></i> About Author Registration</h4>
+                        <p class="card-text text-justify">
+                            - A
+                            <b>regular paper</b> (including oral presentation and poster paper) requires at least one full non-student
+                            registration.
+                            <br> - One full non-student registration can cover
+                            <b>at most two papers</b> with 6 pages, i.e. two 6-page papers can be registered under a full non-student
+                            registration. A paper allows 2 extra pages, with page fee of 175 USD per extra page.</p>
+                    </div>
+                </div>
+                <!--     <div class="card portfolio-item">
                             <div class="card-body">
                                 <h4><i class="fa fa-info-circle" aria-hidden="true"></i> Extra Pages</h4>
                                 <p class="card-text text-justify">A paper allows 2 extra pages, with page fee of 175 USD per extra page. </p>
@@ -36,7 +42,9 @@
                 <div class="row">
                     <div class="col-12 portfolio-item">
                         <div class="card mx-1">
-                            <h4 class="card-header text-center"><b>ISVLSI 2018</b></h4>
+                            <h4 class="card-header text-center">
+                                <b>ISVLSI 2018</b>
+                            </h4>
                             <!-- <div class="card-body">
                              <ul class="card-text list-unstyled"><li><b>Submission Deadline</b>: </li></ul> 
                             </div>  -->
@@ -50,7 +58,8 @@
                         <div class="card mx-4">
                             <div class="card-body">
                                 <!-- <h6 class="card-title">Project One</h6> -->
-                                <p class="card-text text-center"><small>Click the link below if you would like to view or make changes to your registration:</small>
+                                <p class="card-text text-center">
+                                    <small>Click the link below if you would like to view or make changes to your registration:</small>
                                 </p>
                             </div>
                             <!-- <div class="card-footer text-center "> -->
@@ -88,12 +97,16 @@
             {% for ad in self_ad.ad_list %}
             <div class="col-lg-3 col-sm-6 col-6 portfolio-item">
                 <div class="card h-100">
-                    <a href="@@webRoot{{ad.link_url}}"><img class="card-img-top" style="height: 180px; object-fit: cover;" src="@@webRoot{{ad.card_img}}" alt="{{ad.title}}"></a>
+                    <a href="@@webRoot{{ad.link_url}}">
+                        <img class="card-img-top" style="height: 180px; object-fit: cover;" src="@@webRoot{{ad.card_img}}" alt="{{ad.title}}">
+                    </a>
                     <div class="card-body">
                         <h5 class="card-title">
-                <a href="@@webRoot{{ad.link_url}}">{{ad.title}}</a>
-              </h5>
-                        <p class="card-text"><small>{{ad.card_text}}</small></p>
+                            <a href="@@webRoot{{ad.link_url}}">{{ad.title}}</a>
+                        </h5>
+                        <p class="card-text">
+                            <small>{{ad.card_text}}</small>
+                        </p>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,1667 @@
+<h1 class="c15"><span class="c22 c14">Session 01</span></h1>
+<p class="c5"><span class="c6">Monday July 09, 2018</span></p>
+<p class="c5"><span class="c4 c2">N001</span></p>
+<p class="c5"><span class="c12">Analog and Mixed Signal I</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Pallab Dasgupta, India IIT Kharagpur</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">9:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Gyrator-C based Bandpass Filter with Improved Dynamic Range for Fully Integrated RF Front-end</span></p>
+                <p class="c9"><span class="c2">Lakshmi N S and Bhaskar M</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Replica-Based Low Drop-Out Voltage Regulator with Assistant Power Transistors for Digital VLSI Systems</span></p>
+                <p class="c9"><span class="c2">Yang Nan, Chenchang Zhan, Guanhua Wang, Linjun He and Han Li</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A High-Efficient Current-Mode PWM DC-DC Buck Converter Using Dynamic Frequency Scaling </span></p>
+                <p class="c9"><span class="c2">Ankit Rehani, Sujay Deb, Pydi Ganga Bahubalindruni, Bhavin Odedara and Srikanth Bojja</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 02</span></h1>
+<p class="c5"><span class="c6">Monday July 09, 2018</span></p>
+<p class="c5"><span class="c4 c2">N002</span></p>
+<p class="c5"><span class="c12">Digital Circuits and FPGA based Design I</span></p>
+<p class="c29"><span>Chair: </span><span class="c25">        </span><span class="c2 c25">Mingjie Lin, University of Central Florida        </span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">9:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Achieving Low Power Classification with Classifier Ensemble</span></p>
+                <p class="c9"><span class="c4 c2">Fanglei Hu, Min Zhang and Hailong Jiao</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Power-efficient Hybrid Architecture Design for Image Recognition using CNNs</span></p>
+                <p class="c9"><span class="c4 c2">Jinhang Choi, Srivatsa Srinivasa, Yasuki Tanabe, Jack Sampson and Vijaykrishnan Narayanan</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Towards Budget-Driven Hardware Optimization for Deep Convolutional Neural Networks using Stochastic Computing</span></p>
+                <p class="c9"><span class="c4 c2">Zhe Li, Ji Li, Ao Ren, Caiwen Ding, Jeffrey Draper, Qinru Qiu, Bo Yuan and Yanzhi Wang</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 03</span></h1>
+<p class="c5"><span class="c6">Monday July 09, 2018</span></p>
+<p class="c5"><span class="c4 c2">N003</span></p>
+<p class="c5"><span class="c12">Testing, Reliability, and Fault-Tolerance I</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Rung-Bin Lin, Yuan Ze University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">9:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c35 c14 c25">*Fast heuristics for near-optimal signal restoration in post-silicon validation</span></p>
+                <p class="c9"><span class="c4 c2">Xiaobang Liu and Ranga Vemuri</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">PGIREM: Reliability-Constrained IR Drop Minimization and Electromigration Assessment of VLSI Power Grid Networks using Cooperative Coevolution </span></p>
+                <p class="c9"><span class="c19 c2">Sukanta Dey, Satyabrata Dash, Sukumar Nandi and Gaurav Trivedi</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Silicon Debug with Maximally Expanded Internal Observability using Nearest Neighbor Algorithm</span></p>
+                <p class="c9"><span class="c4 c2">Ankit Jindal, Binod Kumar, Nitish Jindal, Masahiro Fujita and Virendra Singh</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c10"><span class="c22 c14"></span></h1>
+<h1 class="c15"><span class="c22 c14">Session 04</span></h1>
+<p class="c5"><span class="c6">Monday July 09, 2018</span></p>
+<p class="c5"><span class="c4 c2">N001</span></p>
+<p class="c5"><span class="c12">Computer Aided Design and Verification I</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">YongFu Li, Global Foundries</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Application Specific Networks-on-Chip Synthesis: An Energy Efficient Approach</span></p>
+                <p class="c9"><span class="c4 c2">Somayeh Kashi, Ahmad Patooghy, Dara Rahmati, Mahdi Fazeli and Michel Kinsy</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c25">Accurate Models for Optimizing Tapered Microchannel Heat Sinks in 3D ICs</span></p>
+                <p class="c9"><span class="c4 c2">Leslie Hwang, Beomjin Kwon and Martin Wong</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Designing and Benchmarking of Double-Row Height Standard Cells</span></p>
+                <p class="c9"><span class="c4 c2">Yu-Xiang Chiang, Cheng-Wei Tai, Shang-Rong Fang, Kai-Chun Peng, Yuan-Dar Chung, Jin-Kai Yang and Rung-Bin Lin</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 05</span></h1>
+<p class="c5"><span class="c6">Monday July 09, 2018</span></p>
+<p class="c5"><span class="c4 c2">N002</span></p>
+<p class="c5"><span class="c12">Emerging and Post-CMOS Technologies I</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Kang Wang, Beihang University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Dual-Threshold Directed Execution Progress Maximization for Nonvolatile Processors</span></p>
+                <p class="c9"><span class="c1">Dongqin Zhou, Keni Qiu and Yongpan Liu</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c14 c25 c35">*A Comprehensive Electro-Optical Model for Silicon Photonic Switches</span></p>
+                <p class="c9"><span class="c1">Xuanqi Chen, Zhifei Wang, Yi-Shing Chang, Jiang Xu, Peng Yang, Zhehui Wang and Luan H.K. Duong</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">CMOS Gates with Second Function</span></p>
+                <p class="c9"><span class="c1">Jan Nevoral, Richard Ruzicka and Vaclav Simek</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 06</span></h1>
+<p class="c5"><span class="c6">Monday July 09, 2018</span></p>
+<p class="c5"><span class="c4 c2">N003</span></p>
+<p class="c5"><span class="c12">System Design and Security I</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Xiaochen Guo, Lehigh University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Tagless DRAM Cache</span></p>
+                <p class="c9"><span class="c4 c2">S R Swamy Saranam Chongala and Madhu Mutyam</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">CT-Cache: Compressed Tag-Driven Cache Architecture</span></p>
+                <p class="c9"><span class="c4 c2">Haeyoon Cho, Joonho Kong, Arslan Munir and Naresh Kumar Giri</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">High Bandwidth Off-Chip Memory Access Through Hybrid Switching and Inter-Chip Wireless Links</span></p>
+                <p class="c9"><span class="c4 c2">Sri Harsha Gade, Hemanta Kumar Mondal and Sujay Deb</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<!-- <h1 class="c15"><span class="c22 c14">Industrial and Plenary Talk</span></h1>
+<p class="c5"><span class="c6">2:40pm ~ 3:40pm Monday July 09, 2018</span></p>
+<p class="c5"><span class="c4 c2">N003</span></p>
+<p class="c13"><span class="c12">Achieving 19 TFLOPS in 10W for deep learning using network pruning on Xilinx Zynq Ultrascale+ FPGA</span></p>
+<p class="c13"><span>Speaker: </span><span class="c2 c25">Shan Yi, CTO and Partner of DeePhi Tech.</span><span class="c4 c2">    </span></p>
+<p class="c31"><span class="c4 c14">Deep learning algorithms such as Convolution Neural Network (CNN)  is fast becoming the critical part of image perceptions in embedded vision applications in the automotive, drones, surveillance and industrial vision markets. Applications include multi-object detection, semantic segmentation and image classification. However, when scaling these networks to modern resolutions like HD and 4K, the computational requirements for real-time system could easily go over 10 TFLOPS consuming hundreds of watts of power, which is simply unacceptable for most edge applications. In this talk, we will describe a network/weight pruning methodology that achieves over 10 times performance gain on Zynq Ultrascale+ with very small accuracy loss. The network inference running on Zynq Ultrascale+ has achieved 19 TFLOPS-equivalent of the original SSD network in less than 10W.</span></p>
+<p class="c13"><span class="c25 c43">Overcoming Challenges of Accelerating Deep Neural Network Computations</span></p>
+<p class="c13"><span>Speaker: </span><span class="c2 c25">Deming Chen, University of Illinois Urbana-Champaign</span></p>
+<p class="c31"><span class="c4 c14">Deep Neural Networks (DNNs) are computation intensive. Without efficient hardware implementations of DNNs, many promising AI applications will not be practically realizable. In this talk, we will analyze several challenges facing the AI community for mapping DNNs to hardware accelerators. Especially, we will evaluate FPGA&#39;s potential role for accelerating DNNs for both the cloud and edge devices. Although FPGAs can provide desirable customized hardware solutions, they are difficult to program and optimize.  We will present a series of effective design techniques for implementing DNNs on FPGAs with high performance and energy efficiency. These include automated hardware/software co-design, the use of configurable DNN IPs, resource allocation across DNN layers, smart pipeline scheduling, Winograd and FFT techniques, and DNN reduction and re-training. We showcase several design solutions including Long-term Recurrent Convolution Network (LRCN) for video captioning, Inception module (GoogleNet) for face recognition, as well as Long Short-Term Memory (LSTM) for sound recognition. We will also present some of our recent work on developing new DNN models and data structures for achieving higher accuracy for several interesting applications such as crowd counting, genomics, and music synthesis.</span></p> -->
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 01</span></h1>
+<p class="c5"><span class="c6">Monday July 09, 2018</span></p>
+<p class="c5"><span class="c4 c2">N001</span></p>
+<p class="c5"><span class="c12">Shall We Jointly Address VLSI Reliability and Security?</span></p>
+<p class="c29"><span>Chair: </span><span class="c24 c2">Qiaoyan Yu, University of New Hampshire, USA; Michel A. Kinsy, Boston University, USA </span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Investigating Reliability and Security of Integrated Circuits and Systems</span></p>
+                <p class="c9"><span class="c4 c2">Qiaoyan Yu, Zhiming Zhang, and Jaya Dofe.</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Reliability and Security in Non-volatile Processors, Two Sides of the Same Coin</span></p>
+                <p class="c9"><span class="c19 c2">Chengmo Yang, Patrick Cronin, and Yongpan Liu</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Short Survey at the Intersection of Reliability and Security in Processor Architecture Designs</span></p>
+                <p class="c9"><span class="c19 c2">Michel A. Kinsy</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Can Soft Errors Be Handled Securely?</span></p>
+                <p class="c9"><span class="c19 c2">Senwen Kan, Jennifer Dworak</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 07</span></h1>
+<p class="c5"><span class="c6">Monday July 09, 2018</span></p>
+<p class="c5"><span class="c2">N002</span></p>
+<p class="c5"><span class="c12">System Design and Security II</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Zhongfeng Wang, Nanjing University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c35 c14 c25">*BD-NET: A Multiplication-less DNN with Binarized Depthwise Separable Convolution</span></p>
+                <p class="c9"><span class="c1">Zhezhi He, Shaahin Angizi, Adnan Siraj Rakin and Deliang Fan</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">TaiJiNet : Towards Partial Binarized Convolutional Neural Network for Embedded Systems</span></p>
+                <p class="c9"><span class="c1">Yingjian Ling, Kan Zhong, Yunsong Wu, Duo Liu, Jinting Ren, Renping Liu, Moming Duan, Weichen Liu and Liang Liang</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">An ECC-Free MLC STT-RAM based Approximate Memory Design for Multimedia Applications</span></p>
+                <p class="c9"><span class="c1">Zihao Liu, Tao Liu, Jie Guo, Nansong Wu and Wujie Wen</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Robust Timing Attack Countermeasure on Virtual Hardware</span></p>
+                <p class="c9"><span class="c1">Kai Yang, Jungmin Park, Mark Tehranipoor and Swarup Bhunia</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 02</span></h1>
+<p class="c5"><span class="c6">Monday July 09, 2018</span></p>
+<p class="c5"><span class="c2">N003</span><span class="c12"> </span></p>
+<p class="c5"><span class="c12">Emerging Computing and Memory Technologies at Post-CMOS Era</span></p>
+<p class="c29"><span>Chair: </span><span class="c24 c2">Liang Shi, Chongqing University; Bei Yu, The Chinese University of Hong Kong</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Towards Theoretical Cost Limit of Stochastic Number Generators for Stochastic Computing</span></p>
+                <p class="c9"><span class="c1">Meng Yang, Bingzhe Li, David J. Lilja, Bo Yuan, Weikang Qian</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">An Energy-Efficient PIM-Accelerator Simulation Framework</span></p>
+                <p class="c9"><span class="c1">Di Gao, Tianhao Shen, Cheng Zhuo</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Efficient Self-balancing Binary Search Tree for Non-Volatile Memory with Write Asymmetry</span></p>
+                <p class="c9"><span class="c1">Ming-Chang Yang </span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c25">Minimizing the Energy Consumption of MLC STT-RAM Main Memory with Asymmetric Write Energy by Re-designing Cache Management<br></span><span class="c1">Tseng-Yi Chen</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Poster Session </span></h1>
+<p class="c5"><span class="c6">5:40pm ~ 7:10pm, Monday July 09, 2018</span></p>
+<p class="c5"><span class="c4 c2">N103</span></p>
+<table class="c44">
+    <tbody>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">P1.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Fully-on-Chip Digitally Assisted LDO Regulator with Improved Regulation and Transient Responses</span></p>
+                <p class="c9"><span class="c19 c2">Han Li, Chenchang Zhan and Ning Zhang</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">P2.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Novel Asynchronous Analog to Digital Converter for Surveillance Camera Applications</span></p>
+                <p class="c9"><span class="c19 c2">Siddharth Kala, Sunil R., Nithin Kumar Y.B., Vasantha M.H. and Edoardo Bonizzoni</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">P3.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">An Integrated MaxFit Genetic Algorithm-SPICE Framework for 2-stage Op-amp Design Automation</span></p>
+                <p class="c9"><span class="c19 c2">Harsha M V and B P Harish</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">P4.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Mismatch Resilient 3.5-bit MDAC with MCS-CFCS</span></p>
+                <p class="c9"><span class="c19 c2">Satyajit Mohapatra, Nihar Mohapatra and Hari Gupta</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">P5.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Design of Low Power SAR ADC using Clock Retiming</span></p>
+                <p class="c9"><span class="c19 c2">Jalaja S and Vijaya Prakash A M</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">P6.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A 375 nA Input Off Current Schmitt Triger LDO for Energy Harvesting IoT Sensors</span></p>
+                <p class="c9"><span class="c19 c2">Koichiro Ishibashi and Shiho Takahashi</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P7.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Precise Duty Cycle Variation Detection and Self-Calibration System for High-Speed Data Links</span></p>
+                <p class="c9"><span class="c19 c2">Karen Khachikyan, Abraham Balabanyan and Hrachya Gumroyan</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P8.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Parametric Circuit Optimization with Reinforcement Learning</span></p>
+                <p class="c9"><span class="c19 c2">Changcheng Tang and Zuochang Ye</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P9.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">End-to-End Industrial Study of Retiming</span></p>
+                <p class="c9"><span class="c19 c2">Cunxi Yu, M. Choudhury, Andrew Sullivan, Gi-Joon Nam and Giovannni De Mecheli</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P10.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Communication-aware Module Placement for Lowering Power in Large FPGA Designs</span></p>
+                <p class="c9"><span class="c19 c2">Kalindu Herath, Alok Prakash, Udaree Kanewala and Thambipillai Srikanthan</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P11.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A novel mixed-size fixed-ouline floorplacement algorithm</span></p>
+                <p class="c9"><span class="c19 c2">Qian Chen and Sheqin Dong</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P12.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">ARCHVerifyr: An Embedded Software-Driven Approach for Architecture Verification</span></p>
+                <p class="c9"><span class="c19 c2">Tomas Grimm, Djones Lettnin and Michael Huebner</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P13.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">High-average and Guaranteed Performance for Wireless Networks-on-Chip Architectures</span></p>
+                <p class="c9"><span class="c19 c2">Mohammad Baharloo, Ahmad Khonsari, Pouya Shiri, Iman Namdari and Dara Rahmati</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P14.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Hardware Implementation of Reconfigurable Separable Convolution</span></p>
+                <p class="c9"><span class="c19 c2">Lei Rao, Bin Zhang and Jizhong Zhao</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P15.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Low Overhead Online Checkpoint for Intermittently Powered Non-volatile FPGAs</span></p>
+                <p class="c9"><span class="c19 c2">Xinyi Zhang, Clay Patterson, Yongpan Liu, Chengmo Yang, Chun Jason Xue a</span><span class="c21 c14">nd Jingtong Hu</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P16.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Pixel-Parallel Architecture for Neuromorphic Smart Image Sensor with Visual Attention</span></p>
+                <p class="c9"><span class="c19 c2">Md Jubaer Hossain Pantho, Pankaj Bhowmik and Christophe Bobda</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">P17.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Lightweight ASIC Implementation of AEGIS-128</span></p>
+                <p class="c9"><span class="c19 c2">Anubhab Baksi, Vikramkumar Pudi, Swagata Mandal and Anupam Chattopadhyay</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">P18.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Architecture Exploration and Delay Minimization Synthesis for SET-Based Programmable Gate Arrays</span></p>
+                <p class="c9"><span class="c19 c2">Chia-Cheng Wu, Kung-Han Ho, Juinn-Dar Huang and Chun-Yao Wang</span></p>
+            </td>
+        </tr>
+        <tr class="c39">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P19.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">MRAM-on-FDSOI Integration: A Bit-cell Perspective</span></p>
+                <p class="c9"><span class="c19 c2">Hao Cai, You Wang, Wang Kang, Lirida Naviner, Jun Yang and Weisheng Zhao</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P20.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">High Performance Ternary Multiplier using CNTFET</span></p>
+                <p class="c9"><span class="c19 c2">Subhendu Kumar Sahoo</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P21.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Robust Dual Reference Computing-in-Memory Implementation and Design Space Exploration Within STT-MRAM</span></p>
+                <p class="c9"><span class="c19 c2">Liuyang Zhang, Wang Kang, Hao Cai, Peng Ouyang, Lionel Torres, Youguang Zhang, Aida Todri-Sanial and Weisheng Zhao</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P22.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Biosensing performance optimization of DMFET for fully filled and partially filled cavity</span></p>
+                <p class="c9"><span class="c19 c2">Chitrakant Sahu and Ankita Porwal</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P23.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Dynamic Resource Allocation Strategy for NoC Based Multicore Systems with Permanent Faults</span></p>
+                <p class="c9"><span class="c19 c2">Suraj Paul, Navonil Chatterjee and Prasun Ghosal</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P24.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Floorplanning in Graphene Nanoribbon (GNR) Based Circuits</span></p>
+                <p class="c9"><span class="c19 c2">Subrata Das and Debesh Das</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P25.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Generating Safety Guidance for Medical Injection with Three-Compartment Pharmacokinetics Model</span></p>
+                <p class="c9"><span class="c19 c2">Cunxi Yu, Heinz Riener, Francesca Stradolini and Giovanni De Micheli</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">P26.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Novel Approach for Nearest Neighbor Realization of 2D Quantum Circuits</span></p>
+                <p class="c9"><span class="c19 c2">Anirban Bhattacharjee, Chandan Bandyopadhyay, Robert Wille, Rolf Drechsler and Hafizur Rahaman</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">P27.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Hardware-efficient Implementation of CLOC for On-Chip Authenticated Encryption</span></p>
+                <p class="c9"><span class="c19 c2">Mahmoud A. Elmohr, Sachin Kumar, Mustafa Khairallah and Anupam Chattopadhyay</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P28.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c25">0.9 to 2.5 GHz Sub-sampling Receiver Architecture for Dynamically Reconfigurable SDR</span></p>
+                <p class="c9"><span class="c19 c2">Ajinkya Kale, Johannes Sturm and Vijaya Sankara Rao Pasupureddi</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P29.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Hardware Obfuscation using Strong PUFs</span></p>
+                <p class="c9"><span class="c19 c2">Soroush Khaleghi and Wenjing Rao</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P30.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Multi-Block APUF with 2-level Voltage Supply</span></p>
+                <p class="c9"><span class="c19 c2">Yunxi Guo, Timothy Dee and Akhilesh Tyagi</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P31.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c25">Write energy optimization for STT-MRAM cache with data pattern characterization</span></p>
+                <p class="c9"><span class="c19 c2">Bi Wu, Xiaolong Zhang, Yuanqing Cheng, Zhaohao Wang, Dijun Liu, Youguang Zhang and Weisheng Zhao</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P32.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c25">Time Stamp Based Scheduling for Energy Harvesting Systems with Hybrid Nonvolatile Hardware Support</span></p>
+                <p class="c9"><span class="c19 c2">Xin Shi, Tongda Wu, Keni Qiu, Huazhong Yang and Yongpan Liu</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P33.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">EETD: An Energy Efficient Design for Runtime Hardware Trojan Detection in Untrusted Network-on-Chip</span></p>
+                <p class="c9"><span class="c19 c2">Mubashir Hussain, Amin Malekpour, Hui Guo and Sri Parameswaran</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P34.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Combining Symbolic Computer Algebra and Boolean Satisfiability for Automatic Debugging and Fixing of Complex Multipliers</span></p>
+                <p class="c9"><span class="c19 c2">Alireza Mahzoon, Daniel Grosse and Rolf Drechsler</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2">P35.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Enhancing lifetime of PCM-based main memory with Efficient Recovery of Stuck-at Faults</span></p>
+                <p class="c9"><span class="c1">Marjan Asadinia and Christophe Bobda</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15" id="sched_student_forum" ><span class="c14 c22">Student Research Forum</span></h1>
+<p class="c5"><span class="c6">5:40pm ~ 7:10pm, Monday July 09, 2018</span></p>
+<p class="c5"><span class="c4 c2">N103</span></p>
+<p class="c5"><span class="c4 c2">Cadence Introduction from 5:40pm to 5:55pm</span></p>
+<table class="c44">
+    <tbody>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">F1.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Guessing your PIN right: Unlocking smartphones with publicly available sensor data</span></p>
+                <p class="c9"><span class="c19 c2">David Berend, Bernhard Jungk and Shivam Bhasin</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">F2.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Synthesis, Technology Mapping and  For Emerging Technologies</span></p>
+                <p class="c9"><span class="c19 c2">Debjyoti Bhattacharjee and Anupam Chattopadhyay</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">F3.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Logic Synthesis for In-Memory Computing using Resistive Memories</span></p>
+                <p class="c9"><span class="c19 c2">Saeideh Shirinzadeh and Rolf Drechsler</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">F4.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Minimalistic Perspective to Public Key Implementations on FPGA</span></p>
+                <p class="c9"><span class="c19 c2">Debapriya Basu Roy and Debdeep Mukhopadhyay</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">F5.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Development of high-stability, low-leakage 6Tr-SRAM with single data line and single power supply using SOTB process</span></p>
+                <p class="c9"><span class="c19 c2">Shin Miyamoto and Nobuaki Kobayashi</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c7" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">F6.</span></p>
+            </td>
+            <td class="c11" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Exploiting Principle of Moving Target Defense to Secure FPGA Systems</span></p>
+                <p class="c9"><span class="c19 c2">Zhiming Zhang and Qiaoyan Yu</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 08</span></h1>
+<p class="c5"><span class="c6">Tuesday July 10, 2018</span></p>
+<p class="c5"><span class="c4 c2">N001</span></p>
+<p class="c5"><span class="c12">System Design and Security III</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Theocharis Theocharides, University of Cyprus</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">9:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Highly Flexible Lightweight and High Speed True Random Number Generator on FPGA</span></p>
+                <p class="c9"><span class="c1">Faqiang Mei, Lei Zhang, Chongyan Gu, Yuan Cao, Chenghua Wang and Weiqiang Liu</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">LUT-Lock: A Novel LUT-based Logic Obfuscation for FPGA-Bitstream and ASIC-Hardware Protection</span></p>
+                <p class="c9"><span class="c1">Hadi Mardani Kamali, Kimia Zamiri Azar, Kris Gaj, Houman Homayoun and Avesta Sasan</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">ArtiFact: Architecture and CAD Flow for Ef&#64257;cient Formal Veri&#64257;cation of SoC Security Policies</span></p>
+                <p class="c9"><span class="c1">Atul Prasad Deb Nath, Swarup Bhunia and Sandip Ray</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 09</span></h1>
+<p class="c5"><span class="c6">Tuesday July 10, 2018</span></p>
+<p class="c5"><span class="c4 c2">N002</span></p>
+<p class="c5"><span class="c12">Computer Aided Design and Verification II</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Wei-Kei Mark, National Tsinghua University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">9:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c35 c14 c25">*Identifying Lithography Weak-points of Standard Cells with Partial Pattern Matching</span></p>
+                <p class="c9"><span class="c4 c2">Yongfu Li, I-Lun Tseng, Zhao Chuan Lee, Valerio Perez, Vikas Tripathi and Jonathan Yoong Seang Ong</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Feature Based Coverage Analysis of AMS Circuits</span></p>
+                <p class="c9"><span class="c4 c2">Antara Ain, Akshay Mambakam and Pallab Dasgupta</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">SAT Encoding-based Verification of Sneak Path Problem in Via-switch FPGA</span></p>
+                <p class="c9"><span class="c4 c2">Ryutaro Doi and Masanori Hashimoto</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 10</span></h1>
+<p class="c5"><span class="c6">Tuesday July 10, 2018</span></p>
+<p class="c5"><span class="c4 c2">N003</span></p>
+<p class="c5"><span class="c12">Emerging and Post-CMOS Technologies II</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Prasun Ghosal, Indian Institute of Engineering Science and Technology, Shibpur</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">9:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">RRAM Based Buffer Design for Energy Efficient CNN Accelerator</span></p>
+                <p class="c9"><span class="c2">Kaiyuan Guo, Jincheng Yu, Xuefei Ning, Yiming Hu, Yu Wang and Huazhong Yang</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Mixed-Mode Neuron with On-Chip Tunability for Generic Use in Memristive Neuromorphic Systems</span></p>
+                <p class="c9"><span class="c2">Sagarvarma Sayyaparaju, Ryan Weiss and Garrett S. Rose</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Harnessing Emerging Technology for Compute-In-Memory Support</span></p>
+                <p class="c9"><span class="c2">Nicholas Jao</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 11</span></h1>
+<p class="c5"><span class="c6">Tuesday July 10, 2018</span></p>
+<p class="c5"><span class="c4 c2">N001 </span></p>
+<p class="c5"><span class="c12">Analog and Mixed Signal II</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Saraju Mohanty, University of North Texas</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">91 dB Dynamic Range 9.5 nW Low Pass Filter for Bio-Medical Applications</span></p>
+                <p class="c9"><span class="c19 c2">Jayaram Reddy M K, Sreenivasulu Polineni and Laxminidhi Tonse</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c35 c14 c25">*A Low Power, High Gain Semi-Floating Gate Amplifier for Resonating Sensors Front-End</span></p>
+                <p class="c9"><span class="c19 c2">Luca Marchetti, Yngvar Berg and Mehdi Azadmehr</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Area Efficient NMOS based Positive and Negative Voltage Multiplier</span></p>
+                <p class="c9"><span class="c19 c2">Vikas Rana</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c10"><span class="c22 c14"></span></h1>
+<h1 class="c15"><span class="c22 c14">Session 12</span></h1>
+<p class="c5"><span class="c6">Tuesday July 10, 2018</span></p>
+<p class="c5"><span class="c4 c2">N002 </span></p>
+<p class="c5"><span class="c12">System Design and Security IV</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Deliang Fan, University of Central Florida</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">An Adversarial Example Restoration System for Neuromorphic Computing Security</span></p>
+                <p class="c9"><span class="c1">Chenchen Liu, Qide Dong, Fuqiang Liu, Fuxun Yu and Xiang Chen</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">MAT: A Multi-strength Adversarial Training Method to Mitigate Adversarial Attacks</span></p>
+                <p class="c9"><span class="c1">Chang Song, Hsin-Pai Cheng, Huanrui Yang, Sicheng Li, Chunpeng Wu, Qing Wu, Yiran Chen and Hai Li</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Hu-Fu: Hardware and Software Collaborative Attack Framework against Neural Networks</span></p>
+                <p class="c9"><span class="c1">Wenshuo Li, Jincheng Yu, Xuefei Ning, Pengjun Wang, Qi Wei, Yu Wang and Huazhong Yang</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Tutorial</span></h1>
+<p class="c5"><span class="c6">10:50am ~ 11:50am, Tuesday July 10, 2018</span></p>
+<p class="c5"><span class="c2">N003</span><span class="c12"> </span></p>
+<p class="c5"><span class="c12">Memristive devices for computing: circuits, architectures and applications</span></p>
+<p class="c28"><span>Speaker: </span><span class="c2 c25">Said Hamdioui, Delft University of Technology</span><span class="c4 c2">    </span></p>
+<p class="c31"><span class="c4 c14">Both today&rsquo;s computer architectures and device technologies (used to manufacture them) are facing major challenges making them incapable to deliver the required functionalities and features. Computers are facing the three well-known walls, which are the memory wall, the instruction level parallelism wall, and the power wall. Meanwhile, nanoscale CMOS technology also faces three walls, which are the reliability wall, the leakage wall, and the cost wall. All of these have led to the slowdown of the traditional device scaling. Thus, alternative  computing  architectures  and notions  have  to  be  explored  in  the  light  of  emerging  new  device  technologies.  In this session/tutorial, we will explore the potential of memristor devices (as emerging devices) for enabling a new computing paradigm, called &ldquo;computation-in-memory&rdquo; (as an alternative architecture), covering the topics of the memory, logic design, and computing with memristive devices.</span></p>
+
+<!-- <h1 class="c15"><span class="c22 c14">Industrial and Plenary Talk</span></h1>
+<p class="c5"><span class="c6">2:40pm ~ 4:10pm Tuesday July 10, 2018</span></p>
+<p class="c5"><span class="c4 c2">N003</span></p>
+<p class="c13"><span class="c12">The Advanced Technologies in the New Generation of Phytium&#39;s Processors -- From the Architecture to Implementation</span></p>
+<p class="c13"><span>Speaker: </span><span class="c2 c25">Zhuo Ma, SoC R&amp;D Center of Phytium</span></p>
+<p class="c31"><span class="c4 c14">In the past decades, the computer technology comes to a rapid increasing new ear, and the silicon-based high performance processors give the main impetus. To be a member of the first group of CPU design houses, Phytium Technology Co., Ltd. is a fast-growing Chinese IC design company, and is dedicated to design, manufacture high performance and low power CPU chips as well as services around the products.</span></p>
+<p class="c18"><span class="c4 c14"></span></p>
+<p class="c13"><span class="c12">Security of the Internet of Things: Can Hardware Can Change the Game?</span></p>
+<p class="c13"><span>Speaker: </span><span class="c24 c2">Swarup Bhunia, University of Florida, Gainesville, Florida</span></p>
+<p class="c13"><span class="c4 c14">Security has become a critical design challenge for modern electronic hardware. With the emergence of the Internet of Things (IoT) regime that promises exciting new applications from smart cities to connected autonomous vehicles, security has come to the forefront of the system design process. Recent discoveries and reports on numerous security attacks on microchips and circuits violate the well-regarded concept of hardware trust anchors. It has prompted system designers to develop wide array of design-for-security and test/validation solutions to achieve high security assurance for electronic hardware, which supports the software stack. At the same time, emerging security issues and countermeasures have also led to interesting interplay between security, verification, and interoperability. Verification of hardware for security and trust at different levels of abstraction is rapidly becoming an integral part of the system design flow. The global economic trend that promotes outsourcing of design and fabrication process to untrusted facilities coupled with the prevalent practice of system on chip design using untrusted 3rd party intellectual property blocks (IPs), has given rise to the critical need of trust verification of IPs, system-on-chip design, and fabricated chips. The talk will also cover spectrum of security challenges for IoTs and describe emerging solutions in creating secure trustworthy hardware that can enable IoT security for the mass.</span></p>
+<p class="c13"><span class="c12">Designing Safety-critical Systems: Rapidly and Accurately!</span></p>
+<p class="c13"><span>Speaker: </span><span class="c24 c2">Ulf Schlichtmann, Technical University of Munich</span></p>
+<p class="c40"><span class="c4 c14">Thanks to still ever increasing advances in manufacturing technology, we can implement ever more complex systems. System-level design is essential to deal with the enourmous complexity of today&rsquo;s advanced systems. At the same time, fast time to market is as essential as ever. And robustness and reliability are increasing in importance, as the focus of the semiconductor industry shifts to applications with high safety requirements such as automotive. High-level system models, known as Virtual Prototypes, are essential to meet all these challenges. Fault injection is the most common technique to evaluate system robustness.</span></p>
+<p class="c40"><span class="c4 c14">I will outline some recent progress in Virtual Prototypes for safety evaluations. I will especially discuss how both high performance and high accuracy in fault injection can be achieved at the same time. Robustness evaluation has to be extended to Firmware in addition to Hardware. Future challenges for system design will conclude my presentation.</span></p>
+
+ -->
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 03</span></h1>
+<p class="c5"><span class="c6">Tuesday July 10, 2018</span></p>
+<p class="c5"><span class="c2">N001</span><span class="c12"> </span></p>
+<p class="c5"><span class="c12">Essential Keys to Manufacturability: Layout Features and Lithography Technologies</span></p>
+<p class="c29"><span>Chair:</span><span class="c2 c24"> Wai-Kei Mak, National Tsing Hua University; Cheng Zhuo, Zhejiang University </span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:30 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Sparse VLSI Layout Feature Extraction: A Dictionary Learning Approach</span></p>
+                <p class="c9"><span class="c19 c2">Hao Geng, Haoyu Yang, Bei Yu, Xingquan Li, Xuan Zeng</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:50 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Pattern Similarity Metrics for Layout Pattern Classification and their Validity Analysis by Lithographic Responses</span></p>
+                <p class="c9"><span class="c1">Atsushi Takahashi, Shimpei Sato, Hiroki Ogura, Yu-Min Sung, Ting-Chi Wang</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:10 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Recent research and challenges in multiple patterning layout decomposition</span></p>
+                <p class="c9"><span class="c1">Iris Hui-Ru Jiang, Hua-Yu Chang</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:30 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Guiding Template-induced Design Challenges in DSA-MP Lithography</span></p>
+                <p class="c9"><span class="c1">Shao-Yun Fang, Kuo-Hao Wu</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 13</span></h1>
+<p class="c5"><span class="c6">Tuesday July 10, 2018</span></p>
+<p class="c5"><span class="c2">N002</span><span class="c12"> </span></p>
+<p class="c20"><span class="c12">Digital Circuits and FPGA based Designs II</span></p>
+<p class="c29"><span>Chair:</span><span class="c24 c2"> Weikang Qian, Shanghai Jiaotong University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:30 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c35 c14 c25">*FPAP: A Folded Architecture for Efficient Computing of Convolutional Neural Networks</span></p>
+                <p class="c9"><span class="c1">Yizhi Wang, Jun Lin and Zhongfeng Wang</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:50 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Hyperdrive: A Systolically Scalable Binary-Weight CNN Inference Engine for mW IoT End-Nodes</span></p>
+                <p class="c9"><span class="c1">Renzo Andri, Lukas Cavigelli, Davide Rossi and Luca Benini</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:10 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">An Optimized Architecture For Decomposed Convolutional Neural Networks</span></p>
+                <p class="c9"><span class="c1">Fangxuan Sun, Jun Lin and Zhongfeng Wang</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:30 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Interconnect Delay Analysis for RRAM Crossbar based FPGA</span></p>
+                <p class="c9"><span class="c1">Masanori Hashimoto, Yuki Nakazawa, Ryutaro Doi, Jaehoon Yu</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 04</span></h1>
+<p class="c5"><span class="c6">Tuesday July 10, 2018</span></p>
+<p class="c5"><span class="c4 c2">N003 </span></p>
+<p class="c20"><span class="c12">Emerging Trends in Energy Efficient and Secure Neural Network Acceleration</span></p>
+<p class="c28"><span>Chair:</span><span class="c24 c2"> Deliang Fan, University of Central Florida; Yanzhi Wang, Northeastern University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:30 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Security challenges in smart surveillance systems and new design opportunities</span></p>
+                <p class="c9"><span class="c1">Hai Li</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:50 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Enhancing the Robustness of Deep Neural Networks from ``Smart&rdquo; Compression</span></p>
+                <p class="c9"><span class="c1">Tao Liu, Zihao Liu, Qi Liu, Wujie Wen</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:10 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Accelerating Low Bit-Width Deep Convolution Neural Network in MRAM</span></p>
+                <p class="c9"><span class="c1">Zhezhi He, Shaahin Angizi, Deliang Fan</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:30 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Emerging Neuromorphic Computing Paradigms Exploring Magnetic Skyrmions</span></p>
+                <p class="c9"><span class="c1">Sai Li, Xing Chen, Wang Kang, Weisheng Zhao, Jinyu Bai, Biao Pan, Youguang Zhan</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 14</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N001</span><span class="c12"> </span></p>
+<p class="c5"><span class="c12">System Design and Security V</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Keni Qiu, Capital Normal University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">9:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Security-Driven Task Scheduling for Multiprocessor System-on-Chips with Performance Constraints</span></p>
+                <p class="c9"><span class="c19 c2">Nan Wang, Manting Yao, Dongxu Jiang, Song Chen, Yu Zhu</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Hardware Monitor to Protect Linux System Calls</span></p>
+                <p class="c9"><span class="c19 c2">George Provelengios, Arman Pouraghily, Russell Tessier and Tilman Wolf</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Towards Dynamic Execution Environment for System Security Protection against Hardware Flaws</span></p>
+                <p class="c9"><span class="c19 c2">Kenneth Schmitz, Oliver Keszocze, Jurij Schmidt, Daniel Grosse and Rolf Drechsler</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 15</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N002</span><span class="c12"> </span></p>
+<p class="c5"><span class="c12">Digital Circuits and FPGA Based Designs III</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Chenchen Liu, Clarkson University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">9:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Fast and Effective Memristor-Based Method for Finding Approximate Eigenvalues and Eigenvectors of Non-Negative Matrices</span></p>
+                <p class="c9"><span class="c19 c2">Chenghong Wang, Zeinab S. Jalali, Caiwen Ding, Yanzhi Wang and Sucheta Soundarajan</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Low-Power and Small-Area Multiplier for Accuracy-Scalable Approximate Computing</span></p>
+                <p class="c9"><span class="c19 c2">Hiroyuki Baba, Tongxin Yang, Masahiro Inoue, Kaori Tajima, Tomoaki Ukezono and Toshinori Sato</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Hardware/Software Co-Design Method for Approximate Semi-supervised K-Means Clustering</span></p>
+                <p class="c9"><span class="c19 c2">Pengfei Huang, Chenghua Wang, Ruizhe Ma, Weiqiang Liu and Fabrizio Lombardi</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 05</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N003</span><span class="c12"> </span></p>
+<p class="c5"><span class="c12">Intelligent Methods &amp; Techniques For Reliable and Adaptive Multicore/Manycore System</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Theocharis (Theo) Theocharides, University of Cyprus; Prasun Ghosal, IIEST, Shibpur, India</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">9:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Robustness for Smart Cyber Physical Systems and Internet-of-Things: From Adaptive to Intelligent Methods for Reliability and Security</span></p>
+                <p class="c9"><span class="c19 c2">Florian Kriebel, Semeen Rehman, Muhammad Abdullah Hanif, Faiq Khalid, Muhammad Shafique</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">On how to efficiently implement Deep Learning algorithms on PYNQ platform</span></p>
+                <p class="c9"><span class="c19 c2">Luca Stornaiuolo, Marco D. Santambrogio, Donatella Sciuto</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Enabling Reliable High Throughput On-Chip Wireless Communication for Many Core Architectures</span><span class="c6"> </span></p>
+                <p class="c9"><span class="c19 c2">Sri Harsha Gade, Mitali Sinha, Sidhartha Sankar Rout, Sujay Deb</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 16</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N001</span><span class="c12"> </span></p>
+<p class="c5"><span class="c12">Testing, Reliability, and Fault-Tolerance II</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Hailong Yao, Tsinghua University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Predicting the tolerance of Extreme Electromagnetic Interference on MOSFETs</span></p>
+                <p class="c9"><span class="c1">Nishchay Sule, Troy Powell, Sameer Hemmady and Payman Zarkesh-Ha</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Enhancing Observability for Post-Silicon Debug with On-Chip Communication Monitors</span></p>
+                <p class="c9"><span class="c2">Yuting Cao, Hernan Palombo, Hao Zheng and Sandip Ray</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Performance Enhancement of Split Length Compensated Operational Amplifiers</span></p>
+                <p class="c9"><span class="c1">Donel Anto, Abhijeet D Taralkar, Nithin Kumar Y B and Vasantha M H</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 17</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N002</span><span class="c12"> </span></p>
+<p class="c5"><span class="c12">System Design and Security VI</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Mike Borowczak, University of Wyoming</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Design-Based Fingerprinting Using Side-Channel Power Analysis For Protection Against IC Piracy</span></p>
+                <p class="c9"><span class="c1">James Shey, Naghmeh Karimi, Ryan Robucci and Chintan Patel</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">PPAP and iPPAP: PLL based Protection Against Physical attacks</span></p>
+                <p class="c9"><span class="c1">Prasanna Ravi, Shivam Bhasin, Jakub Breier and Anupam Chattopadhyay</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Mystic: Mystifying IP Cores Using an Always-ON FSM Obfuscation Method</span></p>
+                <p class="c9"><span class="c1">Ehsan Aerabi, Ahmad Patooghy, Hamidreza Rezaei, Miguel Mark, Mahdi Fazeli and Michel Kinsy</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">Session 18</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N003</span><span class="c12"> </span></p>
+<p class="c5"><span class="c12">Digital Circuits and FPGA Based Designs IV</span></p>
+<p class="c29"><span>Chair: </span><span class="c2 c25">Ming-Chang Yang, Chinese University of Hong Kong</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">10:50 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">FPGA-based Controllers for Compact Low Power Refreshable Braille Display</span></p>
+                <p class="c9"><span class="c19 c2">Suman Muralikrishnan, Pulkit Sapra, Saurabh Agrawal, Piyush Chanana, M Balakrishnanand P.V.M. Rao</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:10 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Very Large-Scale and Node-Heavy Graph Analytics with Heterogeneous FPGA+CPU Computing Platform</span></p>
+                <p class="c9"><span class="c19 c2">Yu Zou and Mingjie Lin</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">11:30 AM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">On-chip Data Security against Untrustworthy Software and Hardware IPs in SoC FPGAs</span></p>
+                <p class="c9"><span class="c19 c2">Sreecharan Gundabolu and Xiaofang Wang</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p class="c16"><span class="c4 c14"></span></p>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 06</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N001</span><span class="c12"> </span></p>
+<p class="c20"><span class="c12">Microfluidic Large Scale Integration (mVLSI): Recent Developments and Upcoming Challenges</span></p>
+<p class="c28"><span>Chair:</span><span class="c24 c2"> Bing Li, Technical University of Munich; Hao Yu, Southern University of Science and Technology</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">2:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Design Automation and Test for Flow-Based Biochips: Past Successes and Future Challenges</span></p>
+                <p class="c9"><span class="c1">Tsung-Yi Ho</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">3:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Multi-Target Many-Reactant Sample Preparation for Reactant Minimization on Microfluidic Biochips</span></p>
+                <p class="c9"><span class="c1">Yung-Chun Lei, Tien-Kuo Lin, Juinn-Dar Huang</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">3:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">More Effective Randomly-Designed Microfluidics</span></p>
+                <p class="c9"><span class="c1">Weiqing Ji, Tsung-Yi Ho, Hailong Yao</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">3:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Accelerating Simulation of Particle Trajectories in Microfluidic Devices by Constructing a Cloud Database</span></p>
+                <p class="c9"><span class="c2 c19">Junchao Wang, Lingxuan Fu, Liyang Yu, Xiwei Huang, Philip Brisk, William H. Grove</span><span class="c46 c49">r</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p class="c16"><span class="c4 c14"></span></p>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 07</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N002</span><span class="c12"> </span></p>
+<p class="c20"><span class="c12">Secure Hardware Design for Distributed Agents</span></p>
+<p class="c31"><span>Chair:</span><span class="c2 c25"> Mike Borowczak, University of Wyoming; Saraju Mohanty, University of North Texas</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">2:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">PUF-based Secure Test Wrapper for SoC Testing</span></p>
+                <p class="c9"><span class="c1">Kumar K Sudeendra, Seth Saurabh, Sahoo Sauvagya, Mahapatra Abhishek, Ayas Kanta Swain, K.K.Mahapatra</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">3:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Detection of Sequential Trojans in Embedded System Designs without Scan Chains</span></p>
+                <p class="c9"><span class="c1">Pranav Dharmadhikari, Akhilesh Raju, Ranga Vemuri</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">3:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Designing for Security Within and Between IoT Devices</span></p>
+                <p class="c9"><span class="c1">Mike Borowczak</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">3:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">A Two-Tiered Heterogeneous and Reconfigurable Application Processor for Future Internet of Things</span></p>
+                <p class="c9"><span class="c19 c2">Prasanna Kansakar, Arslan Munir</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 08</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c4 c2">N003 </span></p>
+<p class="c20"><span class="c12">Embedded Multi-Core in Automotive and I4.0 From Industry</span></p>
+<p class="c31"><span>Chair:</span><span class="c2 c25"> TBD</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">2:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Glimpse of Domain Control Unit Software Architecture for Intelligent Connected Vehicle</span></p>
+                <p class="c9"><span class="c1">Sun Hua, United Automotive Electronic Systems Co., Ltd</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">3:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">The challenges of E/E architecture design for EV</span></p>
+                <p class="c9"><span class="c1">Sam QIN, Intron / G-Pulse</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">3:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9 c36"><span class="c1"></span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">3:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9 c36"><span class="c6"></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 09</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N001</span><span class="c12"> </span></p>
+<p class="c20"><span class="c12">Energy Efficient and Hardware Secured Architectures for Smart Electronics I</span></p>
+<p class="c31"><span>Chair:</span><span class="c2 c25"> Saraju P. Mohanty, University of North Texas, USA; Hui Zhao, University of North Texas, USA</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Solar Cell Based Physically Unclonable Function for Cybersecurity in IoT Devices</span></p>
+                <p class="c9"><span class="c1">S. Dinesh Kumar, Carson Labrado, Riasad Badhan, Himanshu Thapliyal, Vijay Singh</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Designing Scalable Hybrid Wireless NoC for GPGPUs</span></p>
+                <p class="c9"><span class="c1">Hui Zhao, Xianwei Cheng, Saraju P. Mohanty, Juan Fang</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Functional Obfuscation of DSP cores using Robust Logic Locking and Encryption</span></p>
+                <p class="c9"><span class="c1">Anirban Sengupta, Saraju P. Mohanty</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p class="c16"><span class="c4 c14"></span></p>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 10</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N002</span><span class="c12"> </span></p>
+<p class="c20"><span> </span><span class="c12">Timing in the Nanometer Era</span></p>
+<p class="c31"><span>Chair:</span><span class="c24 c2"> Masanori Hashimoto, Osaka University; Bing Li, Technical University of Munich</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Distributed Timing Analysis at Scale</span></p>
+                <p class="c9"><span class="c1">Martin D. F. Wong, Tsung-Wei Huang</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Timing Macro Modeling for Efficient Hierarchical Timing Analysis</span></p>
+                <p class="c9"><span class="c1">Iris Hui-Ru Jiang, Pei-Yu Lee</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Timing with Virtual Signal Synchronization for Circuit Performance and Netlist Security</span></p>
+                <p class="c9"><span class="c1">Grace Li Zhang, Bing Li, Ulf Schlichtmann</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 11</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N003</span><span class="c12"> </span></p>
+<p class="c20"><span class="c12">Attacking Dynamic Optimizations in the Era of Complex Heterogeneous Multi-core Computing I</span></p>
+<p class="c31"><span>Chair:</span><span class="c24 c2"> Jason Xue, City University of Hong Kong; Philip Brisk, University of California, Riverside</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Realizing Closed-loop, Online Tuning and Control for Configurable-cache Embedded Systems: Progress and Challenges</span></p>
+                <p class="c9"><span class="c1">Islam S. Badreldin, Ann Gordon-Ross, Tosiron Adegbija, Mohammad. H. Alsafrjalani</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">4:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">An FPGA-based Brain Computer Interfacing using Compressive Sensing and Machine Learning</span></p>
+                <p class="c9"><span class="c1">Ritu Ranjan Shrivastwa, Vikramkumar Pudi, Anupam Chattopadhyay</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Enabling efficient fine-grained DRAM activations with interleaved I/O</span></p>
+                <p class="c9"><span class="c1">Chao Zhang, Xiaochen Guo</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p class="c16"><span class="c4 c14"></span></p>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 12</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N001</span><span class="c12"> </span></p>
+<p class="c20"><span class="c12">Energy Efficient and Hardware Secured Architectures for Smart Electronics II</span></p>
+<p class="c31"><span>Chair:</span><span class="c2 c25"> Saraju P. Mohanty, University of North Texas, USA; Hui Zhao, University of North Texas, USA </span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c47" colspan="1" rowspan="1">
+                <table class="c23">
+                    <tbody>
+                        <tr class="c8">
+                            <td class="c30" colspan="1" rowspan="1">
+                                <p class="c9"><span class="c4 c2">5:20 PM</span></p>
+                            </td>
+                            <td class="c45" colspan="1" rowspan="1">
+                                <p class="c9"><span class="c6">Obfuscation of Fault Secured DSP Design through Hybrid Transformation</span></p>
+                                <p class="c9"><span class="c1">Anirban Sengupta, Shubha Neema, Pallabi Sarkar, Sri Harsha P, Saraju P Mohanty, Mrinal Kanti Naskar</span></p>
+                            </td>
+                        </tr>
+                        <tr class="c8">
+                            <td class="c30" colspan="1" rowspan="1">
+                                <p class="c9"><span class="c4 c2">5:40 PM</span></p>
+                            </td>
+                            <td class="c45" colspan="1" rowspan="1">
+                                <p class="c9"><span class="c6">Run Time Mitigation of Performance Degradation Hardware Trojan Attacks in Network on Chip</span></p>
+                                <p class="c9"><span class="c19 c2">Manoj Kumar JYV, A K Swain, S Kumar, S R Sahoo, K K Mahapatra</span></p>
+                            </td>
+                        </tr>
+                        <tr class="c8">
+                            <td class="c30" colspan="1" rowspan="1">
+                                <p class="c9"><span class="c4 c2">6:00 PM</span></p>
+                            </td>
+                            <td class="c45" colspan="1" rowspan="1">
+                                <p class="c9"><span class="c6">Exploration on Routing Configuration of HNoC with Reasonable Energy Consumption</span></p>
+                                <p class="c9"><span class="c1">Juan Fang, Zeqing Chang, Yanjin Cheng, Hui Zhao</span></p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+            <td class="c50" colspan="1" rowspan="1">
+                <p class="c9 c36"><span class="c1"></span></p>
+            </td>
+            <td class="c42" colspan="1" rowspan="1">
+                <p class="c9 c36"><span class="c6"></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<h1 class="c10"><span class="c22 c14"></span></h1>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 13</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N002</span><span class="c12"> </span></p>
+<p class="c20"><span class="c12">Design using Emerging Devices</span></p>
+<p class="c31"><span>Chair:</span><span class="c2 c25"> Vijaykrishnan Narayanan, Penn State University; Xueqing Li, Tsinghua University</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Ferroelectric Transistors for Neuromorphic Computing</span></p>
+                <p class="c9"><span class="c1">Asif Islam Khan</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Nonvolatile memory and computing using emerging ferroelectric transistors</span></p>
+                <p class="c9"><span class="c1">Xueqing Li, Longqiang Lai</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">6:00 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Collective computing using phase transition based dynamical systems</span></p>
+                <p class="c9"><span class="c1">Nikhil Shukla, Suman Datta, Arijit Raychowdhury</span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<p class="c16"><span class="c4 c14"></span></p>
+<h1 class="c15"><span class="c22 c14">SPECIAL Session 14</span></h1>
+<p class="c5"><span class="c6">Wednesday July 11, 2018</span></p>
+<p class="c5"><span class="c2">N003</span><span class="c12"> </span></p>
+<p class="c20"><span class="c12">Attacking Dynamic Optimizations in the Era of Complex Heterogeneous Multi-core Computing II</span></p>
+<p class="c31"><span>Chair:</span><span class="c24 c2"> Jason Xue, City University of Hong Kong, Ann Gordon-Ross, University of Florida</span></p>
+<table class="c23">
+    <tbody>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c2 c4">5:20 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Software Support for Heterogeneous Computing</span></p>
+                <p class="c9"><span class="c1">Siqi Wang, Alok Prakash, Tulika Mitra</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9"><span class="c4 c2">5:40 PM</span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9"><span class="c6">Predictive Modeling for CPU, GPU, and FPGA Performance and Power Consumption: A Survey</span></p>
+                <p class="c9"><span class="c1">Kenneth O&#39;Neal, Philip Brisk</span></p>
+            </td>
+        </tr>
+        <tr class="c8">
+            <td class="c0" colspan="1" rowspan="1">
+                <p class="c9 c36"><span class="c4 c2"></span></p>
+            </td>
+            <td class="c17" colspan="1" rowspan="1">
+                <p class="c9 c36"><span class="c1"></span></p>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -6,3 +6,5 @@ ftpconfig.ini
 hyTODO.log
 
 dev/.vscode
+
+package-lock.json
