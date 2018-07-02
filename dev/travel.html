@@ -7,7 +7,11 @@
     {{ macros.common_head({title: "Travel - ISVLSI 2018", WebRoot: file.WebRoot}) }}
     <link rel="stylesheet" href="{{file.WebRoot}}/css/viewer.min.css">
 </head>
-
+<!-- Local Variable -->
+{% set campus_map_url = file.WebRoot + "/img/venue/PolyU/map_v1.0.jpg" %}
+{% set campus_map_pdf = file.WebRoot + "/download/ISVLSI_Venue_Map_v1.pdf" %}
+{% set campus_map_update = "2018-06-30" %}
+<!--  -->
 <body>
     {{thenext}}
     <!-- Navigation : navbar -->
@@ -41,10 +45,23 @@
             {% for img_url in polyU.gallery_img_url %}
             <div class="col-6 col-sm-4 col-md-2 mb-3"><img class="img-fluid rounded d-block" src="{{img_url}}" alt="PolyU-{{loop.index}}"></div>
             {% endfor %}
-            <div class="col-12 full-width">
-                <img class="img-fluid" src="{{file.WebRoot}}/img/venue/PolyU/map_v1.0.jpg" alt="PolyU Campus Map">
-            </div>
             <div class="col-12">
+                <img class="img-fluid" src="{{campus_map_url}}" alt="PolyU Campus Map">
+            </div>
+            <div class="col-7 mt-2">
+                <div class="small">
+                	 Download:
+                    <div class="btn-group btn-group-sm" role="group">
+                        <a type="button" class="btn btn-outline-primary" href="{{campus_map_url}}" download="ISVLSI_Map_{{campus_map_update}}.jpg">
+                        	<i class="fa fa-file-image-o"></i> JPG
+                        </a>
+                        <a type="button" class="btn btn-outline-primary" href="{{campus_map_pdf}}" download="ISVLSI_Map_{{campus_map_update}}.pdf">
+                        	<i class="fa fa-file-pdf-o"></i> PDF
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-5">
                 <p class="pull-right small"><a id="call-sched-viewer" href="javascript:void(0);"><i class="fa fa-search-plus"></i> Zoomable view</a></p>
             </div>
             <!-- <div class="col-12">
@@ -62,10 +79,12 @@
             <div class="col-12 col-sm-6 portfolio-item">
                 <div class="card">
                     <h4 class="card-header">MTR (Subway)</h4>
-                    <div class="card-body"><p class="card-text">Est. Travel Time: 50 min</p></div>
+                    <div class="card-body">
+                        <p class="card-text">Est. Travel Time: 50 min</p>
+                    </div>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Airport Station</li>
-                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#00888A;" class="text-white">&nbsp; Airport Express &nbsp;</span> Line / <span style="background-color:#00888A;" class="text-white">&nbsp; 機場快線 &nbsp;</span> </li>
+                        <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#00888A;" class="text-white">&nbsp; Airport Express &nbsp;</span> / <span style="background-color:#00888A;" class="text-white">&nbsp; 機場快線 &nbsp;</span> </li>
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Tsing Yi Station / 青衣站</li>
                         <li class="list-group-item"><i class="fa fa-arrow-down" aria-hidden="true"></i> <span style="background-color:#F7943E;" class="text-white">&nbsp; Tung Chung Line &nbsp;</span> / <span style="background-color:#F7943E;" class="text-white">&nbsp; 東涌綫 &nbsp;</span> </li>
                         <li class="list-group-item"><img src="@@webRoot/img/venue/mtr_icon.png" height="15px" /> Nam Cheong Station / 南昌站</li>
@@ -427,7 +446,7 @@
         image.alt = alt;
         dummy_gallery.appendChild(image);
     }
-    append_image("{{file.WebRoot}}/img/venue/PolyU/map_v1.0.jpg", "Campus Map (Updated on June 30, 2018)");
+    append_image("{{campus_map_url}}", "Campus Map (Updated on {{campus_map_update}}");
 
     window.addEventListener('DOMContentLoaded', function() {
         var viewer = new Viewer(dummy_gallery, {
