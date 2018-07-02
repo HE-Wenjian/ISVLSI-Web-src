@@ -27,7 +27,7 @@
         },
         "keynote_highlight_2": {
             "speaker": "Hironori Kasahara",
-            "time": "1:20pm ~ 2:20pm, Monday July 9",
+            "time": "1:30pm ~ 2:30pm, Monday July 9",
             "venue": "N003",
             "affiliation": "President of IEEE Computer Society<br>Professor, Department of Computer Science and Engineering, Waseda University, Japan",
             "title": "Low Power High Performance Multicore Hardware and Software Co-Design",
@@ -47,7 +47,7 @@
         },
         "keynote_highlight_4": {
             "speaker": "Jörg Henkel",
-            "time": "1:20pm ~ 2:20pm, Tuesday July 10",
+            "time": "1:30pm ~ 2:30pm, Tuesday July 10",
             "venue": "N003",
             "affiliation": "Chair of Embedded System, Professor of Computer Science<br>Karlsruhe Institute of Technology (KIT), Germany",
             "title": "Power Density and Circuit Aging – System-Level Means for Mitigation",
@@ -67,7 +67,7 @@
         },
         "keynote_highlight_6": {
             "speaker": "Vijaykrishnan Narayanan",
-            "time": "1:20pm ~ 2:20pm, Wednesday July 11",
+            "time": "1:30pm ~ 2:30pm, Wednesday July 11",
             "venue": "N003",
             "affiliation": "Distinguished Professor, Computer Science and Engineering and Electrical Engineering<br>Pennsylvania State University, USA",
             "photo_path": "img/speaker_photo/vijaykrishnan_narayanan.jpg",
@@ -77,7 +77,7 @@
         },
         "vision_1": {
             "speaker": "Yi Shan",
-            "time": "2:40pm ~ 3:10pm, Monday July 9",
+            "time": "2:30pm ~ 3:00pm, Monday July 9",
             "venue": "N003",
             "affiliation": "CTO and Partner of DeePhi Tech",
             "photo_path": "img/speaker_photo/yi_shan.png",
@@ -87,7 +87,7 @@
         },
         "vision_2": {
             "speaker": "Deming Chen",
-            "time": "3:10pm ~ 3:40pm, Monday July 9",
+            "time": "3:00pm ~ 3:30pm, Monday July 9",
             "venue": "N003",
             "affiliation": "Donald Biggar Willett Scholar, Professor, Electrical and Computer Engineering<br>University of Illinois Urbana-Champaign",
             "photo_path": "img/speaker_photo/deming_chen.png",
@@ -97,7 +97,7 @@
         },
          "vision_3": {
             "speaker": "Zhou Ma",
-            "time": "2:40pm ~ 3:10pm, Tuesday July 10",
+            "time": "2:30pm ~ 3:00pm, Tuesday July 10",
             "venue": "N003",
             "affiliation": "Deputy General Manager<br>SoC R&D Center of Phytium",
             "photo_path": "img/speaker_photo/zhuo_ma.jpg",
@@ -107,7 +107,7 @@
         },
         "vision_4": {
             "speaker": "Swarup Bhunia",
-            "time": "3:10pm ~ 3:40pm, Tuesday July 10",
+            "time": "3:00pm ~ 3:30pm, Tuesday July 10",
             "venue": "N003",
             "affiliation": "Professor, Electrical and Computer Engineering<br>University of Florida, Gainesville, Florida",
             "photo_path": "img/speaker_photo/swarup_bhunia.png",
@@ -117,7 +117,7 @@
         },
         "vision_5": {
             "speaker": "Ulf Schlichtmann",
-            "time": "3:40pm ~ 4:10pm, Tuesday July 10",
+            "time": "3:30pm ~ 4:00pm, Tuesday July 10",
             "venue": "N003",
             "affiliation": "Professor, Electrical and Computer Engineering<br>Technical University of Munich",
             "photo_path": "img/speaker_photo/ulf_schlichtmann.jpg",
