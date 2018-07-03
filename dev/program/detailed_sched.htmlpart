@@ -685,7 +685,7 @@
     </table>
     
     
-    <h1 class="c24"><span class="c21">Student research forum</span></h1>
+    <h1 class="c24" id="sched_student_forum"><span class="c21">Student Research Forum</span></h1>
     <p class="c1"><span class="c4">5:30pm ~ 7:10pm, Monday July 09, 2018</span></p>
     <p class="c1"><span class="c2">N103</span></p>
     <p class="c1"><span class="c2">Cadence Introduction from 5:30pm to 5:45pm</span></p>
