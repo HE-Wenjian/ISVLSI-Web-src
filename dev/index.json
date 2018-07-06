@@ -3,6 +3,7 @@
         "default_active": "news_proceeding_download",
         "default_show": [
         	"news_proceeding_download",
+        	"news_free_ticket_racecource",
             "news_poster_require",
             "news_visa_letter"
         ],
@@ -100,6 +101,23 @@
                 "short_description": "",
                 "short_footnote": "",
                 "short_title": "Proceedings Available!",
+                "type": "tab"
+            },
+            "news_free_ticket_racecource": {
+                "date": "2018-07-06",
+                "panel_btn_href": "http://entertainment.hkjc.com/entertainment/english/go-racing/happy-valley-racecourse.aspx",
+                "panel_btn_new_window": true,
+                "__panel_btn_fa": "fa",
+                "panel_btn_text": "More about Happy Valley Racecourse",
+                "panel_content": [
+					"MEHK has kindly sponored free addmission tickets to Happy Valley Racecourse and beer redemption coupons.",
+                   "You can get a free ticket and a coupon at the ISVLSI reception counter on a first-come, first-served basis.",
+                   "The Happy Valley Racecourse (跑馬地馬場) is mainly opened for night race that takes place on Wednesday. If you haven’t watched horse racing, especially horse racing in Asia, this is the place to go."
+                ],
+                "panel_content_mode": "p",
+                "short_description": "",
+                "short_footnote": "First-come, First-served",
+                "short_title": "Free Tickets to Happy Valley Racecourse",
                 "type": "tab"
             },
             "z_news_template_plain_text": {
