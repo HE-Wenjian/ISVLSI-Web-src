@@ -1,10 +1,10 @@
 {
     "news": {
-        "default_active": "news_poster_require",
+        "default_active": "news_proceeding_download",
         "default_show": [
+        	"news_proceeding_download",
             "news_poster_require",
-            "news_visa_letter",
-            "news_early_registration"
+            "news_visa_letter"
         ],
         "news_pool": {
             "news_final_paper_submit": {
@@ -84,6 +84,22 @@
                 "short_description": "Deadline approaching!",
                 "short_footnote": "Register before June 15 to enjoy discount",
                 "short_title": "Early Registration",
+                "type": "tab"
+            },
+            "news_proceeding_download": {
+                "date": "2018-07-06",
+                "panel_btn_href": "http://conferences.computer.org/isvlsi/2018",
+                "panel_btn_new_window": true,
+                "panel_btn_fa": "fa-book",
+                "panel_btn_text": "View Proceedings",
+                "panel_content": [
+                   "ISVLSI Conference papers will be delivered electronically online through the following link. ",
+                   "We will send you the login ID and password through your registered email address."
+                ],
+                "panel_content_mode": "p",
+                "short_description": "",
+                "short_footnote": "",
+                "short_title": "Proceedings Available!",
                 "type": "tab"
             },
             "z_news_template_plain_text": {

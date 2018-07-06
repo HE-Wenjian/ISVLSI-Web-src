@@ -49,6 +49,7 @@
                     </p>
                 </td>
             </tr>
+            <!-- HY HERE -->
             <tr class="c5">
                 <td class="c22" colspan="1" rowspan="1">
                     <p class="c10">
@@ -57,10 +58,10 @@
                 </td>
                 <td class="c2" colspan="1" rowspan="1">
                     <p class="c10">
-                        <span class="c7 c8">A High-Efficient Current-Mode PWM DC-DC Buck Converter Using Dynamic Frequency Scaling </span>
+                        <span class="c7 c8">Area Efficient NMOS based Positive and Negative Voltage Multiplier</span>
                     </p>
                     <p class="c10">
-                        <span class="c1">Ankit Rehani, Sujay Deb, Pydi Ganga Bahubalindruni, Bhavin Odedara and Srikanth Bojja</span>
+                        <span class="c6 c1">Vikas Rana</span>
                     </p>
                 </td>
             </tr>
@@ -1619,10 +1620,10 @@
                 </td>
                 <td class="c2" colspan="1" rowspan="1">
                     <p class="c10">
-                        <span class="c7 c8">Area Efficient NMOS based Positive and Negative Voltage Multiplier</span>
+                        <span class="c7 c8">A High-Efficient Current-Mode PWM DC-DC Buck Converter Using Dynamic Frequency Scaling </span>
                     </p>
                     <p class="c10">
-                        <span class="c6 c1">Vikas Rana</span>
+                        <span class="c1">Ankit Rehani, Sujay Deb, Pydi Ganga Bahubalindruni, Bhavin Odedara and Srikanth Bojja</span>
                     </p>
                 </td>
             </tr>
