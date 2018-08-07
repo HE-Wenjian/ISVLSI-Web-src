@@ -16,7 +16,7 @@
         <h1 class="mt-4 mb-3">Program Schedule</h1>
         <div class="row">
             <div class="col-12">
-                <img class="img-fluid" src="{{file.WebRoot}}/img/sched.png" alt="Program Schedule">
+                <img class="img-fluid" src="{{file.WebRoot}}/img/sched.jpg" alt="Program Schedule">
             </div>
             <div class="col-12">
                 <p class="pull-right small"><a id="call-sched-viewer" href="javascript:void(0);"><i class="fa fa-search-plus"></i> Zoomable view</a></p>
@@ -39,11 +39,14 @@
                                 <br>
                                 <b>Assemble Place</b>: In front of N003
                                 <br>
-                                <b>Assemble time</b>: 11:50am for the lunch; 7:10pm for the Cruise; and 6:20pm for the Banquet.
+                                <b>Assemble time</b>: 11:50am for lunches; 7:10pm for the Cruise; and 6:20pm for the Banquet.
                             </p>
                         </div>
                     </div>
                 </div>
+            </div>
+            <div class="col-12 text-center">
+            	<a class="btn btn-info" href="{{file.WebRoot}}/download/ISVLSI2018_Program.pdf" download="ISVLSI2018_Program.pdf"><i class="fa fa-cloud-download pull-left" aria-hidden="true"></i> Download Program Schedule (PDF)</a>
             </div>
         </div>
         <hr>
@@ -100,6 +103,7 @@
                             <!-- <div class="card-footer"></div> -->
                         </div>
                         {% endfor %}
+                        <hr>
                     </div>
                     <div class="tab-pane fade" id="schd-plenary" role="tabpanel">
                         {% for talk_id in page_visionary_list %}
@@ -131,6 +135,7 @@
                             <!-- <div class="card-footer"></div> -->
                         </div>
                         {% endfor %}
+                        <hr>
                     </div>
                     <div class="tab-pane fade show active" id="schd-sessions" role="tabpanel">
                         <p class="invisible">[Hidden] Program Schedule.</p>
@@ -138,6 +143,7 @@
                 </div>
             </div>
         </div>
+
         <div class="row">
             <div class="col-12">
                 {% include "./program/detailed_sched.htmlpart" with {} only %}
@@ -184,8 +190,8 @@
         image.alt = alt;
         dummy_gallery.appendChild(image);
     }
-    append_image("{{file.WebRoot}}/img/sched.png", "Program Schedule");
-    append_image("{{file.WebRoot}}/img/venue/PolyU/map_v1.0.jpg", "Campus Map (Updated on June 30, 2018)");
+    append_image("{{file.WebRoot}}/img/sched.jpg", "Program Schedule");
+    append_image("{{file.WebRoot}}/img/venue/PolyU/map_v1.1.jpg", "Campus Map (Updated on July 4, 2018)");
 
     window.addEventListener('DOMContentLoaded', function() {
         var viewer = new Viewer(dummy_gallery, {

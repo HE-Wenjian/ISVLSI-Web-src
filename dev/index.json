@@ -1,10 +1,12 @@
 {
     "news": {
-        "default_active": "news_poster_require",
+        "default_active": "news_conf_album",
         "default_show": [
+        	"news_conf_album",
+        	"news_proceeding_download",
+        	"news_free_ticket_racecource",
             "news_poster_require",
-            "news_visa_letter",
-            "news_early_registration"
+            "news_visa_letter"
         ],
         "news_pool": {
             "news_final_paper_submit": {
@@ -84,6 +86,56 @@
                 "short_description": "Deadline approaching!",
                 "short_footnote": "Register before June 15 to enjoy discount",
                 "short_title": "Early Registration",
+                "type": "tab"
+            },
+            "news_proceeding_download": {
+                "date": "2018-07-06",
+                "panel_btn_href": "http://conferences.computer.org/isvlsi/2018",
+                "panel_btn_new_window": true,
+                "panel_btn_fa": "fa-book",
+                "panel_btn_text": "View Proceedings",
+                "panel_content": [
+                   "ISVLSI Conference papers will be delivered electronically online through the following link. ",
+                   "We will send you the login ID and password through your registered email address."
+                ],
+                "panel_content_mode": "p",
+                "short_description": "",
+                "short_footnote": "",
+                "short_title": "Proceedings Available!",
+                "type": "tab"
+            },
+            "news_free_ticket_racecource": {
+                "date": "2018-07-06",
+                "panel_btn_href": "http://entertainment.hkjc.com/entertainment/english/go-racing/happy-valley-racecourse.aspx",
+                "panel_btn_new_window": true,
+                "__panel_btn_fa": "fa",
+                "panel_btn_text": "More about Happy Valley Racecourse",
+                "panel_content": [
+					"MEHK has kindly sponored free addmission tickets to Happy Valley Racecourse and beer redemption coupons.",
+                   "You can get a free ticket and a coupon at the ISVLSI reception counter on a first-come, first-served basis.",
+                   "The Happy Valley Racecourse (跑馬地馬場) is mainly opened for night race that takes place on Wednesday. If you haven’t watched horse racing, especially horse racing in Asia, this is the place to go."
+                ],
+                "panel_content_mode": "p",
+                "__short_description": "",
+                "short_footnote": "First-come, First-served",
+                "short_title": "Free Tickets to Happy Valley Racecourse",
+                "type": "tab"
+            },
+            "news_conf_album": {
+                "date": "2018-07-18",
+                "panel_btn_href": "https://photos.app.goo.gl/K3Jsbwyb8dRactTG8",
+                "panel_btn_new_window": true,
+                "panel_btn_fa": "fa-image",
+                "panel_btn_text": "View Photos",
+                "panel_content": [
+					"ISVLSI 2018 has successfully concluded in Hong Kong on July 8-11, 2018.",
+                    "We sincerely thank our keynote/plenary speakers, our presenters, our chairs, all the participants and our sponsors for their support and contribution.",
+                    "Check out our gallery for the conference photos!"
+                ],
+                "panel_content_mode": "p",
+                "__short_description": "",
+                "short_footnote": "Conference successfully completed",
+                "short_title": "ISLVSI Photos",
                 "type": "tab"
             },
             "z_news_template_plain_text": {

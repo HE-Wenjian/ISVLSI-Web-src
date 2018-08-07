@@ -27,7 +27,7 @@
         },
         "keynote_highlight_2": {
             "speaker": "Hironori Kasahara",
-            "time": "1:20pm ~ 2:20pm, Monday July 9",
+            "time": "1:30pm ~ 2:30pm, Monday July 9",
             "venue": "N003",
             "affiliation": "President of IEEE Computer Society<br>Professor, Department of Computer Science and Engineering, Waseda University, Japan",
             "title": "Low Power High Performance Multicore Hardware and Software Co-Design",
@@ -47,7 +47,7 @@
         },
         "keynote_highlight_4": {
             "speaker": "Jörg Henkel",
-            "time": "1:20pm ~ 2:20pm, Tuesday July 10",
+            "time": "1:30pm ~ 2:30pm, Tuesday July 10",
             "venue": "N003",
             "affiliation": "Chair of Embedded System, Professor of Computer Science<br>Karlsruhe Institute of Technology (KIT), Germany",
             "title": "Power Density and Circuit Aging – System-Level Means for Mitigation",
@@ -62,12 +62,12 @@
             "affiliation": "Center for Embedded and CyberPhysical Systems (CECS)<br>Center for Cognitive Neuroscience and Engineering (CENCE)<br>Chancellor's Professor, Department of Computer Science<br>University of California, Irvine",
             "title": "Self-Awareness for Heterogeneous MPSoCs: A Case Study using Adaptive, Reflective Middleware",
             "photo_path": "img/speaker_photo/nikil_dutt.jpg",
-            "abstract": "Self-awareness has a long history in biology, psychology, medicine, engineering and (more recently) computing. In the past decade this has inspired new self-aware strategies for emerging computing substrates (e.g., complex heterogeneous MPSoCs) that must cope with the (often conflicting) challenges of resiliency, energy, heat, cost, performance, security, etc. in the face of highly dynamic operational behaviors and environmental conditions.  Earlier we had championed the concept of CyberPhysical-Systems-on-Chip (CPSoC), a new class of sensor-actuator rich many-core computing platforms that intrinsically couples on-chip and cross-layer sensing and actuation to enable self-awareness. Unlike traditional MPSoCs, CPSoC is distinguished by an intelligent co-design of the control, communication, and computing (C3) system that interacts with the physical environment in real-time in order to modify the system’s behavior so as to adaptively achieve desired objectives and Quality-of-Service (QoS). The CPSoC design paradigm enables self-awareness (i.e., the ability of the system to observe its own internal and external behaviors such that it is capable of making judicious decision) and (opportunistic) adaptation using the concept of cross-layer physical and virtual sensing and actuations applied across different layers of the hardware/software system stack. The closed loop control used for adaptation to dynamic variation -- commonly known as the observe-decide-act (ODA) loop -- is implemented using an adaptive, reflective middleware layer.<br><br>In this talk I will present a case study of this adaptive, reflective middleware layer using a holistic approach for performing resource allocation decisions and power management by leveraging concepts from reflective software. Reflection enables dynamic adaptation based on both external feedback and introspection (i.e., self-assessment). In our context, this translates into performing resource management actuation considering both sensing information (e.g., readings from performance counters, power sensors, etc.) to assess the current system state, as well as models to predict the behavior of other system components before performing an action. I will summarize results leveraging our adaptive-reflective middleware toolchain to i) perform energy-efficient task mapping on heterogeneous architectures, ii) explore the design space of novel HMP architectures, and iii) extend the lifetime of mobile devices.",
+            "abstract": "Self-awareness has a long history in biology, psychology, medicine, engineering and (more recently) computing. In the past decade this has inspired new self-aware strategies for emerging computing substrates (e.g., complex heterogeneous MPSoCs) that must cope with the (often conflicting) challenges of resiliency, energy, heat, cost, performance, security, etc. in the face of highly dynamic operational behaviors and environmental conditions.  Earlier we had championed the concept of <b>CyberPhysical-Systems-on-Chip (CPSoC)</b>, a new class of sensor-actuator rich many-core computing platforms that intrinsically couples on-chip and cross-layer sensing and actuation to enable self-awareness. Unlike traditional MPSoCs, CPSoC is distinguished by an intelligent co-design of the control, communication, and computing (C3) system that interacts with the physical environment in real-time in order to modify the system’s behavior so as to adaptively achieve desired objectives and Quality-of-Service (QoS). The CPSoC design paradigm enables self-awareness (i.e., the ability of the system to observe its own internal and external behaviors such that it is capable of making judicious decision) and (opportunistic) adaptation using the concept of cross-layer physical and virtual sensing and actuations applied across different layers of the hardware/software system stack. The closed loop control used for adaptation to dynamic variation -- commonly known as the observe-decide-act (ODA) loop -- is implemented using an adaptive, reflective middleware layer.<br><br>In this talk I will present a case study of this adaptive, reflective middleware layer using a holistic approach for performing resource allocation decisions and power management by leveraging concepts from reflective software. Reflection enables dynamic adaptation based on both external feedback and introspection (i.e., self-assessment). In our context, this translates into performing resource management actuation considering both sensing information (e.g., readings from performance counters, power sensors, etc.) to assess the current system state, as well as models to predict the behavior of other system components before performing an action. I will summarize results leveraging our adaptive-reflective middleware toolchain to i) perform energy-efficient task mapping on heterogeneous architectures, ii) explore the design space of novel HMP architectures, and iii) extend the lifetime of mobile devices.",
             "bio": "Nikil Dutt is a Chancellor's Professor of CS, Cognitive Sciences, and EECS at the University of California, Irvine.  He received a PhD from the University of Illinois at Urbana-Champaign (1989).  His research interests are in embedded systems, EDA, computer architecture and compilers, distributed systems, and brain-inspired architectures and computing. He has received numerous best paper awards and is coauthor of 7 books. Professor Dutt has served as EiC of ACM TODAES and AE for ACM TECS and IEEE TVLSI.  He is on the steering, organizing, and program committees of several premier EDA and Embedded System Design conferences and workshops, and has also been on the advisory boards of ACM SIGBED, ACM SIGDA, ACM TECS and IEEE ESL. He is an ACM Fellow, IEEE Fellow, and recipient of the IFIP Silver Core Award."
         },
         "keynote_highlight_6": {
             "speaker": "Vijaykrishnan Narayanan",
-            "time": "1:20pm ~ 2:20pm, Wednesday July 11",
+            "time": "1:30pm ~ 2:30pm, Wednesday July 11",
             "venue": "N003",
             "affiliation": "Distinguished Professor, Computer Science and Engineering and Electrical Engineering<br>Pennsylvania State University, USA",
             "photo_path": "img/speaker_photo/vijaykrishnan_narayanan.jpg",
@@ -77,7 +77,7 @@
         },
         "vision_1": {
             "speaker": "Yi Shan",
-            "time": "2:40pm ~ 3:10pm, Monday July 9",
+            "time": "2:30pm ~ 3:00pm, Monday July 9",
             "venue": "N003",
             "affiliation": "CTO and Partner of DeePhi Tech",
             "photo_path": "img/speaker_photo/yi_shan.png",
@@ -87,7 +87,7 @@
         },
         "vision_2": {
             "speaker": "Deming Chen",
-            "time": "3:10pm ~ 3:40pm, Monday July 9",
+            "time": "3:00pm ~ 3:30pm, Monday July 9",
             "venue": "N003",
             "affiliation": "Donald Biggar Willett Scholar, Professor, Electrical and Computer Engineering<br>University of Illinois Urbana-Champaign",
             "photo_path": "img/speaker_photo/deming_chen.png",
@@ -96,28 +96,28 @@
             "bio": "Dr. Deming Chen obtained his BS in computer science from University of Pittsburgh, Pennsylvania in 1995, and his MS and PhD in computer science from University of California at Los Angeles in 2001 and 2005 respectively. He joined the ECE department of University of Illinois at Urbana-Champaign (UIUC) in 2005 and has been a full professor in the same department since 2015. His current research interests include system-level and high-level synthesis, machine learning, computational genomics, GPU and reconfigurable computing, and hardware security. He has given about 100 invited talks sharing these research results worldwide. Dr. Chen is a technical committee member for a series of top conferences and symposia on EDA, FPGA, low-power design, and VLSI systems design. He is an associated editor for several leading IEEE and ACM journals. He received the NSF CAREER Award in 2008, the ACM SIGDA Outstanding New Faculty Award in 2010, and IBM Faculty Award in 2014 and 2015. He also received seven Best Paper Awards and the First Place Winner Award of DAC International Hardware Contest on IoT in 2017. He is included in the List of Teachers Ranked as Excellent in 2008 and 2017. He was involved in two startup companies previously, which were both acquired. In 2016, he co-founded a new startup, Inspirit IoT, Inc., for design and synthesis for machine learning applications targeting the IoT industry. He is the Donald Biggar Willett Faculty Scholar of College of Engineering of UIUC."
         },
          "vision_3": {
-            "speaker": "Zhou Ma",
-            "time": "2:40pm ~ 3:10pm, Tuesday July 10",
+            "speaker": "Zhuo Ma",
+            "time": "2:30pm ~ 3:00pm, Tuesday July 10",
             "venue": "N003",
             "affiliation": "Deputy General Manager<br>SoC R&D Center of Phytium",
             "photo_path": "img/speaker_photo/zhuo_ma.jpg",
             "title": "The Advanced Technologies in the New Generation of Phytium's Processors – From the Architecture to Implementation",
             "abstract": "In the past decades, the computer technology comes to a rapid increasing new ear, and the silicon-based high performance processors give the main impetus. To be a member of the first group of CPU design houses, Phytium Technology Co., Ltd. is a fast-growing Chinese IC design company, and is dedicated to design, manufacture high performance and low power CPU chips as well as services around the products.",
-            "bio": "Dr. MA is the deputy general manager of SoC R&D center of Phytium. In the past two decades, Dr. MA focused on the technologies of the implementation of high performance processors. He is leading a group of gifted engineers to build the most high-performance ARM-based CPU chips. In the presentation, He will introduce the advanced design technologies of Phytium's CPUs, and share a lot of successful stories."
+            "bio": "Dr. Ma is the deputy general manager of SoC R&D center of Phytium. In the past two decades, Dr. MA focused on the technologies of the implementation of high performance processors. He is leading a group of gifted engineers to build the most high-performance ARM-based CPU chips. In the presentation, He will introduce the advanced design technologies of Phytium's CPUs, and share a lot of successful stories."
         },
         "vision_4": {
             "speaker": "Swarup Bhunia",
-            "time": "3:10pm ~ 3:40pm, Tuesday July 10",
+            "time": "3:00pm ~ 3:30pm, Tuesday July 10",
             "venue": "N003",
             "affiliation": "Professor, Electrical and Computer Engineering<br>University of Florida, Gainesville, Florida",
             "photo_path": "img/speaker_photo/swarup_bhunia.png",
-            "title": "Security of the Internet of Things: Can Hardware Can Change the Game?",
+            "title": "Security of the Internet of Things: Can Hardware Change the Game?",
             "abstract": "Security has become a critical design challenge for modern electronic hardware. With the emergence of the Internet of Things (IoT) regime that promises exciting new applications from smart cities to connected autonomous vehicles, security has come to the forefront of the system design process. Recent discoveries and reports on numerous security attacks on microchips and circuits violate the well-regarded concept of hardware trust anchors. It has prompted system designers to develop wide array of design-for-security and test/validation solutions to achieve high security assurance for electronic hardware, which supports the software stack. At the same time, emerging security issues and countermeasures have also led to interesting interplay between security, verification, and interoperability. Verification of hardware for security and trust at different levels of abstraction is rapidly becoming an integral part of the system design flow. The global economic trend that promotes outsourcing of design and fabrication process to untrusted facilities coupled with the prevalent practice of system on chip design using untrusted 3rd party intellectual property blocks (IPs), has given rise to the critical need of trust verification of IPs, system-on-chip design, and fabricated chips. The talk will also cover spectrum of security challenges for IoTs and describe emerging solutions in creating secure trustworthy hardware that can enable IoT security for the mass.",
             "bio": "Swarup Bhunia is a preeminence professor of cybersecurity and Steven Yatauro endowed faculty fellow of Computer Engineering at University of Florida, FL, USA. Earlier he was appointed as the T. and A. Schroeder associate professor of Electrical Engineering and Computer Science at Case Western Reserve University, Cleveland, OH, USA. He has over twenty years of research and development experience with 250+ publications in peer-reviewed journals and premier conferences and six authored/edited books. His research interests include hardware security and trust, adaptive nanocomputing and novel test methodologies. Dr. Bhunia received IBM Faculty Award (2013), National Science Foundation career development award (2011), Semiconductor Research Corporation Inventor Recognition Award (2009), and SRC technical excellence award (2005) as a team member, and several best paper awards/nominations. He is co-founding editor-in-chief of a Springer journal on hardware and systems security. He has been serving as an associate editor of IEEE Transactions on CAD, IEEE Transactions on Multi-Scale Computing Systems, ACM Journal of Emerging Technologies, and Journal of Low Power Electronics; served as guest editor of IEEE Design & Test of Computers (2010, 2013) and IEEE Journal on Emerging and Selected Topics in Circuits and Systems (2014). He has served as co-program chair of IEEE IMS3TW 2011, IEEE NANOARCH 2013, IEEE VDAT 2014, and IEEE HOST 2015, and in the program committee of several IEEE/ACM conferences. Dr. Bhunia received his PhD from Purdue University on energy-efficient and robust electronics. He is a senior member of IEEE."
         },
         "vision_5": {
             "speaker": "Ulf Schlichtmann",
-            "time": "3:40pm ~ 4:10pm, Tuesday July 10",
+            "time": "3:30pm ~ 4:00pm, Tuesday July 10",
             "venue": "N003",
             "affiliation": "Professor, Electrical and Computer Engineering<br>Technical University of Munich",
             "photo_path": "img/speaker_photo/ulf_schlichtmann.jpg",
